@@ -1,0 +1,23 @@
+title: IEEE/RSJ IROS 2023 Workshop Proposal
+email:
+description: >- # this means to ignore newlines until "baseurl:"
+  Workshop on Traffic Agent Modeling for Autonomous Driving Simulation
+github_username: m-naumann
+minimal_mistakes_skin: default
+search: false
+
+# Build settings
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+
+include:
+  - _pages
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache

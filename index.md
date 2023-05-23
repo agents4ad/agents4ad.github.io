@@ -67,8 +67,6 @@ TBD, stay tuned!
 
 ## Important Dates
 
-TBD.
-
 <div>
 <b>Submissions open:</b> 23 May 2023<br>
 <b>Submissions due:</b> 24 May 2022<br>

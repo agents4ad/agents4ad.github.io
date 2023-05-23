@@ -63,7 +63,11 @@ This workshop shall provide a platform to highlight recent advances and future d
 
 ## Call for Contributions
 
-TBD, stay tuned!
+Any type of contribution, either already published or work in progress, is welcome to our workshop.
+
+Accepted papers will be presented in a poster session (with a 1 minute spotlight teaser each). All submitted contributions will go through a single-blind review process on openreview. The contributed papers will be made available on the workshop’s website and on openreview. However, this does not constitute an archival publication and no formal workshop proceedings will be made available, meaning contributors are free to publish their work in archival journals or conferences.
+
+Beyond contributions towards traffic agent modeling for AD simulation directly, we also encourage submissions from related research areas.
 
 ## Important Dates
 

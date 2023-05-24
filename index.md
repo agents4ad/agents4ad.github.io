@@ -41,59 +41,24 @@ organizers_row:
     person_name: "Shimon Whiteson"
     person_affiliation: "Waymo UK and University of Oxford"
 
-speakers_row:
-  - image_path: assets/images/speakers/alyssa_pierson.png
-    person_name: "Alyssa Pierson"
-    person_affiliation: "Boston University"
-  - image_path: https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_640.png
-    person_name: "Anja Wahl"
-    person_affiliation: "Bosch Corporate Research"
-  - image_path: assets/images/speakers/chris_zhang.jpeg
-    person_name: "Chris Zhang"
-    person_affiliation: "Waabi"
-  - image_path: assets/images/speakers/holger_caesar.jpeg
-    person_name: "Holger Caesar"
-    person_affiliation: "TU Delft"
-  - image_path: assets/images/speakers/jonah_philion.jpeg
-    person_name: "Jonah Philion"
-    person_affiliation: "NVIDIA and University of Toronto"
-  - image_path: assets/images/speakers/marco_pavone.png
-    person_name: "Marco Pavone"
-    person_affiliation: "NVIDIA and Stanford University"
-  - image_path: assets/images/speakers/maria_soledad_elli.jpeg
-    person_name: "Maria Soledad Elli"
-    person_affiliation: "Intel"
-  - image_path: assets/images/speakers/nachiket_deo.jpeg
-    person_name: "Nachiket Deo"
-    person_affiliation: "Motional"
-  - image_path: assets/images/speakers/nico_montali.jpeg
-    person_name: "Nico Montali"
-    person_affiliation: "Waymo"
-  - image_path: assets/images/speakers/tianyu_tang.jpeg
-    person_name: "Tianyu Tang"
-    person_affiliation: "TU Munich"
-  - image_path: assets/images/speakers/yuning_chai.jpeg
-    person_name: "Yuning Chai"
-    person_affiliation: "Cruise"
-
 schedule:
   - time: "08:30"
     event: "Welcome"
     content: 
   - time: "08:45"
-    image_path: assets/images/speakers/maria_soledad_elli.jpeg
+    image_path: assets/images/speakers/maria_soledad_elli.png
     person_name: "Maria Soledad Elli"
-    person_affiliation: "Intel"
+    person_affiliation: "Data Scientist, Intel"
     content: "Operational Safety Assessment of Automated Vehicles in Simulation"
   - time: "09:05"
     image_path: assets/images/speakers/alyssa_pierson.png
     person_name: "Alyssa Pierson"
-    person_affiliation: "Boston University"
+    person_affiliation: "Assistant Professor, Boston University"
     content: "Modeling Interactions within Multi-Agent Autonomous Driving"
   - time: "09:25"
-    image_path: assets/images/speakers/holger_caesar.jpeg
+    image_path: assets/images/speakers/holger_caesar.png
     person_name: "Holger Caesar"
-    person_affiliation: "TU Delft"
+    person_affiliation: "Assistant Professor, TU Delft"
     content: "ML-based traffic agent simulation with nuPlan"
   - time: "09:45"
     event: "Spotlight presentations of posters"
@@ -102,46 +67,57 @@ schedule:
     event: "Coffee break and poster session 1"
     content: 
   - time: "11:00"
-    image_path: assets/images/speakers/nachiket_deo.jpeg
+    image_path: assets/images/speakers/nachiket_deo.png
     person_name: "Nachiket Deo"
     person_affiliation: "Motional"
     content: "Insights from trajectory prediction"
   - time: "11:20"
-    image_path: assets/images/speakers/jonah_philion.jpeg
+    image_path: assets/images/speakers/jonah_philion.png
     person_name: "Jonah Philion"
-    person_affiliation: "NVIDIA and University of Toronto"
+    person_affiliation: "Research Scientist, NVIDIA <br>PhD Student, U. of Toronto"
     content: "Traffic Modeling: Data as Expert vs. Data as Environment"
   - time: "11:40"
-    event: "Nico Montali & TBD"
-    content: 
+    # event: "Nico Montali & TBD"
+    image_path: assets/images/speakers/nico_montali.png
+    person_name: "Nico Montali"
+    person_affiliation: Research Engineer, Waymo
+    second_image_path: assets/images/speakers/nico_montali.png
+    second_person_name: "TBD"
+    second_person_affiliation: "TBD"
+    content: "TBD"
   - time: "12:10"
     event: "Lunch break"
     content: 
   - time: "13:30"
     image_path: assets/images/speakers/marco_pavone.png
     person_name: "Marco Pavone"
-    person_affiliation: "NVIDIA and Stanford University"
+    person_affiliation: "Director AV Research, NVIDIA <br> Assistant Professor, Stanford University"
     content: "Generative AI for Diverse and Controllable AV Simulation"
   - time: "14:00"
-    image_path: assets/images/speakers/yuning_chai.jpeg
+    image_path: assets/images/speakers/yuning_chai.png
     person_name: "Yuning Chai"
-    person_affiliation: "Cruise"
+    person_affiliation: "Head of Research, Cruise"
     content: "Scaling the Robottaxi"
   - time: "14:30"
-    event: "Chris Zhang & Kelvin Wong"
-    content: 
+    image_path: assets/images/speakers/chris_zhang.png
+    person_name: "Chris Zhang"
+    person_affiliation: "Research Scientist, Waabi"
+    second_image_path: assets/images/speakers/kelvin_wong.png
+    second_person_name: "Kelvin Wong"
+    second_person_affiliation: "Research Scientist, Waabi"
+    content: "TBD"
   - time: "15:00"
     event: "Coffee break and poster session 2"
     content: 
   - time: "16:00"
-    image_path: assets/images/speakers/tianyu_tang.jpeg
+    image_path: assets/images/speakers/tianyu_tang.png
     person_name: "Tianyu Tang"
-    person_affiliation: "TU Munich"
+    person_affiliation: "PhD Student, TU Munich"
     content: "What information do humans base their (traffic) behavior decision on - insights from ergonomics"
   - time: "16:20"
-    image_path: https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_640.png
-    person_name: "Anja Wahl"
-    person_affiliation: "Bosch Corporate Research"
+    image_path: assets/images/speakers/thomas_lich.png
+    person_name: "Thomas Lich"
+    person_affiliation: "Senior Expert and Team Lead, Bosch Accident Research"
     content: "Raising attention to underrepresented entities in simulation studies - a perspective from accident research and two-wheeler research"
   - time: "16:40"
     event: "Panel Discussion"
@@ -189,13 +165,11 @@ This full day workshop will take place on Thursday Oct 5th, 8:30 am to 5:30 pm E
 
 {% include schedule %}
 
-
 ## Invited Speakers (tentative)
 
-
-{% include feature_row id="speakers_row" %}
+<!-- {% include feature_row id="speakers_row" %} -->
+{% include feature_row id="schedule" %}
 
 ## Organizers
-
 
 {% include feature_row id="organizers_row" %}

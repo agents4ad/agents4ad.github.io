@@ -1,0 +1,82 @@
+{% if include.id %}
+  {% assign schedule = page[include.id] %}
+{% else %}
+  {% assign schedule = page.schedule %}
+{% endif %}
+
+<p></p>
+
+<style>
+    .schedule-table-heading {
+        display: inline;
+        font-weight: bold;
+        font-size: 20px;
+        color: #999999;
+        padding:0 0 20px 0;
+    }
+    
+    .schedule-table-timecol {
+        padding:0 50px 0 50px;
+        display:inline;
+    }
+    
+    .schedule-table-eventcol {
+        display:inline;
+        display:inline-block;
+        inline-size: 300px;
+        font-size:14px;
+    }
+    
+    .schedule-table-contentcol {
+        display:inline;
+        display:inline-block;
+        inline-size: 250px;
+        font-size:14px;
+        line-height: normal;
+    }
+    
+    .schedule-table-row-even {
+        display:block;
+        width:800px;
+        background-color: #EEEEEE;
+        padding:10px;
+    }
+    
+    .schedule-table-row-odd {
+        display:block;
+        width:800px;
+        padding:10px;
+    }
+</style>
+
+<div style="display:block; width:900px; padding:20px; border:solid 4px #CCCCCC;">
+
+    <div class="schedule-table-heading" style="margin-left:57px; display:inline-block; inline-size:100px;">Time</div>
+    <div class="schedule-table-heading" style="display:inline-block; inline-size:295px;">Event</div>
+    <div class="schedule-table-heading">Content</div>
+
+
+  {% for f in schedule %}
+    <div class="{%- if forloop.index == 1 or forloop.index == 3 or forloop.index == 5 or forloop.index == 7 or forloop.index == 9 or forloop.index == 11 or forloop.index == 13 or forloop.index == 15 or forloop.index == 17 or forloop.index == 19 -%}schedule-table-row-even{% else %}schedule-table-row-odd{% endif %}">
+        <div class="schedule-table-timecol">{% if f.time %}{{ f.time | markdownify | remove: "<p>" | remove: "</p>" }}{% endif %}</div>
+        {% if f.event %}
+        <div class="schedule-table-eventcol">{{ f.event | markdownify | remove: "<p>" | remove: "</p>" }}</div>
+        {% endif %}
+        {% if f.image_path %}
+        <div class="schedule-table-eventcol">
+            <div style="display:inline-block; width:270px; margin:20px 0 0 0;">
+              <div style="display:inline-block; width:60px;">
+                <img style="width:50px; height:50px; position: relative; bottom: 10px;" src="{{ f.image_path | relative_url }}" alt="">
+              </div>
+                <div style="display:inline-block; width:150px; line-height:1.4;">
+                  <p style="margin:0 0 0 10px; font-size:14px;">{% if f.person_name %}{{ f.person_name | markdownify | remove: "<p>" | remove: "</p>" }}{% endif %}</p>
+                  <p style="margin:0 0 0 10px; font-size:10px;">{% if f.person_affiliation %}{{ f.person_affiliation | markdownify | remove: "<p>" | remove: "</p>" }}{% endif %}</p>
+                </div>
+            </div>
+          </div>
+        {% endif %}
+        <div class="schedule-table-contentcol">{% if f.content %}{{ f.content | markdownify | remove: "<p>" | remove: "</p>" }}{% endif %}</div>
+    </div>
+  {% endfor %}
+
+</div>

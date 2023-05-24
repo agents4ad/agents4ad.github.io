@@ -1,0 +1,28 @@
+{% if include.id %}
+  {% assign feature_row = page[include.id] %}
+{% else %}
+  {% assign feature_row = page.feature_row %}
+{% endif %}
+
+<p></p>
+
+<div class="feature__wrapper" style="display:inline; width:900px; vertical-align: top; padding:30px 0 0 0;">
+
+  {% for f in feature_row %}
+    {% if f.image_path %}
+    <div style="display:inline-block; width:270px;">
+    <div style="display:inline-block; width:101px;">
+    <img style="width:100px; height:100px; position: relative; bottom: 40px;" 
+        src="{{ f.image_path | relative_url }}" 
+        alt="{% if f.alt %}{{ f.alt }}{% endif %}">
+    </div>
+    <div style="display:inline-block; width:150px; line-height:1.4;">
+    <p style="margin:0 0 0 10px;">{% if f.person_name %}{{ f.person_name | markdownify | remove: "<p>" | remove: "</p>" }}{% endif %}</p>
+    <p style="margin:0 0 0 10px; font-size:10px;">{% if f.person_affiliation %}{{ f.person_affiliation | markdownify | remove: "<p>" | remove: "</p>" }}{% endif %}</p>
+    </div>
+    </div>
+
+    {% endif %}
+  {% endfor %}
+
+</div>

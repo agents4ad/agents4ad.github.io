@@ -127,7 +127,7 @@ EDT. [ICS-file](assets/TAM-Workshop.ics).
     <div style="display:inline-block; width:270px; margin:20px 0 0 0;">
       <div style="display:inline-block; width:60px;">
         <img style="width:50px; height:50px; position: relative; bottom: 10px;"
-          src="{{ site.baseurl }}/assets/images/speakers/chris_zhang.png" alt="Chris Zhang">
+          src="{{ site.baseurl }}/assets/images/speakers/chris_zhang.jpeg" alt="Chris Zhang">
       </div>
         <div style="display:inline-block; width:150px; line-height:1.4;">
           <p style="margin:0 0 0 10px;">
@@ -166,7 +166,7 @@ EDT. [ICS-file](assets/TAM-Workshop.ics).
     <div style="display:inline-block; width:270px; margin:20px 0 0 0;">
       <div style="display:inline-block; width:60px;">
         <img style="width:50px; height:50px; position: relative; bottom: 10px;"
-          src="{{ site.baseurl }}/assets/images/speakers/jonah_philion.png" alt="Jonah Philion">
+          src="{{ site.baseurl }}/assets/images/speakers/jonah_philion.jpeg" alt="Jonah Philion">
       </div>
         <div style="display:inline-block; width:150px; line-height:1.4;">
           <p style="margin:0 0 0 10px;">
@@ -193,7 +193,7 @@ EDT. [ICS-file](assets/TAM-Workshop.ics).
     <div style="display:inline-block; width:270px; margin:20px 0 0 0;">
       <div style="display:inline-block; width:60px;">
         <img style="width:50px; height:50px; position: relative; bottom: 10px;"
-          src="{{ site.baseurl }}/assets/images/speakers/nachiket_deo.png" alt="Nachiket Deo">
+          src="{{ site.baseurl }}/assets/images/speakers/nachiket_deo.jpeg" alt="Nachiket Deo">
       </div>
         <div style="display:inline-block; width:150px; line-height:1.4;">
           <p style="margin:0 0 0 10px;">
@@ -220,7 +220,7 @@ EDT. [ICS-file](assets/TAM-Workshop.ics).
     <div style="display:inline-block; width:270px; margin:20px 0 0 0;">
       <div style="display:inline-block; width:60px;">
         <img style="width:50px; height:50px; position: relative; bottom: 10px;"
-          src="{{ site.baseurl }}/assets/images/speakers/maria_soledad_elli.png" alt="Maria Soledad Elli">
+          src="{{ site.baseurl }}/assets/images/speakers/maria_soledad_elli.jpeg" alt="Maria Soledad Elli">
       </div>
         <div style="display:inline-block; width:150px; line-height:1.4;">
           <p style="margin:0 0 0 10px;">
@@ -247,7 +247,7 @@ EDT. [ICS-file](assets/TAM-Workshop.ics).
     <div style="display:inline-block; width:270px; margin:20px 0 0 0;">
       <div style="display:inline-block; width:60px;">
         <img style="width:50px; height:50px; position: relative; bottom: 10px;"
-          src="{{ site.baseurl }}/assets/images/speakers/nico_montali.png" alt="Nico Montali">
+          src="{{ site.baseurl }}/assets/images/speakers/nico_montali.jpeg" alt="Nico Montali">
       </div>
         <div style="display:inline-block; width:150px; line-height:1.4;">
           <p style="margin:0 0 0 10px;">
@@ -307,7 +307,7 @@ EDT. [ICS-file](assets/TAM-Workshop.ics).
     <div style="display:inline-block; width:270px; margin:20px 0 0 0;">
       <div style="display:inline-block; width:60px;">
         <img style="width:50px; height:50px; position: relative; bottom: 10px;"
-          src="{{ site.baseurl }}/assets/images/speakers/yuning_chai.png" alt="Yuning Chai">
+          src="{{ site.baseurl }}/assets/images/speakers/yuning_chai.jpeg" alt="Yuning Chai">
       </div>
         <div style="display:inline-block; width:150px; line-height:1.4;">
           <p style="margin:0 0 0 10px;">
@@ -334,7 +334,7 @@ EDT. [ICS-file](assets/TAM-Workshop.ics).
     <div style="display:inline-block; width:270px; margin:20px 0 0 0;">
       <div style="display:inline-block; width:60px;">
         <img style="width:50px; height:50px; position: relative; bottom: 10px;"
-          src="{{ site.baseurl }}/assets/images/speakers/holger_caesor.png" alt="Holger Caesar">
+          src="{{ site.baseurl }}/assets/images/speakers/holger_caesar.jpeg" alt="Holger Caesar">
       </div>
         <div style="display:inline-block; width:150px; line-height:1.4;">
           <p style="margin:0 0 0 10px;">
@@ -367,7 +367,7 @@ EDT. [ICS-file](assets/TAM-Workshop.ics).
     <div style="display:inline-block; width:270px; margin:20px 0 0 0;">
       <div style="display:inline-block; width:60px;">
         <img style="width:50px; height:50px; position: relative; bottom: 10px;"
-          src="{{ site.baseurl }}/assets/images/speakers/bianca_biebl.png" alt="Bianca Biebl">
+          src="{{ site.baseurl }}/assets/images/speakers/bianca_biebl.jpeg" alt="Bianca Biebl">
       </div>
         <div style="display:inline-block; width:150px; line-height:1.4;">
           <p style="margin:0 0 0 10px;">
@@ -394,7 +394,7 @@ EDT. [ICS-file](assets/TAM-Workshop.ics).
     <div style="display:inline-block; width:270px; margin:20px 0 0 0;">
       <div style="display:inline-block; width:60px;">
         <img style="width:50px; height:50px; position: relative; bottom: 10px;"
-          src="{{ site.baseurl }}/assets/images/speakers/anja_wahl.png" alt="Anja Wahl">
+          src="{{ site.baseurl }}/assets/images/speakers/anja_wahl.jpeg" alt="Anja Wahl">
       </div>
         <div style="display:inline-block; width:150px; line-height:1.4;">
           <p style="margin:0 0 0 10px;">
@@ -429,7 +429,7 @@ EDT. [ICS-file](assets/TAM-Workshop.ics).
 
 ## Invited Speakers (tentative)
 
-- Alyssa Pierson, Boston University
+<!-- - Alyssa Pierson, Boston University
 - Anja Wahl, Bosch Corporate Research
 - Bianca Biebl, TU Munich
 - Chris Zhang, Waabi
@@ -439,8 +439,182 @@ EDT. [ICS-file](assets/TAM-Workshop.ics).
 - Maria Soledad Elli, Intel
 - Nachiket Deo, Motional
 - Nico Montali, Waymo
-- Yuning Chai, Cruise
+- Yuning Chai, Cruise -->
 
+<!-- <div style="display:inline; width:900px; vertical-align: top;"> -->
+<div style="display:block; padding:30px 0 0 0; width:900px;">
+<!-- <div style="display:inline; width:900px; vertical-align: top;"> -->
+
+
+
+<a href="https://www.google.com/" target="_blank" class="organiser_profile">
+<div style="display:inline-block; width:270px;">
+<div style="display:inline-block; width:101px;">
+<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/speakers/alyssa_pierson.png" alt="Maximilian Naumann">
+</div>
+<div style="display:inline-block; width:150px; line-height:1.4;">
+<p style="margin:0 0 0 10px;">Alyssa Pierson</p>
+<!--p style="margin:0 0 0 10px;">CMU + Bosch</p-->
+<p style="margin:0 0 0 10px; font-size:10px;">Boston University</p>
+</div>
+</div>
+</a>
+
+
+<a href="https://www.google.com/" target="_blank" class="organiser_profile">
+<div style="display:inline-block; width:270px;">
+<div style="display:inline-block; width:101px;">
+<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/speakers/anja_wahl.jpeg" alt="Anja Wahl">
+</div>
+<div style="display:inline-block; width:150px; line-height:1.4;">
+<p style="margin:0 0 0 10px;">Anja Wahl</p>
+<!--p style="margin:0 0 0 10px;">CMU + Bosch</p-->
+<p style="margin:0 0 0 10px; font-size:10px;">Bosch Corporate Research</p>
+</div>
+</div>
+</a>
+
+
+
+<a href="https://www.google.com/" target="_blank" class="organiser_profile">
+<div style="display:inline-block; width:270px;">
+<div style="display:inline-block; width:101px;">
+<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/speakers/bianca_biebl.jpeg" alt="Bianca Biebl">
+</div>
+<div style="display:inline-block; width:150px; line-height:1.4;">
+<p style="margin:0 0 0 10px;">Bianca Biebl</p>
+<!--p style="margin:0 0 0 10px;">CMU + Bosch</p-->
+<p style="margin:0 0 0 10px; font-size:10px;">TU Munich</p>
+</div>
+</div>
+</a>
+
+
+<a href="https://www.google.com/" target="_blank" class="organiser_profile">
+<div style="display:inline-block; width:270px;">
+<div style="display:inline-block; width:101px;">
+<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/speakers/chris_zhang.jpeg" alt="Chris Zhang">
+</div>
+<div style="display:inline-block; width:150px; line-height:1.4;">
+<p style="margin:0 0 0 10px;">Chris Zhang</p>
+<!--p style="margin:0 0 0 10px;">CMU + Bosch</p-->
+<p style="margin:0 0 0 10px; font-size:10px;">Waabi</p>
+</div>
+</div>
+</a>
+
+
+
+<a href="https://www.google.com/" target="_blank" class="organiser_profile">
+<div style="display:inline-block; width:270px;">
+<div style="display:inline-block; width:101px;">
+<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/speakers/holger_caesar.jpeg" alt="Holger Caesar">
+</div>
+<div style="display:inline-block; width:150px; line-height:1.4;">
+<p style="margin:0 0 0 10px;">Holger Caesar</p>
+<!--p style="margin:0 0 0 10px;">CMU + Bosch</p-->
+<p style="margin:0 0 0 10px; font-size:10px;">TU Delft</p>
+</div>
+</div>
+</a>
+
+
+<a href="https://www.google.com/" target="_blank" class="organiser_profile">
+<div style="display:inline-block; width:270px;">
+<div style="display:inline-block; width:101px;">
+<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/speakers/jonah_philion.jpeg" alt="Maximilian Naumann">
+</div>
+<div style="display:inline-block; width:150px; line-height:1.4;">
+<p style="margin:0 0 0 10px;">Jonah Philion</p>
+<!--p style="margin:0 0 0 10px;">CMU + Bosch</p-->
+<p style="margin:0 0 0 10px; font-size:10px;">NVIDIA and University of Toronto</p>
+</div>
+</div>
+</a>
+
+
+
+
+<a href="https://www.google.com/" target="_blank" class="organiser_profile">
+<div style="display:inline-block; width:270px;">
+<div style="display:inline-block; width:101px;">
+<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/speakers/marco_pavone.png" alt="Marco Pavone">
+</div>
+<div style="display:inline-block; width:150px; line-height:1.4;">
+<p style="margin:0 0 0 10px;">Marco Pavone</p>
+<!--p style="margin:0 0 0 10px;">CMU + Bosch</p-->
+<p style="margin:0 0 0 10px; font-size:10px;">NVIDIA and Stanford University</p>
+</div>
+</div>
+</a>
+
+
+
+
+<a href="https://www.google.com/" target="_blank" class="organiser_profile">
+<div style="display:inline-block; width:270px;">
+<div style="display:inline-block; width:101px;">
+<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/speakers/maria_soledad_elli.jpeg" alt="Maria Soledad Elli">
+</div>
+<div style="display:inline-block; width:150px; line-height:1.4;">
+<p style="margin:0 0 0 10px;">Maria Soledad Elli</p>
+<!--p style="margin:0 0 0 10px;">CMU + Bosch</p-->
+<p style="margin:0 0 0 10px; font-size:10px;">Intel</p>
+</div>
+</div>
+</a>
+
+
+<a href="https://www.google.com/" target="_blank" class="organiser_profile">
+<div style="display:inline-block; width:270px;">
+<div style="display:inline-block; width:101px;">
+<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/speakers/nachiket_deo.jpeg" alt="Nachiket Deo">
+</div>
+<div style="display:inline-block; width:150px; line-height:1.4;">
+<p style="margin:0 0 0 10px;">Nachiket Deo</p>
+<!--p style="margin:0 0 0 10px;">CMU + Bosch</p-->
+<p style="margin:0 0 0 10px; font-size:10px;">Motional</p>
+</div>
+</div>
+</a>
+
+
+
+
+<a href="https://www.google.com/" target="_blank" class="organiser_profile">
+<div style="display:inline-block; width:270px;">
+<div style="display:inline-block; width:101px;">
+<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/speakers/nico_montali.jpeg" alt="Nico Montali">
+</div>
+<div style="display:inline-block; width:150px; line-height:1.4;">
+<p style="margin:0 0 0 10px;">Nico Montali</p>
+<!--p style="margin:0 0 0 10px;">CMU + Bosch</p-->
+<p style="margin:0 0 0 10px; font-size:10px;">Waymo Research</p>
+</div>
+</div>
+</a>
+
+
+<a href="https://www.google.com/" target="_blank" class="organiser_profile">
+<div style="display:inline-block; width:270px;">
+<div style="display:inline-block; width:101px;">
+<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/speakers/yuning_chai.jpeg" alt="Yuning Chai">
+</div>
+<div style="display:inline-block; width:150px; line-height:1.4;">
+<p style="margin:0 0 0 10px;">Yuning Chai</p>
+<!--p style="margin:0 0 0 10px;">CMU + Bosch</p-->
+<p style="margin:0 0 0 10px; font-size:10px;">Cruise</p>
+</div>
+</div>
+</a>
+
+
+
+</div>
+
+<!-- 
+=======
+>>>>>>> 615eb80671559b99cc390aeb409e9b501e60a07f
 ## Organizers
 
 - Maximilian Naumann, Bosch Center for Artificial Intelligence and Karlsruhe Institute of Technology
@@ -451,3 +625,133 @@ EDT. [ICS-file](assets/TAM-Workshop.ics).
 - Fabien Moutarde, MINES Paris - PSL
 - Anca Dragan, UC Berkeley
 - Shimon Whiteson, Waymo UK and University of Oxford
+
+ -->
+
+## Organisers
+
+<div style="display:inline; width:900px; vertical-align: top;">
+
+<a href="https://www.google.com/" target="_blank" class="organiser_profile">
+<div style="display:inline-block; width:270px;">
+<div style="display:inline-block; width:101px;">
+<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/organizers/maximilian_naumann.jpeg" alt="Maximilian Naumann">
+</div>
+<div style="display:inline-block; width:150px; line-height:1.4;">
+<p style="margin:0 0 0 10px;">Maximilian Naumann</p>
+<!--p style="margin:0 0 0 10px;">CMU + Bosch</p-->
+<p style="margin:0 0 0 10px; font-size:10px;">Bosch Center for Artificial Intelligence and Karlsruhe Institute of Technology</p>
+</div>
+</div>
+</a>
+
+
+<a href="https://www.google.com/" target="_blank" class="organiser_profile">
+<div style="display:inline-block; width:270px;">
+<div style="display:inline-block; width:101px;">
+<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/organizers/max_igl.avif" alt="Maximilian Igl">
+</div>
+<div style="display:inline-block; width:150px; line-height:1.4;">
+<p style="margin:0 0 0 10px;">Maximilian Igl</p>
+<!--p style="margin:0 0 0 10px;">CMU + Bosch</p-->
+<p style="margin:0 0 0 10px; font-size:10px;">Waymo Research</p>
+</div>
+</div>
+</a>
+
+
+
+<a href="https://www.google.com/" target="_blank" class="organiser_profile">
+<div style="display:inline-block; width:270px;">
+<div style="display:inline-block; width:101px;">
+<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/organizers/simon_suo.jpeg" alt="Simon Suo">
+</div>
+<div style="display:inline-block; width:150px; line-height:1.4;">
+<p style="margin:0 0 0 10px;">Simon Suo</p>
+<!--p style="margin:0 0 0 10px;">CMU + Bosch</p-->
+<p style="margin:0 0 0 10px; font-size:10px;">Waabi</p>
+</div>
+</div>
+</a>
+
+
+
+<a href="https://www.google.com/" target="_blank" class="organiser_profile">
+<div style="display:inline-block; width:270px;">
+<div style="display:inline-block; width:101px;">
+<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/organizers/thomas_gilles.jpeg" alt="Thomas Gilles">
+</div>
+<div style="display:inline-block; width:150px; line-height:1.4;">
+<p style="margin:0 0 0 10px;">Thomas Gilles</p>
+<!--p style="margin:0 0 0 10px;">CMU + Bosch</p-->
+<p style="margin:0 0 0 10px; font-size:10px;">MINES Paris - PSL</p>
+</div>
+</div>
+</a>
+
+
+
+
+
+<a href="https://www.google.com/" target="_blank" class="organiser_profile">
+<div style="display:inline-block; width:270px;">
+<div style="display:inline-block; width:101px;">
+<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/organizers/yiren_lu.jpeg" alt="Yiren Lu">
+</div>
+<div style="display:inline-block; width:150px; line-height:1.4;">
+<p style="margin:0 0 0 10px;">Yiren Lu</p>
+<!--p style="margin:0 0 0 10px;">CMU + Bosch</p-->
+<p style="margin:0 0 0 10px; font-size:10px;">Waymo Research</p>
+</div>
+</div>
+</a>
+
+
+<a href="https://www.google.com/" target="_blank" class="organiser_profile">
+<div style="display:inline-block; width:270px;">
+<div style="display:inline-block; width:101px;">
+<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/organizers/fabien_moutarde.jpeg" alt="Fabien Moutarde">
+</div>
+<div style="display:inline-block; width:150px; line-height:1.4;">
+<p style="margin:0 0 0 10px;">Fabien Moutarde</p>
+<!--p style="margin:0 0 0 10px;">CMU + Bosch</p-->
+<p style="margin:0 0 0 10px; font-size:10px;">MINES Paris - PSL</p>
+</div>
+</div>
+</a>
+
+
+
+<a href="https://www.google.com/" target="_blank" class="organiser_profile">
+<div style="display:inline-block; width:270px;">
+<div style="display:inline-block; width:101px;">
+<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/organizers/anca_dragan.jpeg" alt="Anca Dragan">
+</div>
+<div style="display:inline-block; width:150px; line-height:1.4;">
+<p style="margin:0 0 0 10px;">Anca Dragan</p>
+<!--p style="margin:0 0 0 10px;">CMU + Bosch</p-->
+<p style="margin:0 0 0 10px; font-size:10px;">UC Berkeley</p>
+</div>
+</div>
+</a>
+
+
+<a href="https://www.google.com/" target="_blank" class="organiser_profile">
+<div style="display:inline-block; width:270px;">
+<div style="display:inline-block; width:101px;">
+<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/organizers/shimon_whiteson.jpeg" alt="Shimon Whiteson">
+</div>
+<div style="display:inline-block; width:150px; line-height:1.4;">
+<p style="margin:0 0 0 10px;">Shimon Whiteson</p>
+<!--p style="margin:0 0 0 10px;">CMU + Bosch</p-->
+<p style="margin:0 0 0 10px; font-size:10px;">Waymo Research and University of Oxford</p>
+</div>
+</div>
+</a>
+
+
+
+
+
+</div>
+

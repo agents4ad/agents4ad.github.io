@@ -50,6 +50,9 @@
 </style>
 
 <div style="display:block; width:1000px; padding:20px; border:solid 4px #CCCCCC;">
+  <div class="schedule-table-heading" style="margin-left:57px; display:inline-block; inline-size:100px;">Time</div>
+  <div class="schedule-table-heading" style="display:inline-block; inline-size:295px;">Event</div>
+  <div class="schedule-table-heading">Content</div>
 
   {% for f in schedule %}
     <div class="{{ forloop.index | modulo: 2 | replace: '0', 'schedule-table-row-even' | replace: '1', 'schedule-table-row-odd' }}">

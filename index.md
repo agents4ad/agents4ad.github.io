@@ -12,7 +12,7 @@ organizers_row:
   - image_path: assets/images/organizers/maximilian_naumann.jpeg
     alt: "Max"
     person_name: "Maximilian Naumann"
-    person_affiliation: "BCAI and KIT"
+    person_affiliation: "Bosch Center for Artifical Intelligence and KIT"
   - image_path: assets/images/organizers/max_igl.avif
     alt: "Max"
     person_name: "Maximilian Igl"
@@ -84,14 +84,14 @@ schedule:
     second_image_path: https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_640.png
     second_person_name: "TBD"
     second_person_affiliation: "TBD"
-    content: "TBD"
+    content: "Waymo's Sim Agents Challenge: How to evaluate agent quality? & TBD"
   - time: "12:10"
     event: "Lunch break"
     content: 
   - time: "13:30"
     image_path: assets/images/speakers/marco_pavone.png
     person_name: "Marco Pavone"
-    person_affiliation: "Director AV Research, NVIDIA <br> Assistant Professor, Stanford University"
+    person_affiliation: "Director AV Research, NVIDIA <br> Associate Professor, Stanford University"
     content: "Generative AI for Diverse and Controllable AV Simulation"
   - time: "14:00"
     image_path: assets/images/speakers/yuning_chai.png
@@ -105,7 +105,7 @@ schedule:
     second_image_path: assets/images/speakers/kelvin_wong.png
     second_person_name: "Kelvin Wong"
     second_person_affiliation: "Research Scientist, Waabi"
-    content: "TBD"
+    content: "Rethinking Closed-loop Training for Autonomous Driving & A Hierarchical Framework for Mixed Reality Traffic Simulation"
   - time: "15:00"
     event: "Coffee break and poster session 2"
     content: 

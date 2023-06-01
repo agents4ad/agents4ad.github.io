@@ -149,7 +149,7 @@ Beyond contributions towards traffic agent modeling for AD simulation directly, 
 
 ## Important Dates
 
-- **Submissions open:** June 1st, 2023
+- **Submissions open:** Early June, 2023 (_link will follow_)
 - **Submissions due:** August 1st, 2023
 - **Notification of acceptance:** August 21st, 2023
   - Note: To allow for travel planning, we will notify at the latest 30 days after submission.
@@ -169,7 +169,6 @@ This full day workshop will take place on Thursday Oct 5th, 8:30 am to 5:30 pm E
 
 ## Invited Speakers (tentative)
 
-<!-- {% include feature_row id="speakers_row" %} -->
 {% include feature_row id="schedule" %}
 
 ## Organizers

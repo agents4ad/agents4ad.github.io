@@ -32,7 +32,7 @@
           src="{{ f.second_image_path | relative_url }}" 
           alt="{% if f.alt %}{{ f.alt }}{% endif %}">
       </div>
-      <div style="display:inline-block; width:230px; line-height:1.4;">
+      <div style="display:inline-block; width:230px; line-height:1.4; vertical-align: top">
       <p style="margin:0 0 0 10px; vertical-align: top">{% if f.second_person_name %}{{ f.second_person_name | markdownify | remove: "<p>" | remove: "</p>" }}{% endif %}</p>
       <p style="margin:0 0 0 10px; font-size:10px; vertical-align: top">{% if f.second_person_affiliation %}{{ f.second_person_affiliation | markdownify | remove: "<p>" | remove: "</p>" }}{% endif %}</p>
       </div>

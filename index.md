@@ -27,7 +27,7 @@ organizers_row:
   - image_path: assets/images/organizers/yiren_lu.jpeg
     alt: "Yiren"
     person_name: "Yiren Lu"
-    person_affiliation: "Waymo US"
+    person_affiliation: "Waymo Research"
   - image_path: assets/images/organizers/fabien_moutarde.jpeg
     alt: "Fabien"
     person_name: "Fabien Moutarde"

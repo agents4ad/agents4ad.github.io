@@ -167,14 +167,14 @@ The room in the venue and the link will be shared here, once available.
 <script>
   var x = setInterval(function() {
     var d = new Date();
-    var n = d.toLocaleTimeString("en-US", {timeZone: "America/Chicago", hour: '2-digit', minute:'2-digit', hour12: false})
+    var n = d.toLocaleTimeString("en-US", {timeZone: "America/Detroit", hour: '2-digit', minute:'2-digit', hour12: false})
     document.getElementById("centraltime").innerHTML = n
   }, 1000);
 </script>
 
 This full day workshop will take place on Thursday Oct 5th, 8:30 am to 5:30 pm EDT. [ICS-file](assets/TAM-Workshop.ics).
 
-Below times are in EDT. Current time is <span id="centraltime"></span>.
+Below times are in Detroit time. Current time in Detroit is <span id="centraltime"></span>.
 
 {% include schedule %}
 

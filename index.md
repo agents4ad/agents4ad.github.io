@@ -172,7 +172,7 @@ The room in the venue and the link will be shared here, once available.
   }, 1000);
 </script>
 
-This full day workshop will take place on Thursday Oct 5th, 8:30 am to 5:30 pm EDT. [ICS-file](assets/TAM-Workshop.ics).
+This full day workshop will take place on Thursday Oct 5th, 08:30 to 17:30 EDT. [ICS-file](assets/TAM-Workshop.ics).
 
 Below times are in Detroit time. Current time in Detroit is <span id="centraltime"></span>.
 

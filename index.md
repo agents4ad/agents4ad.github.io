@@ -151,7 +151,7 @@ Beyond contributions towards traffic agent modeling for AD simulation directly, 
 
 ## Important Dates
 
-- **Submissions open:** Early June, 2023
+- **Submissions open:** June 5th, 2023
 - **Submissions due:** August 1st, 2023
 - **Notification of acceptance:** August 21st, 2023
 - **Camera ready paper upload**: September 1st, 2023

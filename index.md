@@ -145,7 +145,7 @@ Accepted papers will be presented in a poster session (with a 1 minute spotlight
 
 For already published work, please refer the original work in your resubmission. For new work, please use the IROS template (see [IROS call for papers](https://ieee-iros.org/call-for-papers/)) and respect the page limit of 6 pages.
 
-Submission website: https://openreview.net/group?id=IEEE.org/2023/IROS/Workshop/Agents4AD
+Submission website: [https://openreview.net/group?id=IEEE.org/2023/IROS/Workshop/Agents4AD](https://openreview.net/group?id=IEEE.org/2023/IROS/Workshop/Agents4AD)
 
 Beyond contributions towards traffic agent modeling for AD simulation directly, we also encourage submissions from related research areas.
 

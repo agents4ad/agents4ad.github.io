@@ -145,11 +145,13 @@ Accepted papers will be presented in a poster session (with a 1 minute spotlight
 
 For already published work, please refer the original work in your resubmission. For new work, please use the IROS template (see [IROS call for papers](https://ieee-iros.org/call-for-papers/)) and respect the page limit of 6 pages.
 
+Submission website: https://openreview.net/group?id=IEEE.org/2023/IROS/Workshop/Agents4AD
+
 Beyond contributions towards traffic agent modeling for AD simulation directly, we also encourage submissions from related research areas.
 
 ## Important Dates
 
-- **Submissions open:** Early June, 2023 (_link will follow_)
+- **Submissions open:** Early June, 2023
 - **Submissions due:** August 1st, 2023
 - **Notification of acceptance:** August 21st, 2023
 - **Camera ready paper upload**: September 1st, 2023
@@ -158,7 +160,7 @@ Beyond contributions towards traffic agent modeling for AD simulation directly, 
 
 ## Location
 
-The room in the venue and the link will be shared here, once available.
+The room in the venue and the link for online participation will be shared here, once available.
 
 ## Agenda (tentative)
 
@@ -184,3 +186,12 @@ Below times are in Detroit time. Current time in Detroit is <span id="centraltim
 ## Organizers
 
 {% include feature_row id="organizers_row" %}
+
+Contact: [agents4ad@googlegroups.com](mailto:agents4ad@googlegroups.com)
+
+## Support
+
+This workshop is supported by the
+- IEEE RAS Technical Committee on Algorithms for Planning and Control of Robot Motion
+- IEEE RAS Technical Committee on Autonomous Ground Vehicles and Intelligent Transportation Systems
+- IEEE ITSS Technical Committee on Self-Driving Automobiles

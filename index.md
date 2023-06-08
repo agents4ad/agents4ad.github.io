@@ -67,10 +67,10 @@ schedule:
     event: "Coffee break and poster session 1"
     content: 
   - time: "11:00"
-    image_path: assets/images/speakers/nachiket_deo.png
-    person_name: "Nachiket Deo"
-    person_affiliation: "Motional"
-    content: "Insights from trajectory prediction"
+    image_path: https://media.licdn.com/dms/image/C5603AQEJrW4HkmVing/profile-displayphoto-shrink_800_800/0/1653585634399?e=2147483647&v=beta&t=DKqH7tD9Y7CeHMo9DGDVVBMKNZM5HTMa4q6jPaftUuQ
+    person_name: "Henggang Cui"
+    person_affiliation: "Principal Engineer, Prediction Team Lead at Motional"
+    content: "Trajectory prediction for real-world autonomous driving"
   - time: "11:20"
     image_path: assets/images/speakers/jonah_philion.png
     person_name: "Jonah Philion"

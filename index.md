@@ -67,10 +67,10 @@ schedule:
     event: "Coffee break and poster session 1"
     content: 
   - time: "11:00"
-    image_path: assets/images/speakers/nachiket_deo.png
-    person_name: "Nachiket Deo"
-    person_affiliation: "Motional"
-    content: "Insights from trajectory prediction"
+    image_path: assets/images/speakers/henggang_cui.png
+    person_name: "Henggang Cui"
+    person_affiliation: "Principal Engineer, Prediction Team Lead at Motional"
+    content: "Trajectory prediction for real-world autonomous driving"
   - time: "11:20"
     image_path: assets/images/speakers/jonah_philion.png
     person_name: "Jonah Philion"
@@ -192,6 +192,7 @@ Contact: [agents4ad@googlegroups.com](mailto:agents4ad@googlegroups.com)
 ## Support
 
 This workshop is supported by the
+
 - IEEE RAS Technical Committee on Algorithms for Planning and Control of Robot Motion
 - IEEE RAS Technical Committee on Autonomous Ground Vehicles and Intelligent Transportation Systems
 - IEEE ITSS Technical Committee on Self-Driving Automobiles

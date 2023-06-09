@@ -67,7 +67,7 @@ schedule:
     event: "Coffee break and poster session 1"
     content: 
   - time: "11:00"
-    image_path: https://media.licdn.com/dms/image/C5603AQEJrW4HkmVing/profile-displayphoto-shrink_800_800/0/1653585634399?e=2147483647&v=beta&t=DKqH7tD9Y7CeHMo9DGDVVBMKNZM5HTMa4q6jPaftUuQ
+    image_path: assets/images/speakers/henggang_cui.png
     person_name: "Henggang Cui"
     person_affiliation: "Principal Engineer, Prediction Team Lead at Motional"
     content: "Trajectory prediction for real-world autonomous driving"
@@ -145,7 +145,7 @@ Accepted papers will be presented in a poster session (with a 1 minute spotlight
 
 For already published work, please refer the original work in your resubmission. For new work, please use the IROS template (see [IROS call for papers](https://ieee-iros.org/call-for-papers/)) and respect the page limit of 6 pages.
 
-Submission website: https://openreview.net/group?id=IEEE.org/2023/IROS/Workshop/Agents4AD
+Submission website: <https://openreview.net/group?id=IEEE.org/2023/IROS/Workshop/Agents4AD>
 
 Beyond contributions towards traffic agent modeling for AD simulation directly, we also encourage submissions from related research areas.
 
@@ -192,6 +192,7 @@ Contact: [agents4ad@googlegroups.com](mailto:agents4ad@googlegroups.com)
 ## Support
 
 This workshop is supported by the
+
 - IEEE RAS Technical Committee on Algorithms for Planning and Control of Robot Motion
 - IEEE RAS Technical Committee on Autonomous Ground Vehicles and Intelligent Transportation Systems
 - IEEE ITSS Technical Committee on Self-Driving Automobiles

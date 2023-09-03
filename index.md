@@ -23,7 +23,7 @@ organizers_row:
   - image_path: assets/images/organizers/thomas_gilles.jpeg
     alt: "Thomas"
     person_name: "Thomas Gilles"
-    person_affiliation: "MINES Paris - PSL"
+    person_affiliation: "MINES Paris - PSL, Waabi"
   - image_path: assets/images/organizers/yiren_lu.jpeg
     alt: "Yiren"
     person_name: "Yiren Lu"

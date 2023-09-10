@@ -23,7 +23,7 @@ organizers_row:
   - image_path: assets/images/organizers/thomas_gilles.jpeg
     alt: "Thomas"
     person_name: "Thomas Gilles"
-    person_affiliation: "MINES Paris - PSL, Waabi"
+    person_affiliation: "Waabi and MINES Paris - PSL"
   - image_path: assets/images/organizers/yiren_lu.jpeg
     alt: "Yiren"
     person_name: "Yiren Lu"
@@ -82,9 +82,9 @@ schedule:
     person_name: "Nico Montali"
     person_affiliation: Research Engineer, Waymo
     second_image_path: https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_640.png
-    second_person_name: "TBD"
-    second_person_affiliation: "TBD"
-    content: "Waymo's Sim Agents Challenge: How to evaluate agent quality? & TBD"
+    second_person_name: "John Lambert"
+    second_person_affiliation: "Research Engineer, Waymo"
+    content: "Waymo's Sim Agents Challenge: How to evaluate agent quality?"
   - time: "12:10"
     event: "Lunch break"
     content: 

@@ -81,9 +81,9 @@ schedule:
     image_path: assets/images/speakers/nico_montali.png
     person_name: "Nico Montali"
     person_affiliation: Research Engineer, Waymo
-    second_image_path: https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_640.png
+    second_image_path: assets/images/speakers/john_lambert.png
     second_person_name: "John Lambert"
-    second_person_affiliation: "Research Engineer, Waymo"
+    second_person_affiliation: "Research Scientist, Waymo"
     content: "Waymo's Sim Agents Challenge: How to evaluate agent quality?"
   - time: "12:10"
     event: "Lunch break"

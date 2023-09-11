@@ -13,7 +13,7 @@ organizers_row:
     alt: "Max"
     person_name: "Maximilian Naumann"
     person_affiliation: "Bosch Center for Artifical Intelligence and KIT"
-  - image_path: assets/images/organizers/max_igl.avif
+  - image_path: assets/images/organizers/max_igl.jpg
     alt: "Max"
     person_name: "Maximilian Igl"
     person_affiliation: "Waymo Research"

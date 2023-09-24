@@ -13,7 +13,7 @@ organizers_row:
     alt: "Max"
     person_name: "Maximilian Naumann"
     person_affiliation: "Bosch Center for Artifical Intelligence and KIT"
-  - image_path: assets/images/organizers/max_igl.avif
+  - image_path: assets/images/organizers/max_igl.jpg
     alt: "Max"
     person_name: "Maximilian Igl"
     person_affiliation: "Waymo Research"
@@ -77,7 +77,14 @@ schedule:
     person_affiliation: "Research Scientist, NVIDIA <br>PhD Student, U. of Toronto"
     content: "Traffic Modeling: Data as Expert vs. Data as Environment"
   - time: "11:40"
-    # event: "Nico Montali & TBD"
+    image_path: assets/images/speakers/marco_pavone.png
+    person_name: "Marco Pavone"
+    person_affiliation: "Director AV Research, NVIDIA <br> Associate Professor, Stanford University"
+    content: "Generative AI for Diverse and Controllable AV Simulation"
+  - time: "12:10"
+    event: "Lunch break"
+    content: 
+  - time: "13:30"
     image_path: assets/images/speakers/nico_montali.png
     person_name: "Nico Montali"
     person_affiliation: Research Engineer, Waymo
@@ -85,14 +92,6 @@ schedule:
     second_person_name: "John Lambert"
     second_person_affiliation: "Research Scientist, Waymo"
     content: "Waymo's Sim Agents Challenge: How to evaluate agent quality?"
-  - time: "12:10"
-    event: "Lunch break"
-    content: 
-  - time: "13:30"
-    image_path: assets/images/speakers/marco_pavone.png
-    person_name: "Marco Pavone"
-    person_affiliation: "Director AV Research, NVIDIA <br> Associate Professor, Stanford University"
-    content: "Generative AI for Diverse and Controllable AV Simulation"
   - time: "14:00"
     image_path: assets/images/speakers/yuning_chai.png
     person_name: "Yuning Chai"

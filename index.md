@@ -161,7 +161,7 @@ Beyond contributions towards traffic agent modeling for AD simulation directly, 
 
 The room in the venue and the link for online participation will be shared here, once available.
 
-## Agenda (tentative)
+## Agenda
 
 <!-- script to display conference time -->
 <script>
@@ -178,7 +178,7 @@ Below times are in Detroit time. Current time in Detroit is <span id="centraltim
 
 {% include schedule %}
 
-## Invited Speakers (tentative)
+## Invited Speakers
 
 {% include feature_row id="schedule" %}
 

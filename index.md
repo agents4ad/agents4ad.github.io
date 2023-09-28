@@ -93,9 +93,9 @@ schedule:
     second_person_affiliation: "Research Scientist, Waymo"
     content: "Waymo's Sim Agents Challenge: How to evaluate agent quality?"
   - time: "14:00"
-    image_path: assets/images/speakers/yuning_chai.png
-    person_name: "Yuning Chai"
-    person_affiliation: "Head of Research, Cruise"
+    image_path: assets/images/speakers/eric_wolff.png
+    person_name: "Eric Wolff"
+    person_affiliation: "Behavior Research Scientist Lead, Cruise"
     content: "Scaling the Robottaxi"
   - time: "14:30"
     image_path: assets/images/speakers/chris_zhang.png
@@ -161,7 +161,7 @@ This workshop shall provide a platform to highlight recent advances and future d
 
 The room in the venue and the link for online participation will be shared here, once available.
 
-## Agenda (tentative)
+## Agenda
 
 <!-- script to display conference time -->
 <script>
@@ -178,13 +178,13 @@ Below times are in Detroit time. Current time in Detroit is <span id="centraltim
 
 {% include schedule %}
 
+## Invited Speakers
+
+{% include feature_row id="schedule" %}
+
 ## Papers
 
 {% include papers %}
-
-## Invited Speakers (tentative)
-
-{% include feature_row id="schedule" %}
 
 ## Organizers
 

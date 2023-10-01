@@ -147,7 +147,7 @@ papers:
 
 ---
 
-This workshop will be held at the [IEEE/RSJ IROS 2023](https://ieee-iros.org/), on **October 5th, 2023, in Detroit**, USA and streamed online.
+This workshop will be held at the [IEEE/RSJ IROS 2023](https://ieee-iros.org/), on **October 5th, 2023, in Room 140E** at Huntington Place, Detroit, MI, USA and **streamed online** (Zoom link will be shared soon).
 
 ## Abstract
 
@@ -159,7 +159,9 @@ This workshop shall provide a platform to highlight recent advances and future d
 
 ## Location
 
-The room in the venue and the link for online participation will be shared here, once available.
+On site: **Room 140E** at Huntington Place, Detroit, MI, USA.
+
+Online: Zoom link will be shared soon.
 
 ## Agenda
 
@@ -172,7 +174,7 @@ The room in the venue and the link for online participation will be shared here,
   }, 1000);
 </script>
 
-This full day workshop will take place on Thursday Oct 5th, 08:30 to 17:30 EDT. [ICS-file](assets/TAM-Workshop.ics).
+This full day workshop will take place on Thursday Oct 5th, 08:30 to 17:30 EDT (UTC-4). [ICS-file](assets/TAM-Workshop.ics).
 
 Below times are in Detroit time. Current time in Detroit is <span id="centraltime"></span>.
 

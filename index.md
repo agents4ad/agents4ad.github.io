@@ -96,7 +96,7 @@ schedule:
     image_path: assets/images/speakers/eric_wolff.png
     person_name: "Eric Wolff"
     person_affiliation: "Behavior Research Scientist Lead, Cruise"
-    content: "Scaling the Robottaxi"
+    content: "Scaling the Robotaxi"
   - time: "14:30"
     image_path: assets/images/speakers/chris_zhang.png
     person_name: "Chris Zhang"
@@ -147,7 +147,7 @@ papers:
 
 ---
 
-This workshop will be held at the [IEEE/RSJ IROS 2023](https://ieee-iros.org/), on **October 5th, 2023, in Room 140E** at Huntington Place, Detroit, MI, USA and **streamed online** (Zoom link will be shared soon).
+This workshop will be held at the [IEEE/RSJ IROS 2023](https://ieee-iros.org/), on **October 5th, 2023, in Room 140E** at Huntington Place, Detroit, MI, USA and **[streamed online (via zoom)](https://waabi-ai.zoom.us/j/81205991343?pwd=ZsbHwbjhlWevb7m3Be0q7Peon3YbV1.1)**.
 
 ## Abstract
 
@@ -161,7 +161,7 @@ This workshop shall provide a platform to highlight recent advances and future d
 
 On site: **Room 140E** at Huntington Place, Detroit, MI, USA.
 
-Online: Zoom link will be shared soon.
+Online: [streamed via zoom](https://waabi-ai.zoom.us/j/81205991343?pwd=ZsbHwbjhlWevb7m3Be0q7Peon3YbV1.1).
 
 ## Agenda
 

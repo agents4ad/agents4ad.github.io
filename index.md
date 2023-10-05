@@ -104,7 +104,7 @@ schedule:
     second_image_path: assets/images/speakers/kelvin_wong.png
     second_person_name: "Kelvin Wong"
     second_person_affiliation: "Research Scientist, Waabi"
-    content: "Rethinking Closed-loop Training for Autonomous Driving & A Hierarchical Framework for Mixed Reality Traffic Simulation"
+    content: "Traffic Modeling for Closed-loop Simulation"
   - time: "15:00"
     event: "Coffee break and poster session 2"
     content: 

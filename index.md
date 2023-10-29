@@ -54,12 +54,12 @@ schedule:
     image_path: assets/images/speakers/alyssa_pierson.png
     person_name: "Alyssa Pierson"
     person_affiliation: "Assistant Professor, Boston University"
-    content: "Modeling Interactions within Multi-Agent Autonomous Driving"
+    content: "[Modeling Interactions within Multi-Agent Autonomous Driving](https://youtu.be/UrEwanmAWmk)"
   - time: "09:25"
     image_path: assets/images/speakers/holger_caesar.png
     person_name: "Holger Caesar"
     person_affiliation: "Assistant Professor, TU Delft"
-    content: "ML-based traffic agent simulation with nuPlan"
+    content: "[ML-based traffic agent simulation with nuPlan](https://youtu.be/aie3uj6jHKY)"
   - time: "09:45"
     event: "Spotlight presentations of posters"
     content: 
@@ -70,17 +70,17 @@ schedule:
     image_path: assets/images/speakers/henggang_cui.png
     person_name: "Henggang Cui"
     person_affiliation: "Principal Engineer, Prediction Team Lead at Motional"
-    content: "Trajectory prediction for real-world autonomous driving"
+    content: "[Trajectory prediction for real-world autonomous driving](https://youtu.be/UZJqyJ3Lpu8)"
   - time: "11:20"
     image_path: assets/images/speakers/jonah_philion.png
     person_name: "Jonah Philion"
     person_affiliation: "Research Scientist, NVIDIA <br>PhD Student, U. of Toronto"
-    content: "Traffic Modeling: Data as Expert vs. Data as Environment"
+    content: "[Traffic Modeling: Data as Expert vs. Data as Environment](https://youtu.be/NBxs51ePlcw)"
   - time: "11:40"
     image_path: assets/images/speakers/marco_pavone.png
     person_name: "Marco Pavone"
     person_affiliation: "Director AV Research, NVIDIA <br> Associate Professor, Stanford University"
-    content: "Generative AI for Diverse and Controllable AV Simulation"
+    content: "[Generative AI for Diverse and Controllable AV Simulation](https://www.youtube.com/watch?v=cpvjIKUHCV4)"
   - time: "12:10"
     event: "Lunch break"
     content: 
@@ -95,8 +95,8 @@ schedule:
   - time: "14:00"
     image_path: assets/images/speakers/eric_wolff.png
     person_name: "Eric Wolff"
-    person_affiliation: "Behavior Research Scientist Lead, Cruise"
-    content: "Scaling the Robotaxi"
+    person_affiliation: "Research Scientist, Behavior Research Lead, Cruise"
+    content: "[Scaling the Robotaxi](https://youtu.be/lvEdH_K9pmg)"
   - time: "14:30"
     image_path: assets/images/speakers/chris_zhang.png
     person_name: "Chris Zhang"
@@ -117,7 +117,7 @@ schedule:
     image_path: assets/images/speakers/thomas_lich.png
     person_name: "Thomas Lich"
     person_affiliation: "Senior Expert and Team Lead, Bosch Accident Research"
-    content: "Raising attention to underrepresented entities in simulation studies - a perspective from accident research and two-wheeler research"
+    content: "[Raising attention to underrepresented entities in simulation studies - a perspective from accident research and two-wheeler research](https://www.youtube.com/watch?v=TtkuwlI8DXs)"
   - time: "16:40"
     event: "Panel Discussion"
     content: 

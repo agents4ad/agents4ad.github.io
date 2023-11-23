@@ -104,7 +104,7 @@ schedule:
     second_image_path: assets/images/speakers/kelvin_wong.png
     second_person_name: "Kelvin Wong"
     second_person_affiliation: "Research Scientist, Waabi"
-    content: "Traffic Modeling for Closed-loop Simulation"
+    content: "[Traffic Modeling for Closed-loop Simulation](https://www.youtube.com/watch?v=Sw4_CZxZ06k)"
   - time: "15:00"
     event: "Coffee break and poster session 2"
     content: 

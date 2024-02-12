@@ -164,7 +164,7 @@ schedule:
 
 ---
 
-This workshop will be held at the [CVPR 2024](https://cvpr.thecvf.com/Conferences/2024), on either **June 17th or 18th, 2024** in Seattle, USA and streamed online.
+This workshop will be held at the [CVPR 2024](https://cvpr.thecvf.com/Conferences/2024), on **June 18th, 2024** in Seattle, USA and streamed online.
 
 ## 🚧 Under construction
 

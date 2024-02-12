@@ -24,3 +24,5 @@ plugins:
 
 # https://github.com/github/pages-gem/issues/399#issuecomment-301827749
 github: [metadata]
+
+repository: agents4ad/agents4ad.github.io

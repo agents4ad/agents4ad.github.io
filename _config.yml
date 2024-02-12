@@ -21,3 +21,6 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+
+# https://github.com/github/pages-gem/issues/399#issuecomment-301827749
+github: [metadata]

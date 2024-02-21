@@ -79,88 +79,44 @@ organizers_row:
     person_affiliation: "NVIDIA and Stanford University"
 
 schedule:
-  - time: "08:30"
+  - time: "tbd"
     event: "Welcome"
     content: 
-  - time: "08:45"
-    image_path: assets/images/speakers/maria_soledad_elli.png
-    person_name: "Maria Soledad Elli"
-    person_affiliation: "Data Scientist, Intel"
-    content: "Operational Safety Assessment of Automated Vehicles in Simulation"
-  - time: "09:05"
-    image_path: assets/images/speakers/alyssa_pierson.png
-    person_name: "Alyssa Pierson"
-    person_affiliation: "Assistant Professor, Boston University"
-    content: "[Modeling Interactions within Multi-Agent Autonomous Driving](https://youtu.be/UrEwanmAWmk)"
-  - time: "09:25"
-    image_path: assets/images/speakers/holger_caesar.png
-    person_name: "Holger Caesar"
-    person_affiliation: "Assistant Professor, TU Delft"
-    content: "[ML-based traffic agent simulation with nuPlan](https://youtu.be/aie3uj6jHKY)"
-  - time: "09:45"
-    event: "Spotlight presentations of posters"
-    content: 
-  - time: "10:00"
-    event: "Coffee break and poster session 1"
-    content: 
-  - time: "11:00"
-    image_path: assets/images/speakers/henggang_cui.png
-    person_name: "Henggang Cui"
-    person_affiliation: "Principal Engineer, Prediction Team Lead at Motional"
-    content: "[Trajectory prediction for real-world autonomous driving](https://youtu.be/UZJqyJ3Lpu8)"
-  - time: "11:20"
-    image_path: assets/images/speakers/jonah_philion.png
-    person_name: "Jonah Philion"
-    person_affiliation: "Research Scientist, NVIDIA <br>PhD Student, U. of Toronto"
-    content: "[Traffic Modeling: Data as Expert vs. Data as Environment](https://youtu.be/NBxs51ePlcw)"
-  - time: "11:40"
-    image_path: assets/images/speakers/marco_pavone.png
-    person_name: "Marco Pavone"
-    person_affiliation: "Director AV Research, NVIDIA <br> Associate Professor, Stanford University"
-    content: "[Generative AI for Diverse and Controllable AV Simulation](https://www.youtube.com/watch?v=cpvjIKUHCV4)"
-  - time: "12:10"
-    event: "Lunch break"
-    content: 
-  - time: "13:30"
-    image_path: assets/images/speakers/nico_montali.png
-    person_name: "Nico Montali"
-    person_affiliation: Research Engineer, Waymo
-    second_image_path: assets/images/speakers/john_lambert.png
-    second_person_name: "John Lambert"
-    second_person_affiliation: "Research Scientist, Waymo"
-    content: "Waymo's Sim Agents Challenge: How to evaluate agent quality?"
-  - time: "14:00"
-    image_path: assets/images/speakers/eric_wolff.png
-    person_name: "Eric Wolff"
-    person_affiliation: "Research Scientist, Behavior Research Lead, Cruise"
-    content: "[Scaling the Robotaxi](https://youtu.be/lvEdH_K9pmg)"
-  - time: "14:30"
-    image_path: assets/images/speakers/chris_zhang.png
-    person_name: "Chris Zhang"
-    person_affiliation: "Research Scientist, Waabi"
-    second_image_path: assets/images/speakers/kelvin_wong.png
-    second_person_name: "Kelvin Wong"
-    second_person_affiliation: "Research Scientist, Waabi"
-    content: "[Traffic Modeling for Closed-loop Simulation](https://www.youtube.com/watch?v=Sw4_CZxZ06k)"
-  - time: "15:00"
-    event: "Coffee break and poster session 2"
-    content: 
-  - time: "16:00"
-    image_path: assets/images/speakers/tianyu_tang.png
-    person_name: "Tianyu Tang"
-    person_affiliation: "PhD Student, TU Munich"
-    content: "What information do humans base their (traffic) behavior decision on - insights from ergonomics"
-  - time: "16:20"
-    image_path: assets/images/speakers/thomas_lich.png
-    person_name: "Thomas Lich"
-    person_affiliation: "Senior Expert and Team Lead, Bosch Accident Research"
-    content: "[Raising attention to underrepresented entities in simulation studies - a perspective from accident research and two-wheeler research](https://www.youtube.com/watch?v=TtkuwlI8DXs)"
-  - time: "16:40"
-    event: "Panel Discussion"
-    content: 
-  - time: "17:25"
-    event: "Closing remarks"
-    content: 
+  - time: "tbd"
+    image_path: https://jamie.shotton.org/author/jamie-shotton/avatar_hubcfcd825cec4221ac68bf02950f61648_116633_270x270_fill_q75_lanczos_center.jpg
+    person_name: "Jamie Shotton"
+    person_affiliation: "Chief Scientist, Wayve"
+    content: "tbd"
+  - time: "tbd"
+    image_path: https://cogvehicles2019.github.io/assets/Gustav_Markkula.jpg
+    person_name: "Gustav Markkula"
+    person_affiliation: "Professor, University of Leeds"
+    content: "tbd"
+  - time: "tbd"
+    image_path: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=b8d5wS-QfscC&citpid=2
+    person_name: "Aleksandr Petiushko"
+    person_affiliation: "Head of ML Research, Nuro"
+    content: "tbd"
+  - time: "tbd"
+    image_path: https://media.licdn.com/dms/image/C4D03AQFfcEIpXWn9rw/profile-displayphoto-shrink_800_800/0/1516266673951?e=2147483647&v=beta&t=RD7aD7InsrdHkeA2zmfKM39ZJAUviUtuN8jv9oUTWNk
+    person_name: "Charles Henden"
+    person_affiliation: "Manager Autopilot Simulation Training, Tesla"
+    content: "tbd"
+  - time: "tbd"
+    image_path: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=jyxO2akAAAAJ&citpid=2
+    person_name: "Raquel Urtasun"
+    person_affiliation: "Founder and CEO, Waabi & Professor, University of Toronto"
+    content: "tbd"
+  - time: "tbd"
+    image_path: https://d2xo500swnpgl1.cloudfront.net/uploads/scale/Draogmir-Anguelov-1633527577257.png
+    person_name: "Dragomir Anguelov"
+    person_affiliation: "Vice President and Head of Research, Waymo"
+    content: "tbd"
+  - time: "tbd"
+    image_path: https://www.princeton.edu/sites/default/files/styles/scale_1440/public/images/2022/10/FelixHeide-062821_0022_sq1023.jpg?itok=Ph2ZT13W
+    person_name: "Felix Heide"
+    person_affiliation: "Co-founder and CTO, Aloglux & Professor, Princeton University"
+    content: "tbd"
 
 ---
 
@@ -169,6 +125,10 @@ This workshop will be held at the [CVPR 2024](https://cvpr.thecvf.com/Conference
 ## 🚧 Under construction
 
 Please stay tuned for updates! Call for papers will follow soon, as will our tentative agenda. You can checkout the [2023 edition at IROS](2023), which had a smaller scope, meanwhile.
+
+## Invited Speakers (tentative)
+
+{% include feature_row id="schedule" %}
 
 ## Organizers
 

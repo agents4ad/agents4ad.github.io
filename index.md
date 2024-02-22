@@ -33,15 +33,15 @@ organizers_row:
     alt: ""
     person_name: "Yue Wang"
     person_affiliation: "NVIDIA"
-  - image_path: https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_640.png
+  - image_path: assets/images/organizers/peter_karkus.jpeg
     alt: ""
     person_name: "Peter Karkus"
     person_affiliation: "NVIDIA"
-  - image_path: https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_640.png
+  - image_path: assets/images/organizers/or_litany.jpg
     alt: ""
     person_name: "Or Litany"
     person_affiliation: "NVIDIA"
-  - image_path: https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_640.png
+  - image_path: assets/images/organizers/azadeh_dinparastdjadid.jpg
     alt: ""
     person_name: "Azadeh Dinparastdjadid"
     person_affiliation: "Waymo"
@@ -53,11 +53,11 @@ organizers_row:
     alt: "Yiren"
     person_name: "Yiren Lu"
     person_affiliation: "Waymo Research"
-  - image_path: https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_640.png
+  - image_path: assets/images/organizers/katie_luo.jpg
     alt: ""
     person_name: "Katie Luo"
     person_affiliation: "NVIDIA"
-  - image_path: https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_640.png
+  - image_path: assets/images/organizers/joyce_yang.jpeg
     alt: ""
     person_name: "Anqi Joyce Yang"
     person_affiliation: "Waabi"

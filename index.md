@@ -79,44 +79,61 @@ organizers_row:
     person_affiliation: "NVIDIA and Stanford University"
 
 schedule:
-  - time: "tbd"
+  - time: "8:45"
     event: "Welcome"
     content: 
-  - time: "tbd"
+  - time: "9:00"
     image_path: https://jamie.shotton.org/author/jamie-shotton/avatar_hubcfcd825cec4221ac68bf02950f61648_116633_270x270_fill_q75_lanczos_center.jpg
     person_name: "Jamie Shotton"
     person_affiliation: "Chief Scientist, Wayve"
     content: "tbd"
-  - time: "tbd"
+  - time: "9:30"
     image_path: https://cogvehicles2019.github.io/assets/Gustav_Markkula.jpg
     person_name: "Gustav Markkula"
     person_affiliation: "Professor, University of Leeds"
     content: "tbd"
-  - time: "tbd"
+  - time: "10:00"
+    event: "Poster Presentations 1"
+    content: ""
+  - time: "10:20"
+    event: "Coffee break and poster session"
+  - time: "11:00"
     image_path: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=b8d5wS-QfscC&citpid=2
     person_name: "Aleksandr Petiushko"
     person_affiliation: "Head of ML Research, Nuro"
     content: "tbd"
-  - time: "tbd"
+  - time: "11:30"
     image_path: https://media.licdn.com/dms/image/C4D03AQFfcEIpXWn9rw/profile-displayphoto-shrink_800_800/0/1516266673951?e=2147483647&v=beta&t=RD7aD7InsrdHkeA2zmfKM39ZJAUviUtuN8jv9oUTWNk
     person_name: "Charles Henden"
     person_affiliation: "Manager Autopilot Simulation Training, Tesla"
     content: "tbd"
-  - time: "tbd"
+  - time: "12:00"
+    event: "Lunch"
+  - time: "14:00"
     image_path: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=jyxO2akAAAAJ&citpid=2
     person_name: "Raquel Urtasun"
     person_affiliation: "Founder and CEO, Waabi & Professor, University of Toronto"
     content: "tbd"
-  - time: "tbd"
+  - time: "14:30"
+    event: "Poster Presentations 2"
+    content: ""
+  - time: "14:50"
+    event: "Coffee break and poster session"
+  - time: "15:30"
     image_path: https://d2xo500swnpgl1.cloudfront.net/uploads/scale/Draogmir-Anguelov-1633527577257.png
     person_name: "Dragomir Anguelov"
     person_affiliation: "Vice President and Head of Research, Waymo"
     content: "tbd"
-  - time: "tbd"
+  - time: "16:00"
     image_path: https://www.princeton.edu/sites/default/files/styles/scale_1440/public/images/2022/10/FelixHeide-062821_0022_sq1023.jpg?itok=Ph2ZT13W
     person_name: "Felix Heide"
     person_affiliation: "Co-founder and CTO, Aloglux & Professor, Princeton University"
     content: "tbd"
+  # - time: "16:30"
+  #   image_path: ""
+  #   person_name: TBD
+  #   person_affiliation: TBD
+
 
 ---
 
@@ -166,6 +183,22 @@ work in archival journals or conferences.
 * Notification to authors: April 19th
 * Camera ready deadline: April 26th
 
+## Agenda
+
+<!-- script to display conference time -->
+<script>
+  var x = setInterval(function() {
+    var d = new Date();
+    var n = d.toLocaleTimeString("en-US", {timeZone: "America/Los_Angeles", hour: '2-digit', minute:'2-digit', hour12: false})
+    document.getElementById("centraltime").innerHTML = n
+  }, 1000);
+</script>
+
+This full day workshop will take place on Tuesday June 18th, 08:45 to 17:30 PST (UTC-8).
+
+Below times are in Seattle time. Current time in Seattle is <span id="centraltime"></span>.
+
+{% include schedule %}
 
 ## Invited Speakers (tentative)
 

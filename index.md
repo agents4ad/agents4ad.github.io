@@ -98,7 +98,7 @@ schedule:
   - time: "10:20"
     event: "Coffee break and poster session"
   - time: "11:00"
-    image_path: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=b8d5wS-QfscC&citpid=2
+    image_path: https://petiushko.info/authors/alex/avatar_hu542cdb31c7b75c60e456747d2b254e61_2312475_270x270_fill_lanczos_center_3.png
     person_name: "Aleksandr Petiushko"
     person_affiliation: "Head of ML Research, Nuro"
     content: "tbd"
@@ -110,7 +110,7 @@ schedule:
   - time: "12:00"
     event: "Lunch"
   - time: "14:00"
-    image_path: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=jyxO2akAAAAJ&citpid=2
+    image_path: assets/images/speakers/raquel_urtasun.png
     person_name: "Raquel Urtasun"
     person_affiliation: "Founder and CEO, Waabi & Professor, University of Toronto"
     content: "tbd"

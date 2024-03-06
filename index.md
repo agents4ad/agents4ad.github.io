@@ -122,9 +122,50 @@ schedule:
 
 This workshop will be held at the [CVPR 2024](https://cvpr.thecvf.com/Conferences/2024), on **June 18th, 2024** in Seattle, USA and streamed online.
 
-## 🚧 Under construction
+## Abstract
 
-Please stay tuned for updates! Call for papers will follow soon, as will our tentative agenda. You can checkout the [2023 edition at IROS](2023), which had a smaller scope, meanwhile.
+Real-world on-road testing of autonomous vehicles can be expensive or dangerous, making simulation a crucial tool to accelerate the development of safe autonomous driving (AD), a technology with enormous real-world impact. However, to minimise the sim-to-real gap, good agent behaviour models and sensor/perception imitation are paramount. A recent surge in published papers in this fast-growing field has led to a lot of progress, but several fundamental questions remain unanswered, for example regarding the fidelity and diversity of generative behaviour and perception models, generation of realistic controllable scenes at scale and the safety assessment of the simulation toolchain.
+In this workshop, our goal is to bring together practitioners and researchers
+from all areas of AD simulation and to discuss pressing challenges, recent
+breakthroughs and future directions.
+
+## Call for Papers
+
+Any type of contribution, either already published work or work in progress, is
+welcome to our workshop. We especially encourage relevant papers accepted to
+CVPR’24 to be presented. A selected subset of contributions will have the
+opportunity to present their work orally either as 1 minute lightning talk or 5
+minute presentation. All accepted papers will be presented as posters.
+
+All submissions will go through a single-blind review process. The contributed
+papers and posters will be made available on the workshop’s website. However,
+this does not constitute an archival publication and no formal workshop
+proceedings will be made available, meaning authors are free to publish their
+work in archival journals or conferences.
+
+**Style and author instructions:**
+* For already published work, please refer to the original work in your
+  resubmission. You do not need to update the format!
+
+* For previously unpublished work, please use the CVPR template. For previously
+  unpublished work, the maximum length is 4 pages to not prevent future
+  publication at CVPR and other conferences.
+
+**We encourage submissions from a broad range of topics connected to simulation, including but not limited to:**
+* behaviour modelling and traffic models, including algorithms, models and metrics
+*  safety evaluation and interpretability
+* perception and sensor simulation, as well as neural rendering and other 3D generative models
+* AV evaluation, training and planning in simulation
+* the use of foundation models
+* data collection, preparation 
+
+**Submission Website:** Coming soon.
+
+**Important Dates:**
+* Submission deadline: April 5th
+* Notification to authors: April 19th
+* Camera ready deadline: April 26th
+
 
 ## Invited Speakers (tentative)
 

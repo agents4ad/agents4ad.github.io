@@ -129,10 +129,11 @@ schedule:
     person_name: "Felix Heide"
     person_affiliation: "Co-founder and CTO, Aloglux & Professor, Princeton University"
     content: "tbd"
-  # - time: "16:30"
-  #   image_path: ""
-  #   person_name: TBD
-  #   person_affiliation: TBD
+  - time: "16:30"
+    image_path: "assets/images/speakers/kashyap_chitta.jpeg"
+    person_name: Kashyap Chitta
+    person_affiliation: University of Tübingen
+    content: "tbd"
 
 
 ---
@@ -166,7 +167,7 @@ work in archival journals or conferences.
 
 * For previously unpublished work, please use the CVPR template. For previously
   unpublished work, the maximum length is 4 pages to not prevent future
-  publication at CVPR and other conferences.
+  publication at CVPR and other conference.
 
 **We encourage submissions from a broad range of topics connected to simulation, including but not limited to:**
 * behaviour modelling and traffic models, including algorithms, models and metrics
@@ -183,7 +184,7 @@ work in archival journals or conferences.
 * Notification to authors: April 19th
 * Camera ready deadline: April 26th
 
-## Agenda (tentative)
+## Agenda
 
 <!-- script to display conference time -->
 <script>

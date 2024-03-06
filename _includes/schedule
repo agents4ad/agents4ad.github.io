@@ -61,7 +61,9 @@
           {{ f.time | markdownify | remove: "<p>" | remove: "</p>" }}{% endif %}
       </div>
       {% if f.event %}
-        <div class="schedule-table-eventcol">{{ f.event | markdownify | remove: "<p>" | remove: "</p>" }}</div>
+        <div class="schedule-table-eventcol" style="padding-left: 70px">
+          {{ f.event | markdownify | remove: "<p>" | remove: "</p>" }}
+        </div>
       {% endif %}
       {% if f.image_path %}
         <div class="schedule-table-eventcol">

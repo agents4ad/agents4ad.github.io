@@ -129,10 +129,11 @@ schedule:
     person_name: "Felix Heide"
     person_affiliation: "Co-founder and CTO, Aloglux & Professor, Princeton University"
     content: "tbd"
-  # - time: "16:30"
-  #   image_path: ""
-  #   person_name: TBD
-  #   person_affiliation: TBD
+  - time: "16:30"
+    image_path: "assets/images/speakers/kashyap_chitta.jpeg"
+    person_name: Kashyap Chitta
+    person_affiliation: University of Tübingen
+    content: "tbd"
 
 
 ---

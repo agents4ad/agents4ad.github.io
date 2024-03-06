@@ -149,7 +149,7 @@ work in archival journals or conferences.
 
 * For previously unpublished work, please use the CVPR template. For previously
   unpublished work, the maximum length is 4 pages to not prevent future
-  publication at CVPR and other conference.
+  publication at CVPR and other conferences.
 
 **We encourage submissions from a broad range of topics connected to simulation, including but not limited to:**
 * behaviour modelling and traffic models, including algorithms, models and metrics

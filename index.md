@@ -177,7 +177,7 @@ work in archival journals or conferences.
 * the use of foundation models
 * data collection, preparation 
 
-**Submission Website:** Coming soon.
+**Submission Website:** [OpenReview](https://openreview.net/group?id=thecvf.com/CVPR/2024/Workshop/DDADS)
 
 **Important Dates:**
 * Submission deadline: April 5th

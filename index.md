@@ -13,7 +13,7 @@ organizers_row:
     alt: "Max"
     person_name: "Maximilian Igl"
     person_affiliation: "NVIDIA"
-  - image_path: https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_640.png
+  - image_path: https://zgojcic.github.io/assets/Profile_picutre_ZG_crop.jpg
     alt: ""
     person_name: "Zan Gojcic"
     person_affiliation: "NVIDIA"

@@ -127,7 +127,7 @@ schedule:
   - time: "16:00"
     image_path: https://www.princeton.edu/sites/default/files/styles/scale_1440/public/images/2022/10/FelixHeide-062821_0022_sq1023.jpg?itok=Ph2ZT13W
     person_name: "Felix Heide"
-    person_affiliation: "Co-founder and CTO, Aloglux & Professor, Princeton University"
+    person_affiliation: "Torc Robotics & Princeton University"
     content: "tbd"
   - time: "16:30"
     image_path: "assets/images/speakers/kashyap_chitta.jpeg"

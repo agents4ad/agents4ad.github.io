@@ -103,7 +103,7 @@ schedule:
     person_affiliation: "Head of ML Research, Nuro"
     content: "tbd"
   - time: "11:30"
-    image_path: https://media.licdn.com/dms/image/C4D03AQFfcEIpXWn9rw/profile-displayphoto-shrink_800_800/0/1516266673951?e=2147483647&v=beta&t=RD7aD7InsrdHkeA2zmfKM39ZJAUviUtuN8jv9oUTWNk
+    image_path: https://miro.medium.com/v2/resize:fit:2400/1*_P0rAIYLPcuzExRtN3KNXA.jpeg
     person_name: "Charles Henden"
     person_affiliation: "Manager Autopilot Simulation Training, Tesla"
     content: "tbd"

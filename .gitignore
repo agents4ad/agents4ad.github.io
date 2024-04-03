@@ -1,6 +1,8 @@
 # Vim
 *~
 *.sw[p_]
+*.vscode
+*.history
 
 # Sublime Text
 *.sublime-project

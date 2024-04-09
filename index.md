@@ -97,15 +97,10 @@ schedule:
     content: ""
   - time: "10:20"
     event: "Coffee break and poster session"
-  - time: "11:00"
+  - time: "11:30"
     image_path: https://petiushko.info/authors/alex/avatar_hu542cdb31c7b75c60e456747d2b254e61_2312475_270x270_fill_lanczos_center_3.png
     person_name: "Aleksandr Petiushko"
     person_affiliation: "Head of ML Research, Nuro"
-    content: "tbd"
-  - time: "11:30"
-    image_path: https://miro.medium.com/v2/resize:fit:2400/1*_P0rAIYLPcuzExRtN3KNXA.jpeg
-    person_name: "Charles Henden"
-    person_affiliation: "Manager Autopilot Simulation Training, Tesla"
     content: "tbd"
   - time: "12:00"
     event: "Lunch"

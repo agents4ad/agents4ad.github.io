@@ -176,8 +176,8 @@ work in archival journals or conferences.
 
 **Important Dates:**
 * Submission deadline: April 5th
-* Notification to authors: April 19th
-* Camera ready deadline: April 26th
+* Notification to authors: ~~April 19th~~ April 24th
+* Camera ready deadline: ~~April 26th~~ May 1st
 
 ## Agenda (tentative)
 

@@ -186,10 +186,6 @@ work in archival journals or conferences.
 * Notification to authors: ~~April 19th~~ April 24th
 * Camera ready deadline: ~~April 26th~~ May 27st
  
- ## Agenda (tentative)
-
-
-
 ## Agenda (tentative)
 
 <!-- script to display conference time -->

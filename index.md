@@ -133,7 +133,7 @@ schedule:
     content: "Synthesizing Simulation Environments with Generative Models"
   - time: "17:00"
     event: "Panel Discussion"
-    content: Dr. Raquel Urtasun, Dr. Dragomir Anguelov, Dr. Jamie Shotton, and Dr. Gustav Markkula"
+    content: "Raquel Urtasun, Dragomir Anguelov, Jamie Shotton, and Gustav Markkula"
   - time: "17:30"
     event: "End"
 
@@ -182,9 +182,12 @@ work in archival journals or conferences.
 **Submission Website:** [OpenReview](https://openreview.net/group?id=thecvf.com/CVPR/2024/Workshop/DDADS)
 
 **Important Dates:**
-* Submission deadline: April 5th
-* Notification to authors: April 19th
-* Camera ready deadline: April 26th
+* Notification to authors: ~~April 19th~~ April 24th
+* Camera ready deadline: ~~April 26th~~ May 27st
+ 
+ ## Agenda (tentative)
+
+
 
 ## Agenda (tentative)
 

@@ -133,7 +133,7 @@ schedule:
     content: "Synthesizing Simulation Environments with Generative Models"
   - time: "17:00"
     event: "Panel Discussion"
-    content: "Raquel Urtasun, Dragomir Anguelov, Jamie Shotton, and Gustav Markkula"
+    content: "With Raquel Urtasun, Dragomir Anguelov, Jamie Shotton, and Gustav Markkula.\nModerated by Sanja Fidler."
   - time: "17:30"
     event: "End"
 

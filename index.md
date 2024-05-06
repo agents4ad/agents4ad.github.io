@@ -182,6 +182,7 @@ work in archival journals or conferences.
 **Submission Website:** [OpenReview](https://openreview.net/group?id=thecvf.com/CVPR/2024/Workshop/DDADS)
 
 **Important Dates:**
+* Submission deadline: April 5th
 * Notification to authors: ~~April 19th~~ April 24th
 * Camera ready deadline: ~~April 26th~~ May 27st
  

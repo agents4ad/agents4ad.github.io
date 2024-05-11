@@ -79,56 +79,63 @@ organizers_row:
     person_affiliation: "NVIDIA and Stanford University"
 
 schedule:
-  - time: "8:45"
+  - time: "8:30"
     event: "Welcome"
     content: 
-  - time: "9:00"
-    image_path: https://jamie.shotton.org/author/jamie-shotton/avatar_hubcfcd825cec4221ac68bf02950f61648_116633_270x270_fill_q75_lanczos_center.jpg
-    person_name: "Jamie Shotton"
-    person_affiliation: "Chief Scientist, Wayve"
-    content: "tbd"
-  - time: "9:30"
-    image_path: https://cogvehicles2019.github.io/assets/Gustav_Markkula.jpg
-    person_name: "Gustav Markkula"
-    person_affiliation: "Professor, University of Leeds"
-    content: "tbd"
-  - time: "10:00"
-    event: "Poster Presentations 1"
-    content: ""
-  - time: "10:20"
-    event: "Coffee break and poster session"
-  - time: "11:30"
-    image_path: https://petiushko.info/authors/alex/avatar_hu542cdb31c7b75c60e456747d2b254e61_2312475_270x270_fill_lanczos_center_3.png
-    person_name: "Aleksandr Petiushko"
-    person_affiliation: "Head of ML Research, Nuro"
-    content: "tbd"
-  - time: "12:00"
-    event: "Lunch"
-  - time: "14:00"
-    image_path: assets/images/speakers/raquel_urtasun.png
-    person_name: "Raquel Urtasun"
-    person_affiliation: "Founder and CEO, Waabi & Professor, University of Toronto"
-    content: "tbd"
-  - time: "14:30"
-    event: "Poster Presentations 2"
-    content: ""
-  - time: "14:50"
-    event: "Coffee break and poster session"
-  - time: "15:30"
-    image_path: https://d2xo500swnpgl1.cloudfront.net/uploads/scale/Draogmir-Anguelov-1633527577257.png
-    person_name: "Dragomir Anguelov"
-    person_affiliation: "Vice President and Head of Research, Waymo"
-    content: "tbd"
-  - time: "16:00"
+  - time: "8:45"
     image_path: https://www.princeton.edu/sites/default/files/styles/scale_1440/public/images/2022/10/FelixHeide-062821_0022_sq1023.jpg?itok=Ph2ZT13W
     person_name: "Felix Heide"
     person_affiliation: "Torc Robotics & Princeton University"
     content: "tbd"
+  - time: "9:15"
+    image_path: assets/images/speakers/raquel_urtasun.png
+    person_name: "Raquel Urtasun"
+    person_affiliation: "Founder and CEO, Waabi & Professor, University of Toronto"
+    content: "tbd"
+  - time: "9:45"
+    event: "Poster Presentations 1"
+    content: ""
+  - time: "10:15"
+    event: "Coffee break and poster session"
+    content: "Posters are in Arch Building Exhibit Hall"
+  - time: "11:00"
+    image_path: https://d2xo500swnpgl1.cloudfront.net/uploads/scale/Draogmir-Anguelov-1633527577257.png
+    person_name: "Dragomir Anguelov"
+    person_affiliation: "Vice President and Head of Research, Waymo"
+    content: "tbd"
+  - time: "11:30"
+    image_path: https://petiushko.info/authors/alex/avatar_hu542cdb31c7b75c60e456747d2b254e61_2312475_270x270_fill_lanczos_center_3.png
+    person_name: "Aleksandr Petiushko"
+    person_affiliation: "Head of ML Research, Nuro"
+    content: "Behavior Learning at Nuro"
+  - time: "12:00"
+    event: "Lunch"
+  - time: "14:00"
+    image_path: https://cogvehicles2019.github.io/assets/Gustav_Markkula.jpg
+    person_name: "Gustav Markkula"
+    person_affiliation: "Professor, University of Leeds"
+    content: "Valid human agents in simulated AD testing: Behavioural phenomena and cognitive mechanisms"
+  - time: "14:30"
+    event: "Poster Presentations 2"
+    content: ""
+  - time: "15:15"
+    event: "Coffee break and poster session"
+    content: "Posters are in Arch Building Exhibit Hall"
+  - time: "16:00"
+    image_path: https://jamie.shotton.org/author/jamie-shotton/avatar_hubcfcd825cec4221ac68bf02950f61648_116633_270x270_fill_q75_lanczos_center.jpg
+    person_name: "Jamie Shotton"
+    person_affiliation: "Chief Scientist, Wayve"
+    content: "Frontiers in Embodied AI for Autonomous Driving"
   - time: "16:30"
     image_path: "assets/images/speakers/kashyap_chitta.jpeg"
     person_name: Kashyap Chitta
     person_affiliation: University of Tübingen
-    content: "tbd"
+    content: "Synthesizing Simulation Environments with Generative Models"
+  - time: "17:00"
+    event: "Panel Discussion"
+    content: "With Raquel Urtasun, Dragomir Anguelov, Jamie Shotton, and Gustav Markkula.\nModerated by Sanja Fidler."
+  - time: "17:30"
+    event: "End"
 
 
 ---
@@ -177,8 +184,8 @@ work in archival journals or conferences.
 **Important Dates:**
 * Submission deadline: April 5th
 * Notification to authors: ~~April 19th~~ April 24th
-* Camera ready deadline: ~~April 26th~~ May 1st
-
+* Camera ready deadline: ~~April 26th~~ May 27st
+ 
 ## Agenda (tentative)
 
 <!-- script to display conference time -->

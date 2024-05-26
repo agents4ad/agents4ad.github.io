@@ -86,7 +86,7 @@ schedule:
     image_path: https://www.princeton.edu/sites/default/files/styles/scale_1440/public/images/2022/10/FelixHeide-062821_0022_sq1023.jpg?itok=Ph2ZT13W
     person_name: "Felix Heide"
     person_affiliation: "Torc Robotics & Princeton University"
-    content: "tbd"
+    content: "Generating The Invisible: Capturing and Generating Edge-cases in Autonomous Driving"
   - time: "9:15"
     image_path: assets/images/speakers/raquel_urtasun.png
     person_name: "Raquel Urtasun"

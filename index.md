@@ -88,9 +88,9 @@ schedule:
     person_affiliation: "Torc Robotics & Princeton University"
     content: "Generating The Invisible: Capturing and Generating Edge-cases in Autonomous Driving"
   - time: "9:15"
-    image_path: assets/images/speakers/raquel_urtasun.png
-    person_name: "Raquel Urtasun"
-    person_affiliation: "Founder and CEO, Waabi & Professor, University of Toronto"
+    image_path: assets/images/speakers/siva.jpg
+    person_name: "Siva Manivasagam"
+    person_affiliation: "Head of Simulation at Waabi, U. of Toronto."
     content: "tbd"
   - time: "9:45"
     event: "Poster Presentations 1"
@@ -133,7 +133,7 @@ schedule:
     content: "Synthesizing Simulation Environments with Generative Models"
   - time: "17:00"
     event: "Panel Discussion"
-    content: "With Raquel Urtasun, Dragomir Anguelov, Jamie Shotton, and Gustav Markkula.\nModerated by Sanja Fidler."
+    content: "With Dragomir Anguelov, Jamie Shotton, and Gustav Markkula.\nModerated by Sanja Fidler."
   - time: "17:30"
     event: "End"
 

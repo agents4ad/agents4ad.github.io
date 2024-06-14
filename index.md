@@ -137,6 +137,387 @@ schedule:
   - time: "17:30"
     event: "End"
 
+papers:
+  - abstract: The lateral position of vehicles within their lane is a decisive factor
+      for the range of vision of vehicle sensors. This, in turn, is crucial for a vehicle’s
+      ability to perceive its environment and gain a high situational awareness by processing
+      the collected information. When aiming for increasing levels of vehicle autonomy,
+      this situational awareness becomes more and more important. Thus, when validating
+      an autonomous driving function the representativeness of the submicroscopic behavior
+      such as the lateral offset has to be ensured. With simulations being an essential
+      part of the validation of autonomous driving functions, models describing these
+      phenomena are required. Possible applications are the enhancement of microscopic
+      traffic simulations and the maneuver-based approach for scenariobased testing.
+      This paper presents a two-level stochastic approach to model the lateral movement
+      of vehicles within their lane during road-following maneuvers under homogeneous
+      traffic conditions. A Markov model generates the coarse lateral offset profile.
+      It is superposed with a noise model for the fine movements. Both models are set
+      up using real-world data. The evaluation of the model shows promising qualitative
+      and quantitative results, the potential for enhancements and extreme low computation
+      times (10 000 times faster than real time).
+    authors: 'Nicole Neis '
+    decision: Poster
+    number: 4
+    title: A Two-Level Stochastic Model for the Lateral Movement of Vehicles Within
+      Their Lane Under Homogeneous Traffic Conditions
+  - abstract: One critical bottleneck that impedes the development and deployment of
+      autonomous  vehicles is the prohibitively high economic and time costs required
+      to validate their  safety in a naturalistic driving environment, owing to the
+      rarity of safety-critical events1.  Here we report the development of an intelligent
+      testing environment, where artificial-  intelligence-based background agents are
+      trained to validate the safety performances  of autonomous vehicles in an accelerated
+      mode, without loss of unbiasedness. From  naturalistic driving data, the background
+      agents learn what adversarial manoeuvre   to execute through a dense deep-reinforcement-learning
+      (D2RL) approach, in which  Markov decision processes are edited by removing non-safety-critical
+      states and  reconnecting critical ones so that the information in the training
+      data is densified.  D2RL enables neural networks to learn from densified information
+      with safety-critical  events and achieves tasks that are intractable for traditional
+      deep-reinforcement-  learning approaches. We demonstrate the effectiveness of
+      our approach by testing a  highly automated vehicle in both highway and urban
+      test tracks with an augmented-  reality environment, combining simulated background
+      vehicles with physical road  infrastructure and a real autonomous test vehicle.
+      Our results show that the D2RL-  trained agents can accelerate the evaluation
+      process by multiple orders of magnitude  ($10^3$ to $10^5$ times faster). In addition,
+      D2RL will enable accelerated testing and training  with other safety-critical
+      autonomous systems
+    authors: 'Shuo Feng, Haowei Sun, Xintao Yan, Haojie Zhu, Zhengxia Zou, Shengyin
+      Shen, Henry X. Liu '
+    decision: Oral
+    number: 5
+    title: Dense reinforcement learning for safety validation of autonomous vehicles
+  - abstract: 'We introduce DyNFL, a novel neural field-based approach for high-fidelity
+      re-simulation of LiDAR scans in dynamic driving scenes. DyNFL processes LiDAR
+      measurements from dynamic environments, accompanied by bounding boxes of moving
+      objects, to construct an editable neural field. This field, comprising separately
+      reconstructed static background and dynamic objects, allows users to modify viewpoints,
+      adjust object positions, and seamlessly add or remove objects in the re-simulated
+      scene. A key innovation of our method is the neural field composition technique,
+      which effectively integrates reconstructed neural assets from various scenes through
+      a ray drop test, accounting for occlusions and transparent surfaces. Our evaluation
+      with both synthetic and real-world environments demonstrates that DyNFL substantially
+      improves dynamic scene LiDAR simulation, offering a combination of physical fidelity
+      and flexible editing capabilities. Project page: https://shengyuh.github.io/dynfl'
+    authors: 'Hanfeng Wu, Xingxing Zuo, Stefan Leutenegger, Or Litany, Konrad Schindler,
+      Shengyu Huang '
+    decision: Oral
+    number: 6
+    title: Dynamic LiDAR Re-simulation using Compositional Neural Fields
+  - abstract: 'Scene simulation in autonomous driving has gained significant attention
+      because of its huge potential for generating customized data. However, existing
+      editable scene simulation approaches face limitations in terms of user interaction
+      efficiency, multi-camera photo-realistic rendering and external digital assets
+      integration. To address these challenges, this paper introduces ChatSim, the first
+      system that enables editable photo-realistic 3D driving scene simulations via
+      natural language commands with external digital assets. To enable editing with
+      high command flexibility, ChatSim leverages a large language model (LLM) agent
+      collaboration framework. To generate photo-realistic outcomes, ChatSim employs
+      a novel multi-camera neural radiance field method. Furthermore, to unleash the
+      potential of extensive high-quality digital assets, ChatSim employs a novel multi-camera
+      lighting estimation method to achieve scene-consistent assets’ rendering. Our
+      experiments on Waymo Open Dataset demonstrate that ChatSim can handle complex
+      language commands and generate corresponding photo-realistic scene videos. Code
+      can be accessed at: https://github.com/yifanlu0227/ChatSim.'
+    authors: 'Yuxi Wei, Zi Wang, Yifan Lu, Chenxin Xu, Changxing Liu, Hao Zhao, Siheng
+      Chen, Yanfeng Wang '
+    decision: Oral
+    number: 7
+    title: Editable Scene Simulation for Autonomous Driving via Collaborative LLM-Agents
+  - abstract: Autonomous vehicle (AV) systems rely on robust perception models as a
+      cornerstone of safety assurance. However, objects encountered on the road exhibit
+      a long-tailed distribution, with rare or unseen categories posing challenges to
+      a deployed perception model. This necessitates an expensive process of continuously
+      curating and annotating data with significant human effort. We propose to leverage
+      recent advances in vision-language and large language models to design an Automatic
+      Data Engine (AIDE) that automatically identifies issues, efficiently curates data,
+      improves the model through auto-labeling, and verifies the model through generation
+      of diverse scenarios. This process operates iteratively, allowing for continuous
+      self-improvement of the model. We further establish a benchmark for open-world
+      detection on AV datasets to comprehensively evaluate various learning paradigms,
+      demonstrating our method's superior performance at a reduced cost.
+    authors: 'Mingfu Liang, Jong-Chyi Su, Samuel Schulter, Sparsh Garg, Shiyu Zhao,
+      Ying Wu, Manmohan Chandraker '
+    decision: Poster
+    number: 9
+    title: 'AIDE: An Automatic Data Engine for Object Detection in Autonomous Driving'
+  - abstract: We estimate the radiance field of large-scale dynamic areas from multiple
+      vehicle captures under varying environmental conditions. Previous works in this
+      domain are either restricted to static environments, do not scale to more than
+      a single short video, or struggle to separately represent dynamic object instances.
+      To this end, we present a novel, decomposable radiance field approach for dynamic
+      urban environments. We propose a multi-level neural scene graph representation
+      that scales to thousands of images from dozens of sequences with hundreds of fast-moving
+      objects. To enable efficient training and rendering of our representation, we
+      develop a fast composite ray sampling and rendering scheme. To test our approach
+      in urban driving scenarios, we introduce a new, novel view synthesis benchmark.
+      We show that our approach outperforms prior art by a significant margin on both
+      established and our proposed benchmark while being faster in training and rendering.
+    authors: 'Tobias Fischer, Lorenzo Porzi, Samuel Rota Bulò, Marc Pollefeys, Peter
+      Kontschieder '
+    decision: Oral
+    number: 10
+    title: Multi-Level Neural Scene Graphs for Dynamic Urban Environments
+  - abstract: Simulation is of crucial importance for development and testing of autonomous
+      vehicles. To minimize the sim-to-real gap, the simulator should generate realistic
+      scenarios. And to meet diverse needs, the simulator should be controllable  to
+      make vehicles follow specific trajectories or rules. Heuristic-based simulators
+      offer strong controllability but lack of realism. Existing data-driven approaches
+      can generate scenarios with human-like behaviors. However, generated scenarios
+      are usually not controllable since the models are black-box. In this work, we
+      introduce Knowledge-Conditioned Motion Transformer (KnowMoformer), integrating
+      knowledge of traffic as control to the neural network, to make model offer both
+      of realism and controllability. KnowMoformer incorporates long-term routes and
+      model-based actions to the model by spatial attention. The results demonstrate
+      that KnowMoformer can generate realistic and controllable traffic scenarios.
+    authors: 'Honglin He, Shu Li, Jingxuan Yang, Linxuan He, Yi ZHANG, Qiujing Lu, Shuo
+      Feng '
+    decision: Poster
+    number: 11
+    title: 'KnowMoformer: Knowledge-Conditioned Motion Transformer for Controllable
+      Traffic Scenario Simulation'
+  - abstract: Photorealistic simulation plays a crucial role in applications such as
+      autonomous driving, where advances in neural radiance fields (NeRFs) may allow
+      better scalability through the automatic creation of digital 3D assets. However,
+      reconstruction quality suffers on street scenes due to largely collinear camera
+      motions and sparser samplings at higher speeds. On the other hand, the application
+      often demands rendering from camera views that deviate from the inputs to accurately
+      simulate behaviors like lane changes. In this paper, we propose several insights
+      that allow a better utilization of Lidar data to improve NeRF quality on street
+      scenes. First, our framework learns a geometric scene representation from Lidar,
+      which are fused with the implicit grid-based representation for radiance decoding,
+      thereby supplying stronger geometric information offered by explicit point cloud.
+      Second, we put forth a robust occlusion-aware depth supervision scheme, which
+      allows utilizing densified Lidar points by accumulation. Third, we generate augmented
+      training views from Lidar points for further improvement. Our insights translate
+      to largely improved novel view synthesis under real driving scenes.
+    authors: 'shanlin sun, Bingbing Zhuang, Ziyu Jiang, Buyu Liu, Xiaohui Xie, Manmohan
+      Chandraker '
+    decision: Oral
+    number: 12
+    title: 'LidaRF: Delving into Lidar for Neural Radiance Field on Street Scenes'
+  - abstract: This paper details our winning entry in the 2023 Waymo Open Sim Agents
+      Challenge (WOSAC), introducing the MultiVerse Transformer for Agent simulation
+      (MVTA). Our approach adapts transformer-based motion predictor into an autoregressive
+      generative model for closed-loop multi-agent simulation. In order to produce simulations
+      with a high degree of realism, we design novel training and sampling methods,
+      and implement a receding horizon prediction mechanism. Additionally, we introduce
+      a variable-length history aggregation method to mitigate the compounding errors
+      typically associated with closed-loop autoregressive execution. On the WOSAC,
+      our MVTA model, and its enhanced variant MVTE led the competition on the V0 leaderboard
+      at the conclusion of the challenge on 05/23/2023, surpassing all competing entries.
+      Furthermore, with the V1 leaderboard's refined evaluation criteria for collision
+      and off-road computation, our method maintained its leading position. As of 02/14/2024,
+      it still holds the highest realism meta-metric and outperforms all entries submitted
+      by that date.
+    authors: 'Yu Wang, Tiebiao Zhao, Fan Yi, Guangzhi Cao '
+    decision: Oral
+    number: 13
+    title: 'Multiverse Transformer: Advancing Closed-Loop Multi-Agent Simulation with
+      Generative Model'
+  - abstract: We present a versatile NeRF-based simulator for testing autonomous driving
+      (AD) software systems, designed with a focus on sensor-realistic closed-loop evaluation
+      and the creation of safety-critical scenarios. The simulator learns from sequences
+      of real-world driving sensor data and enables reconfigurations and renderings
+      of new, unseen scenarios. In this work, we use our simulator to test the responses
+      of AD models to safety-critical scenarios inspired by the European New Car Assessment
+      Programme (Euro NCAP). Our evaluation reveals that, while state-of-the-art end-to-end
+      planners excel in nominal driving scenarios in an open-loop setting, they exhibit
+      critical flaws when navigating our safety-critical scenarios in a closed-loop
+      setting. This highlights the need for advancements in the safety and real-world
+      usability of end-to-end planners. By publicly releasing our simulator and scenarios
+      as an easy-to-run evaluation suite, we invite the research community to explore,
+      refine, and validate their AD models in controlled, yet highly configurable and
+      challenging sensor-realistic environments.
+    authors: 'William Ljungbergh, Adam Tonderski, Joakim Johnander, Holger Caesar, Kalle
+      Åström, Michael Felsberg, Christoffer Petersson '
+    decision: Oral
+    number: 15
+    title: Neural Rendering for Safety-critical Autonomous Driving Simulation
+  - abstract: 'In this study, we address a gap in existing unsuper- vised domain adaptation
+      approaches on LiDAR-based 3D object detection, which have predominantly concentrated
+      on adapting between established, high-density autonomous driving datasets. We
+      focus on sparser point clouds, captur- ing scenarios from different perspectives:
+      not just from ve- hicles on the road but also from mobile robots on sidewalks,
+      which encounter significantly different environment condi- tions and sensor configurations.
+      We introduce Unsuper- vised Adversarial Domain Adaptation for 3D Object Detec-
+      tion (UADA3D). UADA3D does not depend on pre-trained source models or teacher-student
+      architectures. Instead, it uses an adversarial approach to directly learn domain-
+      invariant features. Code will be available at https: //github.com/maxiuw/UADA3D.'
+    authors: 'Maciej Wozniak, Mattias Hansson, Marko Thiel, Patric Jensfelt '
+    decision: Poster
+    number: 16
+    title: Sim-to-Real adversarial domain adaptation for 3D object detection
+  - abstract: Neural radiance fields (NeRFs) have gained popularity in the autonomous
+      driving (AD) community. Recent methods show NeRFs' potential for closed-loop simulation,
+      enabling testing of AD systems, and as an advanced training data augmentation
+      technique. However, existing methods often require long training times, dense
+      semantic supervision, or lack generalizability. This, in turn, hinders the application
+      of NeRFs for AD at scale. In this paper, we propose {\modelname}, a robust novel
+      view synthesis method tailored to dynamic AD data. Our method features simple
+      network design, extensive sensor modeling for both camera and lidar -- including
+      rolling shutter, beam divergence and ray dropping -- and is applicable to multiple
+      datasets out of the box.  We verify its performance on five popular AD datasets,
+      achieving state-of-the-art performance across the board. To encourage further
+      development, we openly release the NeuRAD source code.
+    authors: 'Adam Tonderski, Carl Lindström, Georg Hess, William Ljungbergh, Lennart
+      Svensson, Christoffer Petersson '
+    decision: Oral
+    number: 18
+    title: 'NeuRAD: Neural Rendering for Autonomous Driving'
+  - abstract: High-definition road maps play a crucial role in the functionality and
+      verification of highly automated driving functions. These contain precise information
+      about the road network, geometry, condition, as well as traffic signs.  Despite
+      their importance for the development and evaluation of driving functions, the
+      generation of high-definition maps is still an ongoing research topic.  While
+      previous work in this area has primarily focused on the accuracy of road geometry,
+      we present a novel approach for automated large-scale map generation for use in
+      industrial applications. Our proposed method leverages a minimal number of external
+      information about the road to process LiDAR data in segments. These segments are
+      subsequently combined, enabling a flexible and scalable process that achieves
+      high-definition accuracy. Additionally, we showcase the use of the resulting OpenDRIVE
+      in driving function simulation.
+    authors: 'Leon Eisemann '
+    decision: Poster
+    number: 19
+    title: 'Divide and Conquer: A Systematic Approach for Industrial Scale High-Definition
+      OpenDRIVE Generation from Sparse Point Clouds'
+  - abstract: 'Evaluating the performance of autonomous vehicle planning algorithms
+      necessitates simulating long-tail safety-critical traffic scenarios. However,
+      traditional methods for generating such scenarios often fall short in terms of
+      controllability and realism, and neglect the dynamics of agent interactions. To
+      mitigate these limitations, we introduce SAFE-SIM, a novel diffusion-based controllable
+      closed-loop safety-critical simulation framework. Our approach yields two distinct
+      advantages: 1) the generation of realistic long-tail safety-critical scenarios
+      that closely emulate real-world conditions, and 2) enhanced controllability, enabling
+      more comprehensive and interactive evaluations. We develop a novel approach to
+      simulate safety-critical scenarios through an adversarial term in the denoising
+      process, which allows an adversarial agent to challenge a planner with plausible
+      maneuvers, while all agents in the scene exhibit reactive and realistic behaviors.
+      Furthermore, we propose novel guidance objectives and a partial diffusion process
+      that enables a user to control key aspects of the generated scenarios such as
+      the collision type and aggressiveness of the adversarial driver while maintaining
+      the realism of the behavior. We validate our framework empirically using the NuScenes
+      dataset, demonstrating improvements in both realism and controllability. These
+      findings affirm that diffusion models provide a robust and versatile foundation
+      for safety-critical, interactive traffic simulation, extending their utility across
+      the broader landscape of autonomous driving.'
+    authors: 'Wei-Jer Chang, Francesco Pittaluga, Masayoshi Tomizuka, Wei Zhan, Manmohan
+      Chandraker '
+    decision: Poster
+    number: 25
+    title: 'SAFE-SIM: Safety-Critical Closed-Loop Traffic Simulation with Controllable
+      Adversaries'
+  - abstract: Lane detection is a vital task for vehicles to navigate and localize their
+      position on the road.  To ensure reliable driving, lane detection models must
+      have robust generalization performance in various road environments.  However,
+      despite the advanced performance in the trained domain, their generalization performance
+      still falls short of expectations due to the domain discrepancy. To bridge this
+      gap, we propose a novel generative framework using HD Maps for Single-Source Domain
+      Generalization (SSDG) in lane detection.  We first generate numerous front-view
+      images from lane markings of HD Maps.  Next, we strategically select a core subset
+      among the generated images using (i) lane structure and (ii) road surrounding
+      criteria to maximize their diversity.  In the end, utilizing this core set, we
+      train lane detection models to boost their generalization performance. We validate
+      that our generative framework from HD Maps outperforms the Domain Adaptation model
+      MLDA with +3.01%p accuracy improvement, even though we do not access the target
+      domain images.
+    authors: 'Daeun Lee, Minhyeok Heo, Jiwon Kim '
+    decision: Poster
+    number: 27
+    title: 'HD Maps are Lane Detection Generalizers : A Novel Generative Framework for
+      Single-Source Domain Generalization'
+  - abstract: Reinforcement learning has been demonstrated to outperform even the best
+      humans in complex domains like video games. However, running reinforcement learning
+      experiments on the required scale for autonomous driving is extremely difficult.
+      Building a large scale reinforcement learning system and distributing it across
+      many GPUs is challenging. Gathering experience during training on real world vehicles
+      is prohibitive from a safety and scalability perspective. Therefore, an efficient
+      and realistic driving simulator is required that uses a large amount of data from
+      real-world driving. We bring these capabilities together and conduct large-scale
+      reinforcement learning experiments for autonomous driving. We demonstrate that
+      our policy performance improves with increasing scale. Our best performing policy
+      reduces the failure rate by 64% while improving the rate of driving progress by
+      25% compared to the policies produced by state-of-the-art machine learning for
+      autonomous driving.
+    authors: 'Moritz Harmel, Anubhav Paras, Andreas Pasternak, Nicholas Roy, Gary Linscott '
+    decision: Oral
+    number: 28
+    title: 'Scaling Is All You Need: Autonomous Driving with JAX-Accelerated Reinforcement
+      Learning'
+  - abstract: Diffusion Models (DMs) have achieved State-Of-The-Art (SOTA) results in
+      the Lidar point cloud generation task, benefiting from their stable training and
+      iterative refinement during sampling. However, DMs often fail to realistically
+      model Lidar raydrop noise due to their inherent denoising process. To retain the
+      strength of iterative sampling while enhancing the generation of raydrop noise,
+      we introduce LidarGRIT, a generative model that uses auto-regressive transformers
+      to iteratively sample the range images in the latent space rather than image space.
+      Furthermore, LidarGRIT utilises VQ-VAE to separately decode range images and raydrop
+      masks. Our results show that LidarGRIT achieves superior performance compared
+      to SOTA models on KITTI-360 and KITTI odometry datasets.
+    authors: 'Hamed Haghighi, Amir Samadi, Mehrdad Dianati, Valentina Donzella, Kurt
+      Debattista '
+    decision: Poster
+    number: 29
+    title: Taming Transformers for Realistic Lidar Point Cloud Generation
+  - abstract: The progression in autonomous driving technologies has underscored the
+      necessity for rigorous testing and validation methods to ensure safety and reliability.
+      A primary challenge in establishing such a testing framework lies in the development
+      of realistic and reactive simulated agents, for both routine driving scenarios
+      and safety-critical situations.  To address this,  we introduce Risk Aware Closed-Loop
+      agent simulation(RACL), a comprehensive framework that respects the safety critical
+      states and captures the natural progression of risk.  By distinctly modeling normal
+      and risk states, we ensure efficient utilization of limited crash data and high
+      fidelity for both modes. Additionally, our approach employs risk monitoring and
+      mode transition strategies to enable a smooth shift from normal to risky scenarios.
+      We have provided both quantitative and qualitative results to demonstrate the
+      efficacy of our system.
+    authors: 'Qiujing Lu, Ruoxuan Bai, Shu Li, Honglin He, Shuo Feng '
+    decision: Poster
+    number: 30
+    title: 'RACL: Risk Aware Closed-Loop Agent Simulation with High Fidelity'
+  - abstract: 'Adopting language descriptions to generate driving behaviors can offer
+      a scalable and intuitive method for human operators to simulate varied driving
+      scenarios. However, the scarcity of large-scale annotated language-trajectory
+      data makes this approach challenging. To address this gap, we propose Text-to-Drive
+      (T2D) to synthesize diverse driving behaviors via Large Language Models (LLMs).
+      We introduce a knowledge-driven approach that operates in two stages. First, we
+      employ the embedded knowledge of LLMs to generate diverse descriptions of driving
+      behaviors. Then, we leverage LLM''s reasoning capabilities to synthesize them
+      into simulation. At its core, T2D employs an LLM to construct a state chart that
+      maps low-level states to high-level abstractions. This strategy aids in downstream
+      tasks such as summarizing low-level observations, assessing policy alignment with
+      behavior description, and shaping the auxiliary reward, all without needing human
+      supervision. With our knowledge-driven approach, we demonstrate that T2D generates
+      more diverse trajectories compared to other baselines and offers a natural language
+      interface that allows for incorporating human preference. Please check our website
+      for more examples: \href{https://text-to-drive.github.io/}{here}'
+    authors: 'Phat Tan Nguyen, Tsun-Hsuan Wang, Zhang-Wei Hong, Sertac Karaman, Daniela
+      Rus '
+    decision: Poster
+    number: 31
+    title: 'Text-to-Drive: Diverse Driving Behavior Synthesis via Large Language Models'
+  - abstract: The deployment of autonomous vehicles (AVs) is rapidly expanding to numerous
+      cities. At the heart of AVs, the object detection module assumes a paramount role,
+      directly influencing all downstream decision-making tasks by considering the presence
+      of nearby pedestrians, vehicles, and more. Despite high accuracy of pedestrians
+      detected on held-out datasets, the potential presence of algorithmic bias in such
+      object detectors, particularly in challenging weather conditions, remains unclear.
+      This study provides a comprehensive empirical analysis of fairness in detecting
+      pedestrians in a state-of-the-art transformer-based object detector. In addition
+      to classical metrics, we introduce novel probability-based metrics to measure
+      various intricate properties of object detection. Leveraging the state-of-the-
+      art FACET dataset and the Carla high-fidelity vehicle simulator, our analysis
+      explores the effect of protected attributes such as gender, skin tone, and body
+      size on object detection performance in varying environmental conditions such
+      as ambient darkness and fog. Our quantitative analysis reveals how the previously
+      overlooked yet intuitive factors, such as the distribution of demographic groups
+      in the scene, the severity of weather, the pedestrians’ proximity to the AV, among
+      others, affect object detection performance. Our code is available at https://github.com/bimsarapathiraja/fair-AV.
+    authors: 'Bimsara Pathiraja, Caleb Liu, Ransalu Senanayake '
+    decision: Poster
+    number: 32
+    title: 'Fairness in Autonomous Driving: Towards Understanding Confounding Factors
+      in Object Detection under Challenging Weather'
+
 
 ---
 
@@ -148,45 +529,8 @@ Real-world on-road testing of autonomous vehicles can be expensive or dangerous,
 In this workshop, our goal is to bring together practitioners and researchers
 from all areas of AD simulation and to discuss pressing challenges, recent
 breakthroughs and future directions.
-
-## Call for Papers
-
-Any type of contribution, either already published work or work in progress, is
-welcome to our workshop. We especially encourage relevant papers accepted to
-CVPR’24 to be presented. A selected subset of contributions will have the
-opportunity to present their work orally either as 1 minute lightning talk or 5
-minute presentation. All accepted papers will be presented as posters.
-
-All submissions will go through a single-blind review process. The contributed
-papers and posters will be made available on the workshop’s website. However,
-this does not constitute an archival publication and no formal workshop
-proceedings will be made available, meaning authors are free to publish their
-work in archival journals or conferences.
-
-**Style and author instructions:**
-* For already published work, please refer to the original work in your
-  resubmission. You do not need to update the format!
-
-* For previously unpublished work, please use the CVPR template. For previously
-  unpublished work, the maximum length is 4 pages (excluding references) to not
-  prevent future publication at CVPR and other conferences.
-
-**We encourage submissions from a broad range of topics connected to simulation, including but not limited to:**
-* behaviour modelling and traffic models, including algorithms, models and metrics
-*  safety evaluation and interpretability
-* perception and sensor simulation, as well as neural rendering and other 3D generative models
-* AV evaluation, training and planning in simulation
-* the use of foundation models
-* data collection, preparation 
-
-**Submission Website:** [OpenReview](https://openreview.net/group?id=thecvf.com/CVPR/2024/Workshop/DDADS)
-
-**Important Dates:**
-* Submission deadline: April 5th
-* Notification to authors: ~~April 19th~~ April 24th
-* Camera ready deadline: ~~April 26th~~ May 27st
  
-## Agenda (tentative)
+## Agenda
 
 <!-- script to display conference time -->
 <script>
@@ -203,9 +547,13 @@ Below times are in Seattle time. Current time in Seattle is <span id="centraltim
 
 {% include schedule %}
 
-## Invited Speakers (tentative)
+## Invited Speakers
 
 {% include feature_row id="schedule" %}
+
+## Papers
+
+{% include papers %}
 
 ## Organizers
 

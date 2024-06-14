@@ -77,13 +77,18 @@
       </div>
 
       <div class="papers-table-linkcol">
+        {% if f.poster %}
         <a href="/assets/papers/{{ forloop.index }}_poster.pdf" download>Poster</a>
         <br>
+        {% endif %}
+        {% if f.pdf %}
         <a href="/assets/papers/{{ forloop.index }}_paper.pdf" download>Paper</a>
         <br>
+        {% endif %}
       </div>
 
       <div class="papers-table-abstractcol">
+        {% if f.video %}
         <div style="padding: 0 0 56.25% 0; position:relative; height: 0; overflow: hidden">
           <iframe
             src="{{ f.video }}"
@@ -93,6 +98,7 @@
             title="{{ f.title }}"></iframe>
         </div>
         <script src="https://player.vimeo.com/api/player.js"></script>
+        {% endif %}
       </div>
 
     </div>

@@ -90,8 +90,8 @@ schedule:
   - time: "9:15"
     image_path: assets/images/speakers/siva.jpg
     person_name: "Siva Manivasagam"
-    person_affiliation: "Head of Simulation at Waabi, U. of Toronto."
-    content: "tbd"
+    person_affiliation: "Head of Sensor Simulation, Waabi"
+    content: "Generative AI for Developing and Deploying Self-driving Systems Safely  "
   - time: "9:45"
     event: "Poster Presentations 1"
     content: ""

@@ -1,4 +1,4 @@
-This repo contains the source code for the homepage https://agents4ad.github.io/
+This repo contains the source code for the homepage https://agents4ad.github.io/.
 
 It's using [jekyll](https://jekyllrb.com/), see https://jekyllrb.com/ for details on how to run it locally. If it's all set up locally, or when using the devcontainer, `$ bundle exec jekyll serve --livereload` does the job.
 

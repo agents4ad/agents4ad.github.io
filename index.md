@@ -102,7 +102,7 @@ schedule:
     image_path: https://d2xo500swnpgl1.cloudfront.net/uploads/scale/Draogmir-Anguelov-1633527577257.png
     person_name: "Dragomir Anguelov"
     person_affiliation: "Vice President and Head of Research, Waymo"
-    content: "tbd"
+    content: "ML for Realistic and Efficient Driving Simulation"
   - time: "11:30"
     image_path: https://petiushko.info/authors/alex/avatar_hu542cdb31c7b75c60e456747d2b254e61_2312475_270x270_fill_lanczos_center_3.png
     person_name: "Aleksandr Petiushko"

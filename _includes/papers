@@ -88,7 +88,8 @@
         {% if f.pdf %}
         <a href="/assets/papers/{{ forloop.index }}_paper.pdf" download>Paper</a>
         <br>
-        {% elif f.number %}
+        {% endif %}
+        {% if f.number %}
         <a href="/assets/cvpr2024/papers/{{ f.number }}.pdf" download>Paper</a>
         <br>
         {% endif %}
@@ -108,7 +109,7 @@
         {% endif %}
       </div> -->
 
-    </div>
+    </div>  
   {% endfor %}
 
 </div>

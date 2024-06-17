@@ -577,18 +577,18 @@ This full day workshop will take place on Tuesday June 18th, 08:45 to 17:30 PST 
 
 Below times are in Seattle time. Current time in Seattle is <span id="centraltime"></span>.
 
-{% include schedule %}
+{% include schedule.liquid %}
 
 ## Invited Speakers
 
-{% include feature_row id="schedule" %}
+{% include feature_row.liquid id="schedule" %}
 
 ## Papers
 
-{% include papers %}
+{% include papers.liquid %}
 
 ## Organizers
 
-{% include feature_row id="organizers_row" %}
+{% include feature_row.liquid id="organizers_row" %}
 
 Contact: [agents4ad@googlegroups.com](mailto:agents4ad@googlegroups.com)

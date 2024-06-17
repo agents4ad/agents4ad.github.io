@@ -89,6 +89,10 @@
         <a href="/assets/papers/{{ forloop.index }}_paper.pdf" download>Paper</a>
         <br>
         {% endif %}
+        {% if f.number %}
+        <a href="/assets/cvpr2024/papers/{{ f.number }}.pdf" download>Paper</a>
+        <br>
+        {% endif %}
       </div>
 
       <!-- <div class="papers-table-abstractcol">
@@ -105,7 +109,7 @@
         {% endif %}
       </div> -->
 
-    </div>
+    </div>  
   {% endfor %}
 
 </div>

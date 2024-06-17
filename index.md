@@ -227,7 +227,6 @@ papers:
       Chen, Yanfeng Wang '
     decision: Oral
     number: 7
-    noposter: true
     title: Editable Scene Simulation for Autonomous Driving via Collaborative LLM-Agents
   - abstract: Autonomous vehicle (AV) systems rely on robust perception models as a
       cornerstone of safety assurance. However, objects encountered on the road exhibit

@@ -133,7 +133,7 @@ schedule:
     content: "Synthesizing Simulation Environments with Generative Models"
   - time: "17:00"
     event: "Panel Discussion"
-    content: "With Dragomir Anguelov, Jamie Shotton, Gustav Markkula and Aleksandr Petiushko.\nModerated by Sanja Fidler."
+    content: "With Dragomir Anguelov, Jamie Shotton, Gustav Markkula, Aleksandr Petiushko and Felix Heide.\nModerated by Sanja Fidler."
   - time: "17:30"
     event: "End"
 

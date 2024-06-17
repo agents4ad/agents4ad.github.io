@@ -133,7 +133,7 @@ schedule:
     content: "Synthesizing Simulation Environments with Generative Models"
   - time: "17:00"
     event: "Panel Discussion"
-    content: "With Dragomir Anguelov, Jamie Shotton, Gustav Markkula and Aleksandr Petiushko.\nModerated by Sanja Fidler."
+    content: "With Dragomir Anguelov, Jamie Shotton, Gustav Markkula, Aleksandr Petiushko and Felix Heide.\nModerated by Sanja Fidler."
   - time: "17:30"
     event: "End"
 
@@ -227,7 +227,6 @@ papers:
       Chen, Yanfeng Wang '
     decision: Oral
     number: 7
-    noposter: true
     title: Editable Scene Simulation for Autonomous Driving via Collaborative LLM-Agents
   - abstract: Autonomous vehicle (AV) systems rely on robust perception models as a
       cornerstone of safety assurance. However, objects encountered on the road exhibit

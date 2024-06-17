@@ -138,6 +138,11 @@ schedule:
     event: "End"
 
 papers:
+  - abstract: ''  
+    authors: 'Letian Wang, Seung Wook Kim, Jiawei Yang, Cunjun Yu, Boris Ivanovic, Steven Waslander, Yue Wang, Sanja Fidler, Marco Pavone, Peter Karkus'
+    title: 'DistillNeRF: Distilling Neural Radiance Fields into Sparse Voxels for Generalizable Scene Representations'
+    number: 0 
+    video: https://vimeo.com/953221961
   - abstract: The lateral position of vehicles within their lane is a decisive factor
       for the range of vision of vehicle sensors. This, in turn, is crucial for a vehicle’s
       ability to perceive its environment and gain a high situational awareness by processing
@@ -202,6 +207,7 @@ papers:
     decision: Oral
     number: 6
     title: Dynamic LiDAR Re-simulation using Compositional Neural Fields
+    video: https://www.youtube.com/watch?v=crs9ryZ01UY&t=4s
   - abstract: 'Scene simulation in autonomous driving has gained significant attention
       because of its huge potential for generating customized data. However, existing
       editable scene simulation approaches face limitations in terms of user interaction
@@ -221,6 +227,7 @@ papers:
       Chen, Yanfeng Wang '
     decision: Oral
     number: 7
+    noposter: true
     title: Editable Scene Simulation for Autonomous Driving via Collaborative LLM-Agents
   - abstract: Autonomous vehicle (AV) systems rely on robust perception models as a
       cornerstone of safety assurance. However, objects encountered on the road exhibit
@@ -238,6 +245,7 @@ papers:
       Ying Wu, Manmohan Chandraker '
     decision: Poster
     number: 9
+    noposter: true
     title: 'AIDE: An Automatic Data Engine for Object Detection in Autonomous Driving'
   - abstract: We estimate the radiance field of large-scale dynamic areas from multiple
       vehicle captures under varying environmental conditions. Previous works in this
@@ -332,6 +340,7 @@ papers:
     decision: Oral
     number: 15
     title: Neural Rendering for Safety-critical Autonomous Driving Simulation
+    video: https://vimeo.com/948268574
   - abstract: 'In this study, we address a gap in existing unsuper- vised domain adaptation
       approaches on LiDAR-based 3D object detection, which have predominantly concentrated
       on adapting between established, high-density autonomous driving datasets. We
@@ -345,6 +354,7 @@ papers:
     authors: 'Maciej Wozniak, Mattias Hansson, Marko Thiel, Patric Jensfelt '
     decision: Poster
     number: 16
+    noposter: true
     title: Sim-to-Real adversarial domain adaptation for 3D object detection
   - abstract: Neural radiance fields (NeRFs) have gained popularity in the autonomous
       driving (AD) community. Recent methods show NeRFs' potential for closed-loop simulation,
@@ -404,6 +414,7 @@ papers:
       Chandraker '
     decision: Poster
     number: 25
+    noposter: true
     title: 'SAFE-SIM: Safety-Critical Closed-Loop Traffic Simulation with Controllable
       Adversaries'
   - abstract: Lane detection is a vital task for vehicles to navigate and localize their
@@ -441,6 +452,7 @@ papers:
     authors: 'Moritz Harmel, Anubhav Paras, Andreas Pasternak, Nicholas Roy, Gary Linscott '
     decision: Oral
     number: 28
+    noposter: true
     title: 'Scaling Is All You Need: Autonomous Driving with JAX-Accelerated Reinforcement
       Learning'
   - abstract: Diffusion Models (DMs) have achieved State-Of-The-Art (SOTA) results in
@@ -494,6 +506,7 @@ papers:
       Rus '
     decision: Poster
     number: 31
+    noposter: true
     title: 'Text-to-Drive: Diverse Driving Behavior Synthesis via Large Language Models'
   - abstract: The deployment of autonomous vehicles (AVs) is rapidly expanding to numerous
       cities. At the heart of AVs, the object detection module assumes a paramount role,
@@ -517,6 +530,25 @@ papers:
     number: 32
     title: 'Fairness in Autonomous Driving: Towards Understanding Confounding Factors
       in Object Detection under Challenging Weather'
+  - abstract: ''  
+    authors: 'Chonghao Sima, Katrin Renz, Kashyap Chitta, Li Chen, Hanxue Zhang, Chengen Xie, Ping Luo, Andreas Geiger, Hongyang Li'
+    title: 'DriveLM: Driving with Graph Visual Question Answering'
+    number: 33
+    noposter: true
+  - abstract: ''  
+    authors: 'Xiaoyu Tian, Junru Gu, Bailin Li, Yicheng Liu, Chenxu Hu, Yang Wang, Kun Zhan, Peng Jia, Xianpeng Lang, Hang Zhao'
+    title: 'DRIVEVLM: The Convergence of Autonomous Driving and Large Vision-Language Models'
+    number: 34
+    noposter: true
+  - abstract: ''  
+    authors: 'Xiaoyu Zhou, Zhiwei Lin, Xiaojun Shan, Yongtao Wang, Deqing Sun, Ming-Hsuan Yang'
+    title: 'DrivingGaussian: Composite Gaussian Splatting for Surrounding Dynamic Autonomous Driving Scenes'
+    number: 35
+  - abstract: ''  
+    authors: 'Hongyu Zhou, Jiahao Shao, Lu Xu, Dongfeng Bai, Weichao Qiu, Bingbing Liu, Yue Wang, Andreas Geiger, Yiyi Liao'
+    title: 'HUGS: Holistic Urban 3D Scene Understanding via Gaussian Splatting'
+    number: 36
+
 
 
 ---

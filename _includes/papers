@@ -15,7 +15,7 @@
   .papers-table-titlecol {
     display: inline;
     display: inline-block;
-    inline-size: 260px;
+    inline-size: 360px;
     font-size: 14px;
     vertical-align: top;
     padding-right: 10px;
@@ -24,7 +24,7 @@
   .papers-table-authorcol {
     display: inline;
     display: inline-block;
-    inline-size: 180px;
+    inline-size: 250px;
     font-size: 14px;
     vertical-align: top;
   }
@@ -60,11 +60,10 @@
 </style>
 
 <div style="display:block; width:1000px; padding:20px; border:solid 4px #CCCCCC;">
-  <div class="papers-table-heading" style="display:inline-block;
-                                                                                                                                                              inline-size:260px; padding-right: 30px">Title</div>
-  <div class="papers-table-heading" style="display:inline-block; inline-size:180px;">Authors</div>
+  <div class="papers-table-heading" style="display:inline-block; inline-size:360px; padding-right: 30px">Title</div>
+  <div class="papers-table-heading" style="display:inline-block; inline-size:250px;">Authors</div>
   <div class="papers-table-heading" style="display:inline-block; inline-size:100px;">Links</div>
-  <div class="papers-table-heading">Video</div>
+  <!-- <div class="papers-table-heading">Video</div> -->
 
   {% for f in papers %}
     <div class="{{ forloop.index | modulo: 2 | replace: '0', 'papers-table-row-even' | replace: '1', 'papers-table-row-odd' }}">
@@ -75,19 +74,24 @@
       <div class="papers-table-authorcol" style="font-style: italic;">
         {{ f.authors | markdownify | remove: "<p>" | remove: "</p>" }}
       </div>
-
+      
       <div class="papers-table-linkcol">
-        {% if f.poster %}
-        <a href="/assets/papers/{{ forloop.index }}_poster.pdf" download>Poster</a>
+        {% if f.noposter == nil or f.noposter == false %}
+        <a href="/assets/cvpr2024/posters/{{ f.number }}.pdf" download>Poster</a>
         <br>
         {% endif %}
+        {% if f.video %}
+        <a href="{{ f.video }}">Video</a>
+        <br>
+        {% endif %}
+
         {% if f.pdf %}
         <a href="/assets/papers/{{ forloop.index }}_paper.pdf" download>Paper</a>
         <br>
         {% endif %}
       </div>
 
-      <div class="papers-table-abstractcol">
+      <!-- <div class="papers-table-abstractcol">
         {% if f.video %}
         <div style="padding: 0 0 56.25% 0; position:relative; height: 0; overflow: hidden">
           <iframe
@@ -99,7 +103,7 @@
         </div>
         <script src="https://player.vimeo.com/api/player.js"></script>
         {% endif %}
-      </div>
+      </div> -->
 
     </div>
   {% endfor %}

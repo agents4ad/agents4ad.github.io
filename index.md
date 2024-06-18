@@ -552,7 +552,7 @@ papers:
 
 ---
 
-This workshop will be held at the [CVPR 2024](https://cvpr.thecvf.com/Conferences/2024), on **June 18th, 2024**, 8:30am to 5:30pm in **Summit 342** at Seattle Convention Centre, WA, USA and streamed online via zoom.
+This workshop will be held at the [CVPR 2024](https://cvpr.thecvf.com/Conferences/2024), on **June 18th, 2024**, 8:30am to 5:30pm in **Summit 342** at Seattle Convention Centre, WA, USA and [streamed online via zoom (CVPR registration required](https://cvpr.thecvf.com/virtual/2024/workshop/23649).
 
 ## Abstract
 

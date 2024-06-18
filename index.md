@@ -97,7 +97,7 @@ schedule:
     content: ""
   - time: "10:15"
     event: "Coffee break and poster session"
-    content: "Posters are in Arch Building Exhibit Hall"
+    content: "Posters are in Arch Building Exhibit Hall, #157-#181"
   - time: "11:00"
     image_path: https://d2xo500swnpgl1.cloudfront.net/uploads/scale/Draogmir-Anguelov-1633527577257.png
     person_name: "Dragomir Anguelov"
@@ -120,7 +120,7 @@ schedule:
     content: ""
   - time: "15:15"
     event: "Coffee break and poster session"
-    content: "Posters are in Arch Building Exhibit Hall"
+    content: "Posters are in Arch Building Exhibit Hall, #157-#181"
   - time: "16:00"
     image_path: https://jamie.shotton.org/author/jamie-shotton/avatar_hubcfcd825cec4221ac68bf02950f61648_116633_270x270_fill_q75_lanczos_center.jpg
     person_name: "Jamie Shotton"

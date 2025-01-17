@@ -1,5 +1,7 @@
 main:
-  - title: "CVPR 2024 (current)"
+  - title: "CVPR 2025 (current)"
     url: /
+  - title: "CVPR 2024"
+    url: /2024/
   - title: "IROS 2023"
     url: /2023/

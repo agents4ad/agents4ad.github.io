@@ -24,16 +24,16 @@ organizers_row:
   - image_path: assets/images/organizers/maximilian_naumann.jpeg
     alt: "Max"
     person_name: "Maximilian Naumann"
-    person_affiliation: "Bosch Center for Artifical Intelligence and KIT"
+    person_affiliation: "Bosch Center for Artificial Intelligence and KIT"
   - image_path: assets/images/organizers/thomas_gilles.jpeg
     alt: "Thomas"
     person_name: "Thomas Gilles"
     person_affiliation: "Waabi"
-  - image_path: https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_640.png
+  - image_path: assets/images/organizers/kate_tolstaya.jpg
     alt: "Kate"
     person_name: "Kate Tolstaya"
     person_affiliation: "Waymo"
-  - image_path: https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_640.png
+  - image_path: assets/images/organizers/sanja_fidler.jpg
     alt: ""
     person_name: "Sanja Fidler"
     person_affiliation: "NVIDIA and University of Toronto"
@@ -67,19 +67,19 @@ schedule:
     person_affiliation: "NVIDIA & Stanford University"
     content: ""
   - time: ""
-    image_path: https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_640.png
+    image_path: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=HKfLbg0AAAAJ&citpid=2
     person_name: "Johan Engstrom"
     person_affiliation: "Waymo"
     content: ""
   - time: ""
-    image_path: https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_640.png
+    image_path: https://www.eugenevinitsky.com/images/eugene.jpg
     person_name: "Eugene Vinitsky"
     person_affiliation: "New York University"
     content: ""
   - time: ""
-    image_path: https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_640.png
-    person_name: Chelsea Finn
-    person_affiliation: Stanford University
+    image_path: https://ai.stanford.edu/~cbfinn/_files/sail_headshot_left_facing_crop.jpg
+    person_name: "Chelsea Finn"
+    person_affiliation: "Stanford University"
     content: ""
 
 ---

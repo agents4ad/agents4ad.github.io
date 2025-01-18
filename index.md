@@ -62,7 +62,7 @@ schedule:
     person_affiliation: "Waymo"
     content: ""
   - time: ""
-    image_path: assets/images/speakers/marco_pavone.png
+    image_path: assets/images/speakers/marco_pavone.jpeg
     person_name: "Marco Pavone"
     person_affiliation: "NVIDIA & Stanford University"
     content: ""

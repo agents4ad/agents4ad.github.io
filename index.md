@@ -94,9 +94,29 @@ This workshop aims to unite leading researchers from various specializations, in
 
 ## Call for Papers
 
-**Submission details will follow. Stay tuned!**
+### Important Dates 📅
+- Paper Submission Opens: February 18, 2025
+- Paper Submission Deadline: March 15, 2025
+- Notification to Authors: March 31, 2025
+- Camera-Ready Submission: April 7, 2025
 
-We encourage submissions from a broad range of topics connected to simulation, including but not limited on how to:
+### Submission Guidelines 🔔
+We invite submissions of high-quality research to our **Archival** and **Non-Archival** tracks. All accepted papers will be eligible for poster presentation. A select number of papers will be chosen for spotlight presentations at the workshop. You need an openreview account for submission.
+
+#### Track 1: Non-Archival/Non-Proceedings Papers
+Submissions for the first track will not be published in the proceedings and can include previously submitted/published papers. Submissions to this track should be 4-8 pages long (excluding references) and follow the CVPR format, unless the work was previously published.
+
+Submissions for Track 1 should be made through the following paper submission portal: [https://openreview.net/group?id=thecvf.com/CVPR/2025/Workshop/DDADS](https://openreview.net/group?id=thecvf.com/CVPR/2025/Workshop/DDADS) (and selecting track 1)
+
+#### Track 2: Archival/Proceedings Papers 
+Submissions to the second track need to follow the [official CVPR 2025 submission guidelines](https://cvpr.thecvf.com/Conferences/2025/AuthorGuidelines). Accepted second track submissions will be published in the proceedings.
+
+To submit your original research papers (up to 8 pages) for inclusion in the CVPR 2025 Workshop proceedings please submit them to this paper submission portal: [https://openreview.net/group?id=thecvf.com/CVPR/2025/Workshop/DDADS](https://openreview.net/group?id=thecvf.com/CVPR/2025/Workshop/DDADS) (and selecting track 2)
+
+### Topics 🚘
+
+We welcome contributions in the Autonomous Driving domain in the following areas (but not limited to):
+
 - Improve fidelity and diversity of generative models for behavior and sensor simulation,
 - Develop new metrics for the quality and coverage of generated scenarios,
 - Combine behavior modeling, perception simulation, and safety requirements,
@@ -104,6 +124,8 @@ We encourage submissions from a broad range of topics connected to simulation, i
 - Effectively use simulation to evaluate autonomous vehicles, 
 - Effectively use simulation to train autonomous vehicles in closed loop,
 - Incorporate recent advances from other fields, such as RL or foundation models.
+
+For inquiries, feel free to reach out to the organizing committee at: [agents4ad@googlegroups.com](mailto:agents4ad@googlegroups.com)
 
 ## Agenda
 

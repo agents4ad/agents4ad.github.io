@@ -95,23 +95,13 @@ This workshop aims to unite leading researchers from various specializations, in
 ## Call for Papers
 
 ### Important Dates 📅
-- Paper Submission Opens: February 18, 2025
-- Paper Submission Deadline: March 15, 2025
-- Notification to Authors: March 31, 2025
+- Paper Submission Opens: ~~February 18, 2025~~
+- Paper Submission Deadline: ~~March 15, 2025~~
+- Notification to Authors: ~~March 31, 2025~~
 - Camera-Ready Submission: April 7, 2025
 
 ### Submission Guidelines 🔔
 We invite submissions of high-quality research to our **Archival** and **Non-Archival** tracks. All accepted papers will be eligible for poster presentation. A select number of papers will be chosen for spotlight presentations at the workshop. You need an openreview account for submission.
-
-#### Track 1: Non-Archival/Non-Proceedings Papers
-Submissions for the first track will not be published in the proceedings and can include previously submitted/published papers. Submissions to this track should be 4-8 pages long (excluding references) and follow the CVPR format, unless the work was previously published.
-
-Submissions for Track 1 should be made through the following paper submission portal: [https://openreview.net/group?id=thecvf.com/CVPR/2025/Workshop/DDADS](https://openreview.net/group?id=thecvf.com/CVPR/2025/Workshop/DDADS) (and selecting track 1)
-
-#### Track 2: Archival/Proceedings Papers 
-Submissions to the second track need to follow the [official CVPR 2025 submission guidelines](https://cvpr.thecvf.com/Conferences/2025/AuthorGuidelines). Accepted second track submissions will be published in the proceedings.
-
-To submit your original research papers (up to 8 pages) for inclusion in the CVPR 2025 Workshop proceedings please submit them to this paper submission portal: [https://openreview.net/group?id=thecvf.com/CVPR/2025/Workshop/DDADS](https://openreview.net/group?id=thecvf.com/CVPR/2025/Workshop/DDADS) (and selecting track 2)
 
 ### Topics 🚘
 
@@ -140,3 +130,15 @@ To be updated.
 {% include feature_row.liquid id="organizers_row" %}
 
 Contact: [agents4ad@googlegroups.com](mailto:agents4ad@googlegroups.com)
+
+## Program Committee
+
+The DDADS workshop organizers would like to extend our sincere gratitude to the community of reviewers who generously volunteered their time and expertise to evaluate submissions for our workshop. 
+ 
+* Frieda Rong
+* Ioan Andrei Bârsan
+* Reinis Cimurs 
+* Shu-Yuan Liu
+* Thomas Roddick
+* Vishal Kirankumar Shah 
+* Zhejun Zhang

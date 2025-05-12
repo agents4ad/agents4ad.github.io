@@ -43,48 +43,70 @@ organizers_row:
     person_affiliation: "Waymo UK and University of Oxford"
 
 schedule:
-  - time: ""
+  - time: "8:30"
     event: "Welcome"
     content: 
-  - time: ""
-    image_path: https://www.princeton.edu/sites/default/files/styles/scale_1440/public/images/2022/10/FelixHeide-062821_0022_sq1023.jpg?itok=Ph2ZT13W
-    person_name: "Felix Heide"
-    person_affiliation: "Torc Robotics & Princeton University"
-    content: ""
-  - time: ""
-    image_path: assets/images/speakers/raquel_urtasun.png
-    person_name: "Raquel Urtasun"
-    person_affiliation: "Waabi"
-    content: ""
-  - time: ""
-    image_path: https://d2xo500swnpgl1.cloudfront.net/uploads/scale/Draogmir-Anguelov-1633527577257.png
-    person_name: "Dragomir Anguelov"
-    person_affiliation: "Waymo"
-    content: ""
-  - time: ""
-    image_path: assets/images/speakers/marco_pavone.jpeg
-    person_name: "Marco Pavone"
-    person_affiliation: "NVIDIA & Stanford University"
-    content: ""
-  - time: ""
-    image_path: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=HKfLbg0AAAAJ&citpid=2
-    person_name: "Johan Engstrom"
-    person_affiliation: "Waymo"
-    content: ""
-  - time: ""
-    image_path: https://www.eugenevinitsky.com/images/eugene.jpg
-    person_name: "Eugene Vinitsky"
-    person_affiliation: "New York University"
-    content: ""
-  - time: ""
+  - time: "8:45"
     image_path: https://ai.stanford.edu/~cbfinn/_files/sail_headshot_left_facing_crop.jpg
     person_name: "Chelsea Finn"
     person_affiliation: "Stanford University"
-    content: ""
+    content: "Leveraging Synthetic Data for Robot Training and Evaluation"
+  - time: "9:15"
+    image_path: https://www.princeton.edu/sites/default/files/styles/scale_1440/public/images/2022/10/FelixHeide-062821_0022_sq1023.jpg?itok=Ph2ZT13W
+    person_name: "Felix Heide"
+    person_affiliation: "Torc Robotics & Princeton University"
+    content: "Learning to Plan with Self-Play: Fully Data-driven Generative Scenarios for Autonomous Driving"
+  - time: "9:45"
+    event: "Poster Presentations 1"
+    content: 
+  - time: "10:15"
+    event: "Coffee & Posters"
+    content: 
+  - time: "11:00"
+    image_path: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=HKfLbg0AAAAJ&citpid=2
+    person_name: "Johan Engstrom"
+    person_affiliation: "Waymo"
+    content: "Understanding and modeling of human driver behavior based on active inference"
+  - time: "11:30"
+    image_path: assets/images/speakers/marco_pavone.jpeg
+    person_name: "Marco Pavone"
+    person_affiliation: "NVIDIA & Stanford University"
+    content: "tbd"
+  - time: "12:00"
+    event: "Lunch Break"
+    content: 
+  - time: "14:00"
+    image_path: https://d2xo500swnpgl1.cloudfront.net/uploads/scale/Draogmir-Anguelov-1633527577257.png
+    person_name: "Dragomir Anguelov"
+    person_affiliation: "Waymo"
+    content: "tbd"
+  - time: "14:30"
+    event: "Poster Presentations 2"
+    content: 
+  - time: "15:15"
+    event: "Coffee & Posters"
+    content: 
+  - time: "16:00"
+    image_path: https://www.eugenevinitsky.com/images/eugene.jpg
+    person_name: "Eugene Vinitsky"
+    person_affiliation: "New York University"
+    content: "Robust Self-Driving Emerges from Self-Play"
+  - time: "16:30"
+    image_path: assets/images/speakers/raquel_urtasun.png
+    person_name: "Raquel Urtasun"
+    person_affiliation: "Waabi"
+    content: "tbd"
+  - time: "17:00"
+    event: "Panel Discussion (moderated by Sanja Fidler)"
+    content: 
+  - time: "17:45"
+    event: "Closing remarks"
+    content: 
+
 
 ---
 
-This workshop will be held at the [CVPR 2025](https://cvpr.thecvf.com/Conferences/2025). Details will follow.
+This workshop will be held at the [CVPR 2025](https://cvpr.thecvf.com/Conferences/2025) on June 11th, 2025 at the Music City Center, Nashville, TN, USA. Details will follow.
 
 ## Abstract
 
@@ -98,7 +120,7 @@ This workshop aims to unite leading researchers from various specializations, in
 - Paper Submission Opens: ~~February 18, 2025~~
 - Paper Submission Deadline: ~~March 15, 2025~~
 - Notification to Authors: ~~March 31, 2025~~
-- Camera-Ready Submission: April 7, 2025
+- Camera-Ready Submission: ~~April 7, 2025~~
 
 ### Submission Guidelines 🔔
 We invite submissions of high-quality research to our **Archival** and **Non-Archival** tracks. All accepted papers will be eligible for poster presentation. A select number of papers will be chosen for spotlight presentations at the workshop. You need an openreview account for submission.
@@ -119,7 +141,20 @@ For inquiries, feel free to reach out to the organizing committee at: [agents4ad
 
 ## Agenda
 
-To be updated.
+<!-- script to display conference time -->
+<script>
+  var x = setInterval(function() {
+    var d = new Date();
+    var n = d.toLocaleTimeString("en-US", {timeZone: "America/Chicago", hour: '2-digit', minute:'2-digit', hour12: false})
+    document.getElementById("centraltime").innerHTML = n
+  }, 1000);
+</script>
+
+This full day workshop will take place on Wednesday June 11th, 08:30 to 17:50 CDT (UTC-5).
+
+Below times are in Nashville time. Current time in Nashville is <span id="centraltime"></span>.
+
+{% include schedule.liquid %}
 
 ## Invited Speakers
 

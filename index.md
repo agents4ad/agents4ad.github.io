@@ -13,7 +13,7 @@ organizers_row:
     alt: ""
     person_name: "Azadeh Dinparastdjadid"
     person_affiliation: "Waymo"
-  - image_path: https://zgojcic.github.io/assets/Profile_picutre_ZG_crop.jpg
+  - image_path: assets/images/organizers/zan_gojcic.jpeg
     alt: ""
     person_name: "Zan Gojcic"
     person_affiliation: "NVIDIA"

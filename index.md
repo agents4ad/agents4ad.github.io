@@ -71,7 +71,7 @@ schedule:
     image_path: assets/images/speakers/marco_pavone.jpeg
     person_name: "Marco Pavone"
     person_affiliation: "NVIDIA & Stanford University"
-    content: "tbd"
+    content: "Building Physical AI with Foundation-Model-Driven Closed-Loop Simulation"
   - time: "12:00"
     event: "Lunch Break"
     content: 

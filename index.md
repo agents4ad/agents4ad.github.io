@@ -47,10 +47,10 @@ schedule:
     event: "Welcome"
     content: 
   - time: "8:45"
-    image_path: https://ai.stanford.edu/~cbfinn/_files/sail_headshot_left_facing_crop.jpg
-    person_name: "Chelsea Finn"
-    person_affiliation: "Stanford University"
-    content: "Leveraging Synthetic Data for Robot Training and Evaluation"
+    image_path: https://www.eugenevinitsky.com/images/eugene.jpg
+    person_name: "Eugene Vinitsky"
+    person_affiliation: "New York University"
+    content: "Robust Self-Driving Emerges from Self-Play"
   - time: "9:15"
     image_path: https://www.princeton.edu/sites/default/files/styles/scale_1440/public/images/2022/10/FelixHeide-062821_0022_sq1023.jpg?itok=Ph2ZT13W
     person_name: "Felix Heide"
@@ -87,10 +87,10 @@ schedule:
     event: "Coffee & Posters"
     content: 
   - time: "16:00"
-    image_path: https://www.eugenevinitsky.com/images/eugene.jpg
-    person_name: "Eugene Vinitsky"
-    person_affiliation: "New York University"
-    content: "Robust Self-Driving Emerges from Self-Play"
+    image_path: https://ai.stanford.edu/~cbfinn/_files/sail_headshot_left_facing_crop.jpg
+    person_name: "Chelsea Finn"
+    person_affiliation: "Stanford University"
+    content: "Leveraging Synthetic Data for Robot Training and Evaluation"
   - time: "16:30"
     image_path: assets/images/speakers/raquel_urtasun.png
     person_name: "Raquel Urtasun"

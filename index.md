@@ -79,7 +79,7 @@ schedule:
     image_path: https://d2xo500swnpgl1.cloudfront.net/uploads/scale/Draogmir-Anguelov-1633527577257.png
     person_name: "Dragomir Anguelov"
     person_affiliation: "Waymo"
-    content: "tbd"
+    content: "World Models for Autonomous Driving Evaluation"
   - time: "14:30"
     event: "Poster Presentations 2"
     content: 
@@ -106,7 +106,7 @@ schedule:
 
 ---
 
-This workshop will be held at the [CVPR 2025](https://cvpr.thecvf.com/Conferences/2025) on June 11th, 2025 at the Music City Center, Nashville, TN, USA. Details will follow.
+This workshop will be held at the [CVPR 2025](https://cvpr.thecvf.com/Conferences/2025) on June 11th, 2025 at the [Music City Center, Nashville](https://www.nashvillemusiccitycenter.com), TN, USA in [Room 104 A on Level 1](https://www.nashvillemusiccitycenter.com/sites/default/files/media/Holiday/g-sk-043_6b_level_1_horizontal_full_size.pdf).
 
 ## Abstract
 

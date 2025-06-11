@@ -95,7 +95,7 @@ schedule:
     image_path: assets/images/speakers/raquel_urtasun.png
     person_name: "Raquel Urtasun"
     person_affiliation: "Waabi"
-    content: "tbd"
+    content: "Building Safe and Scalable Physical AI Solutions"
   - time: "17:00"
     event: "Panel Discussion (moderated by Sanja Fidler)"
     content: 

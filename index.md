@@ -43,24 +43,24 @@ organizers_row:
     person_affiliation: "Waymo UK and University of Oxford"
 
 schedule:
-  - time: "8:30"
+  - time: "8:45"
     event: "Welcome"
     content: 
-  - time: "8:45"
+  - time: "9:00"
     image_path: https://www.eugenevinitsky.com/images/eugene.jpg
     person_name: "Eugene Vinitsky"
     person_affiliation: "New York University"
     content: "Robust Self-Driving Emerges from Self-Play"
-  - time: "9:15"
+  - time: "9:30"
     image_path: https://www.princeton.edu/sites/default/files/styles/scale_1440/public/images/2022/10/FelixHeide-062821_0022_sq1023.jpg?itok=Ph2ZT13W
     person_name: "Felix Heide"
     person_affiliation: "Torc Robotics & Princeton University"
     content: "Learning to Plan with Self-Play: Fully Data-driven Generative Scenarios for Autonomous Driving"
-  - time: "9:45"
-    event: "Poster Presentations 1"
+  - time: "10:00"
+    event: "Spotlight Presentations 1"
     content: 
-  - time: "10:15"
-    event: "Coffee & Posters"
+  - time: "10:20"
+    event: "Coffee & Posters (poster boards #400 - #408 in Exhibit Hall D)"
     content: 
   - time: "11:00"
     image_path: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=HKfLbg0AAAAJ&citpid=2
@@ -81,10 +81,10 @@ schedule:
     person_affiliation: "Waymo"
     content: "World Models for Autonomous Driving Evaluation"
   - time: "14:30"
-    event: "Poster Presentations 2"
+    event: "Spotlight Presentations 2"
     content: 
   - time: "15:15"
-    event: "Coffee & Posters"
+    event: "Coffee & Posters (poster boards #400 - #408 in Exhibit Hall D)"
     content: 
   - time: "16:00"
     image_path: https://ai.stanford.edu/~cbfinn/_files/sail_headshot_left_facing_crop.jpg

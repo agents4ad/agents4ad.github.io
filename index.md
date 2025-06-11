@@ -106,6 +106,8 @@ schedule:
 
 ---
 
+**Update:** The workshop will start 15min late at 8:45. The Zoom link can be found [at the CVPR page for this workshop](https://cvpr.thecvf.com/virtual/2025/workshop/32323), for which you need to be registered and logged in.
+
 This workshop will be held at the [CVPR 2025](https://cvpr.thecvf.com/Conferences/2025) on June 11th, 2025 at the [Music City Center, Nashville](https://www.nashvillemusiccitycenter.com), TN, USA in [Room 104 A on Level 1](https://www.nashvillemusiccitycenter.com/sites/default/files/media/Holiday/g-sk-043_6b_level_1_horizontal_full_size.pdf).
 
 ## Abstract

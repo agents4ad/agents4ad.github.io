@@ -107,31 +107,31 @@ papers:
   - abstract: ''  
     authors: 'Alexandru Buburuzan, Anuj Sharma, John Redford, Puneet K. Dokania, Romain Mueller'
     title: 'MObI: Multimodal Object Inpainting Using Diffusion Models'
-    number: 0 
+    noposter: true
   - abstract: ''  
     authors: 'Mitchell Goff, GREG HOGAN, George Hotz, Armand du Parc Locmaria, Kacper Rączy, Harald Schaefer, Adeeb Shihadeh, Weixing Zhang, Yassine Yousfi'
     title: 'Learning to Drive from a World Model'
-    number: 0
+    noposter: true
   - abstract: ''  
     authors: 'Georg Hess, Carl Lindström, Maryam Fatemi, Christoffer Petersson, Lennart Svensson'
     title: 'SplatAD: Real-Time Lidar and Camera Rendering with 3D Gaussian Splatting for Autonomous Driving'
-    number: 0
+    noposter: true
   - abstract: ''  
     authors: 'Wei-Jer Chang, Wei Zhan, Masayoshi Tomizuka, Manmohan Chandraker, Francesco Pittaluga'
     title: 'LANGTRAJ: Diffusion Model and Dataset for Language-Conditioned Trajectory Simulation'
-    number: 0
+    noposter: true
   - abstract: ''  
     authors: 'Zhejun Zhang, Peter Karkus, Maximilian Igl, Wenhao Ding, Yuxiao Chen, Boris Ivanovic, Marco Pavone'
     title: 'Closed-Loop Supervised Fine-Tuning of Tokenized Traffic Models'
-    number: 0
+    noposter: true
   - abstract: ''  
     authors: 'Augusto Mondelli, Yueshan Li, Alessandro Zanardi, Emilio Frazzoli'
     title: 'Test Automation for Interactive Scenarios via Promptable Traffic Simulation'
-    number: 0
+    noposter: true
   - abstract: ''  
     authors: 'Valentin Charraut, Thomas Tournaire, Waël Doulazmi, Thibault Buhet'
     title: 'V-Max: A Reinforcement Learning Framework for Mid-to-End Autonomous Driving'
-    number: 0 
+    noposter: true
 
 ---
 

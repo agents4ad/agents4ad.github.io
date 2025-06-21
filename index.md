@@ -103,12 +103,51 @@ schedule:
     event: "Closing remarks"
     content: 
 
+papers:
+  - abstract: ''
+    authors: 'Alexandru Buburuzan, Anuj Sharma, John Redford, Puneet K. Dokania, Romain Mueller'
+    title: 'MObI: Multimodal Object Inpainting Using Diffusion Models'
+    noposter: true
+    paper_link: https://arxiv.org/abs/2501.03173
+  - abstract: ''
+    authors: 'Mitchell Goff, GREG HOGAN, George Hotz, Armand du Parc Locmaria, Kacper Rączy, Harald Schaefer, Adeeb Shihadeh, Weixing Zhang, Yassine Yousfi'
+    title: 'Learning to Drive from a World Model'
+    noposter: true
+    paper_link: https://arxiv.org/abs/2504.19077
+  - abstract: ''
+    authors: 'Georg Hess, Carl Lindström, Maryam Fatemi, Christoffer Petersson, Lennart Svensson'
+    title: 'SplatAD: Real-Time Lidar and Camera Rendering with 3D Gaussian Splatting for Autonomous Driving'
+    noposter: true
+    paper_link: https://arxiv.org/abs/2411.16816
+  - abstract: ''
+    authors: 'Wei-Jer Chang, Wei Zhan, Masayoshi Tomizuka, Manmohan Chandraker, Francesco Pittaluga'
+    title: 'LANGTRAJ: Diffusion Model and Dataset for Language-Conditioned Trajectory Simulation'
+    noposter: true
+    paper_link: https://arxiv.org/abs/2504.11521
+  - abstract: ''
+    authors: 'Zhejun Zhang, Peter Karkus, Maximilian Igl, Wenhao Ding, Yuxiao Chen, Boris Ivanovic, Marco Pavone'
+    title: 'Closed-Loop Supervised Fine-Tuning of Tokenized Traffic Models'
+    noposter: true
+    paper_link: https://arxiv.org/abs/2412.05334
+  - abstract: ''
+    authors: 'Augusto Mondelli, Yueshan Li, Alessandro Zanardi, Emilio Frazzoli'
+    title: 'Test Automation for Interactive Scenarios via Promptable Traffic Simulation'
+    noposter: true
+    paper_link: https://arxiv.org/abs/2506.01199
+  - abstract: ''
+    authors: 'Valentin Charraut, Thomas Tournaire, Waël Doulazmi, Thibault Buhet'
+    title: 'V-Max: A Reinforcement Learning Framework for Mid-to-End Autonomous Driving'
+    noposter: true
+    paper_link: https://arxiv.org/abs/2503.08388
+  - abstract: ''
+    authors: 'Sreeja Roy-Singh, Sarvesh Kolekar, Daniel P. Bonny, Kyle Foss'
+    title: 'Fractional Collisions: A Framework for Risk Estimation of Counterfactual Conflicts using Autonomous Driving Behavior Simulations'
+    noposter: true
+    paper_link: https://arxiv.org/abs/2506.07540
 
 ---
 
-**Update:** The workshop will start 15min late at 8:45. The Zoom link can be found [at the CVPR page for this workshop](https://cvpr.thecvf.com/virtual/2025/workshop/32323), for which you need to be registered and logged in.
-
-This workshop will be held at the [CVPR 2025](https://cvpr.thecvf.com/Conferences/2025) on June 11th, 2025 at the [Music City Center, Nashville](https://www.nashvillemusiccitycenter.com), TN, USA in [Room 104 A on Level 1](https://www.nashvillemusiccitycenter.com/sites/default/files/media/Holiday/g-sk-043_6b_level_1_horizontal_full_size.pdf).
+This workshop will be held at the [CVPR 2025](https://cvpr.thecvf.com/Conferences/2025) on June 11th, 2025 at the [Music City Center, Nashville](https://www.nashvillemusiccitycenter.com), TN, USA in [Room 104 A on Level 1](https://www.nashvillemusiccitycenter.com/sites/default/files/media/Holiday/g-sk-043_6b_level_1_horizontal_full_size.pdf). The Zoom link can be found [at the CVPR page for this workshop](https://cvpr.thecvf.com/virtual/2025/workshop/32323), for which you need to be registered and logged in.
 
 ## Abstract
 

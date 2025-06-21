@@ -76,22 +76,26 @@
       </div>
       
       <div class="papers-table-linkcol">
-        {% if f.noposter == nil or f.noposter == false %}
-        <a href="/assets/cvpr2024/posters/{{ f.number }}.pdf" download>Poster</a>
-        <br>
-        {% endif %}
-        {% if f.video %}
-        <a href="{{ f.video }}">Video</a>
-        <br>
+        {% if page.poster_path %}
+          {% if f.noposter == nil or f.noposter == false %}
+            <a href="{{ page.poster_path }}/{{ f.number }}.pdf" download>Poster</a>
+            <br>
+          {% endif %}
         {% endif %}
 
-        {% if f.pdf %}
-        <a href="/assets/papers/{{ forloop.index }}_paper.pdf" download>Paper</a>
-        <br>
+        {% if f.paper_link %}
+          <a href="{{ f.paper_link }}">Paper (link)</a>
+          <br>
         {% endif %}
-        {% if f.number %}
-        <a href="/assets/cvpr2024/papers/{{ f.number }}.pdf" download>Paper</a>
-        <br>
+
+        {% if f.video %}
+          <a href="{{ f.video }}">Video</a>
+          <br>
+        {% endif %}
+
+        {% if page.paper_path and f.number %}
+          <a href="{{ page.paper_path }}/{{ f.number }}.pdf" download>Paper</a>
+          <br>
         {% endif %}
       </div>
 

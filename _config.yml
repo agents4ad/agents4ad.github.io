@@ -10,6 +10,15 @@ search: false
 markdown: kramdown
 theme: minimal-mistakes-jekyll
 
+# Sass settings - silence deprecation warnings from theme dependencies
+sass:
+  quiet_deps: true
+  silence_deprecations:
+    - import
+    - global-builtin
+    - color-functions
+    - slash-div
+
 include:
   - _pages
 

@@ -13,7 +13,7 @@ speakers_row:
     alt: ""
     person_name: "Marco Pavone"
     person_affiliation: "Stanford University / NVIDIA"
-  - image_path: https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_640.png
+  - image_path: assets/images/speakers/hongyang_li.png
     alt: ""
     person_name: "Hongyang Li"
     person_affiliation: "The University of Hong Kong"
@@ -25,13 +25,13 @@ speakers_row:
     alt: ""
     person_name: "Siva Manivasagam"
     person_affiliation: "Waabi"
-  - image_path: https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_640.png
+  - image_path: assets/images/speakers/cathy_wu.png
     alt: ""
     person_name: "Cathy Wu"
     person_affiliation: "MIT"
 
 organizers_row:
-  - image_path: https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_640.png
+  - image_path: assets/images/organizers/yiyi_liao.png
     alt: ""
     person_name: "Yiyi Liao"
     person_affiliation: "Zhejiang University"
@@ -39,7 +39,7 @@ organizers_row:
     alt: ""
     person_name: "Maximilian Igl"
     person_affiliation: "NVIDIA"
-  - image_path: assets/images/speakers/kashyap_chitta.jpeg
+  - image_path: assets/images/organizers/kashyap_chitta.png
     alt: ""
     person_name: "Kashyap Chitta"
     person_affiliation: "NVIDIA"
@@ -55,7 +55,7 @@ organizers_row:
     alt: ""
     person_name: "Zan Gojcic"
     person_affiliation: "NVIDIA"
-  - image_path: https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_640.png
+  - image_path: assets/images/organizers/shuhan_tan.png
     alt: ""
     person_name: "Shuhan Tan"
     person_affiliation: "University of Texas at Austin"
@@ -63,7 +63,7 @@ organizers_row:
     alt: ""
     person_name: "Kate Tolstaya"
     person_affiliation: "Waymo"
-  - image_path: https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_640.png
+  - image_path: assets/images/organizers/jingkang_wang.png
     alt: ""
     person_name: "Jingkang Wang"
     person_affiliation: "University of Toronto / Waabi"

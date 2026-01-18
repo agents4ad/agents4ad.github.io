@@ -1,0 +1,17 @@
+name: Test Devcontainer
+
+on:
+  push:
+
+jobs:
+  test-devcontainer:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build and Run in Devcontainer
+        uses: devcontainers/ci@v0.3
+        with:
+          # Uses your existing .devcontainer/devcontainer.json
+          runCmd: bundle exec jekyll build

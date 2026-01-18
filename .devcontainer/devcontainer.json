@@ -16,7 +16,8 @@
 	"forwardPorts": [4000, 35729],
 
 	// Uncomment the next line to run commands after the container is created.
-	"postCreateCommand": "rbenv install 3.3.6 && rbenv global 3.3.6 && bundle exec jekyll build --incremental"
+	"postCreateCommand": "sudo git -C /usr/local/share/ruby-build pull && rbenv install 3.3.6 && rbenv global 3.3.6 && bundle install && bundle exec jekyll build --incremental"
+
 
 	// Configure tool-specific properties.
 	// "customizations": {},

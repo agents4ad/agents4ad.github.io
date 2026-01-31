@@ -96,7 +96,7 @@ This workshop will cover topics related to:
 
 We invite submissions of original research on topics including, but not limited to: generative models or policies for agent behavior in AV simulation, sensor and perception simulation, world models, evaluation metrics for model fidelity and coverage, novel training or evaluation frameworks using simulation, high-fidelity tail-event simulation (e.g., collisions), and safety assessment in simulation-based training.
 
-A single, non-archival track will be offered, accepting original work or papers previously submitted/published elsewhere. Manuscripts should be 4–8 pages (excluding references) in CVPR format; previously published work may retain the original format. All accepted papers will be eligible for poster presentations, and select papers for short spotlight talks.
+A single, non-archival track will be offered, accepting original work or papers previously submitted/published elsewhere. Manuscripts should be 4–8 pages (excluding references) in CVPR format; previously published work may retain the original format.
 
 ### Important Dates 📅
 - Paper Submission Deadline: March 12, 2026

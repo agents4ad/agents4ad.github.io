@@ -101,7 +101,7 @@ A single, non-archival track will be offered, accepting original work or papers 
 Submit your paper on [OpenReview](https://openreview.net/group?id=thecvf.com/CVPR/2026/Workshop/SAD).
 
 ### Important Dates 📅
-- Paper Submission Deadline: March 12, 2026
+- Paper Submission Deadline: March 19 UTC-0 (extended from March 12), 2026
 - Notification to Authors: March 29, 2026
 - Camera-Ready Submission: April 11, 2026
 

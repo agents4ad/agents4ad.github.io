@@ -78,7 +78,7 @@ organizers_row:
 
 ---
 
-This half-day workshop will be held at [CVPR 2026](https://cvpr.thecvf.com/Conferences/2026) during June 3–7, 2026 (exact day TBD) in Denver, CO, USA.
+This half-day workshop will be held on June 4, 2026, from 1:00 PM, in Room 102/104, at [CVPR 2026](https://cvpr.thecvf.com/Conferences/2026) in Denver, CO, USA.
 
 ## Abstract
 

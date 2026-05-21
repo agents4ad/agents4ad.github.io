@@ -76,9 +76,35 @@ organizers_row:
     person_name: "Shimon Whiteson"
     person_affiliation: "University of Oxford / Waymo"
 
+schedule:
+  - time: "13:30"
+    event: "Welcome"
+    content: 
+  - time: "13:45"
+    event: "Keynote 1"
+    content: 
+  - time: "14:15"
+    event: "Keynote 2"
+    content: 
+  - time: "14:45"
+    event: "Keynote 3"
+    content: 
+  - time: "15:15"
+    event: "Coffee Break & Posters"
+    content: 
+  - time: "16:15"
+    event: "Keynote 4"
+    content: 
+  - time: "16:45"
+    event: "Keynote 5"
+    content: 
+  - time: "17:15"
+    event: "Panel Moderated by Prof. Sanja Fidler"
+    content: 
+
 ---
 
-This half-day workshop will be held on June 4, 2026, from 1:00 PM, in Room 102/104, at [CVPR 2026](https://cvpr.thecvf.com/Conferences/2026) in Denver, CO, USA.
+This half-day workshop will be held on June 4, 2026, from 1:30 PM, in Room 102/104, at [CVPR 2026](https://cvpr.thecvf.com/Conferences/2026) in Denver, CO, USA.
 
 ## Abstract
 
@@ -101,11 +127,29 @@ A single, non-archival track will be offered, accepting original work or papers 
 Submit your paper on [OpenReview](https://openreview.net/group?id=thecvf.com/CVPR/2026/Workshop/SAD).
 
 ### Important Dates 📅
-- Paper Submission Deadline: March 19 UTC-0 (extended from March 12), 2026
-- Notification to Authors: March 29, 2026
-- Camera-Ready Submission: April 11, 2026
+
+- ~~Paper Submission Deadline: March 19 UTC-0 (extended from March 12), 2026~~
+- ~~Notification to Authors: March 29, 2026~~
+- ~~Camera-Ready Submission: April 11, 2026~~
 
 For inquiries, feel free to reach out to the organizing committee at: [agents4ad@googlegroups.com](mailto:agents4ad@googlegroups.com)
+
+## Agenda
+
+<!-- script to display conference time -->
+<script>
+  var x = setInterval(function() {
+    var d = new Date();
+    var n = d.toLocaleTimeString("en-US", {timeZone: "America/Denver", hour: '2-digit', minute:'2-digit', hour12: false})
+    document.getElementById("centraltime").innerHTML = n
+  }, 1000);
+</script>
+
+This half-day workshop will take place on Thursday June 4th, 13:30 to 18:00 MDT (UTC-6).
+
+Below times are in Denver time. Current time in Denver is <span id="centraltime"></span>.
+
+{% include schedule.liquid %}
 
 ## Invited Speakers
 

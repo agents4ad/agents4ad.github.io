@@ -102,6 +102,103 @@ schedule:
     event: "Panel Moderated by Prof. Sanja Fidler"
     content: 
 
+papers:
+  - abstract: ''
+    authors: 'Thoshitha Gamage, Lasanthi Gamage'
+    title: 'Compiling OpenSCENARIO 2.1 for Scenario-Based Testing in CARLA'
+    paper_link: https://openreview.net/forum?id=z8Z2U9ZtJy
+    noposter: true
+  - abstract: ''
+    authors: 'Wei-Jer Chang, Akshay Rangesh, Kevin Joseph, Matthew Strong, Masayoshi Tomizuka, Yihan Hu, Wei Zhan'
+    title: 'SPACeR: Self-Play Anchoring with Centralized Reference Models'
+    paper_link: https://openreview.net/forum?id=FUZw4ApXYO
+    noposter: true
+  - abstract: ''
+    authors: 'Wangren Xu, Bidur Khanal, Naveen Kumar Rai, Bjoern Haefner, Sean M. Pieper, Nick Schneider'
+    title: 'NVRQ: A Benchmark for Object-Level Quality in 3D Neural Reconstruction'
+    paper_link: https://openreview.net/forum?id=NqNjlPOF8y
+    noposter: true
+  - abstract: ''
+    authors: 'Carl Lindstrom, Mahan Rafidashti, Maryam Fatemi, Lars Hammarstrand, Martin R. Oswald, Lennart Svensson'
+    title: 'IDSplat: Instance-Decomposed 3D Gaussian Splatting for Driving Scenes'
+    paper_link: https://openreview.net/forum?id=fIPlIygLux
+    noposter: true
+  - abstract: ''
+    authors: 'Ananya Arvind'
+    title: 'Latent Space Steering for Controllable Rare Pedestrian Trajectory Generation'
+    paper_link: https://openreview.net/forum?id=c4EXp403QF
+    noposter: true
+  - abstract: ''
+    authors: 'Haowei Sun, Xintao Yan, Zhijie Qiao, Haojie Zhu, Yihao Sun, Jiawei Wang, Shengyin Shen, Darian Hogue, Rajanikant Patnaik Ananta, Derek Johnson, Greg Stevens, Greg McGuire, Yifan Wei, Wei Zheng, Yong Sun, Yasuo Fukai, Henry X. Liu'
+    title: 'TeraSim: Uncovering Unknown Unsafe Events for Autonomous Vehicles through Generative Simulation'
+    paper_link: https://openreview.net/forum?id=D6pNwEgh37
+    noposter: true
+  - abstract: ''
+    authors: 'Hanlei Guo, Jiahao Shao, Xinya Chen, Xiyang Tan, Sheng Miao, Yujun Shen, Yiyi Liao'
+    title: 'ScenDi: 3D-to-2D Scene Diffusion Cascades for Urban Generation'
+    paper_link: https://openreview.net/forum?id=cw3sjxZHM0
+    noposter: true
+  - abstract: ''
+    authors: 'Hiroki Hashimoto, Hiromichi Goto, Hiroyuki Sugai, Hiroshi Kera, Kazuhiko Kawamoto'
+    title: 'Towards Viewpoint-Robust End-to-End Autonomous Driving with 3D Foundation Model Priors'
+    paper_link: https://openreview.net/forum?id=076JiuBD0s
+    noposter: true
+  - abstract: ''
+    authors: 'Mate Toth, Peter Kovacs, Reka Bencses, Zoltan Bendefy, Zoltan Hortsin, Balazs Tereki, Tamas Matuszka'
+    title: 'Hybrid Rendering for Multimodal Autonomous Driving: Merging Neural and Physics-Based Simulation'
+    paper_link: https://openreview.net/forum?id=la73FGCkWO
+    noposter: true
+  - abstract: ''
+    authors: 'Jinkai Qiu, Alessandro Saviolo, Chaojie Wang, Mingke Wang, Xiaoyu Huang'
+    title: 'Heterogeneous Self-Play for Realistic Highway Traffic Simulation'
+    paper_link: https://openreview.net/forum?id=sylMVReTzq
+    noposter: true
+  - abstract: ''
+    authors: 'Apostol Vassilev, Munawar Hasan, Edward Griffor, Honglan Jin, Pavel Piliptchak, Mahima Arora, Thoshitha Gamage'
+    title: 'On the Assessment of Sensitivity of Autonomous Vehicle Perception'
+    paper_link: https://openreview.net/forum?id=2BAbwhJk2V
+    noposter: true
+  - abstract: ''
+    authors: 'Yun He, Francesco Pittaluga, Ziyu Jiang, Matthias Zwicker, Manmohan Chandraker, Zaid Tasneem'
+    title: 'LangDriveCTRL: Natural Language Controllable Driving Scene Editing with Multi-modal Agents'
+    paper_link: https://openreview.net/forum?id=akJ3SXznV4
+    noposter: true
+  - abstract: ''
+    authors: 'Qingze Tony Liu, Alen Mrdovic, Danrui Li, Mathew Schwartz, Sejong Yoon, Mubbasir Kapadia, Vladimir Pavlovic'
+    title: 'JACoP: Joint Alignment for Compliant Multi-Agent Prediction'
+    paper_link: https://openreview.net/forum?id=1yM4EP0Hr2
+    noposter: true
+  - abstract: ''
+    authors: 'Julian Ost, Andrea Ramazzina, Amogh Joshi, Maximilian Bomer, Mario Bijelic, Felix Heide'
+    title: 'LSD-3D: Large-Scale 3D Driving Scene Generation with Geometry Grounding'
+    paper_link: https://openreview.net/forum?id=C7Wb0LHVSs
+    noposter: true
+  - abstract: ''
+    authors: 'Zexin Feng, Lingyu Xiao, Xintao Yan'
+    title: 'Beyond Binary Metrics: Unveiling the Safety Illusion in Autonomous Driving Simulation'
+    paper_link: https://openreview.net/forum?id=agV9SBQcRk
+    noposter: true
+  - abstract: ''
+    authors: 'Zilin Wang, Saeed Rahmani, Daphne Cornelisse, Bidipta Sarkar, Alexander David Goldie, Jakob Nicolaus Foerster, Shimon Whiteson'
+    title: 'Learning to Drive in New Cities Without Human Demonstrations'
+    paper_link: https://openreview.net/forum?id=szVQsLccbW
+    noposter: true
+  - abstract: ''
+    authors: 'Tugrul Gorgulu, Atakan Dag, Muhammet Esat Kalfaoglu, Halil Ibrahim Kuru, Baris Can Cam, Halil Ibrahim Ozturk, Ozsel Kilinc'
+    title: 'TaCarla: A comprehensive benchmarking dataset for end-to-end autonomous driving'
+    paper_link: https://openreview.net/forum?id=pEbesTYweu
+    noposter: true
+  - abstract: ''
+    authors: 'Zirui Wu, Jianteng Chen, Laijian Li, Shaoteng Wu, Zhikai Zhu, Kang Xu, Martin R. Oswald, Jie Song'
+    title: '3D Gaussian Inverse Rendering with Approximated Global Illumination'
+    paper_link: https://openreview.net/forum?id=anlmfDmKHx
+    noposter: true
+  - abstract: ''
+    authors: 'Mahule Roy, Subhas Roy'
+    title: 'Uncertainty-Calibrated Closed-Loop Simulation for Autonomous Driving Evaluation'
+    paper_link: https://openreview.net/forum?id=O0JbXTnO6q
+    noposter: true
+
 ---
 
 This half-day workshop will be held on June 4, 2026, from 1:30 PM, in Room 102/104, at [CVPR 2026](https://cvpr.thecvf.com/Conferences/2026) in Denver, CO, USA.
@@ -154,6 +251,10 @@ Below times are in Denver time. Current time in Denver is <span id="centraltime"
 ## Invited Speakers
 
 {% include feature_row.liquid id="speakers_row" %}
+
+## Accepted Papers
+
+{% include papers.liquid %}
 
 ## Organizers
 

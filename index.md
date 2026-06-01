@@ -17,7 +17,7 @@ speakers_row:
     alt: ""
     person_name: "Hongyang Li"
     person_affiliation: "The University of Hong Kong"
-  - image_path: https://d2xo500swnpgl1.cloudfront.net/uploads/scale/Draogmir-Anguelov-1633527577257.png
+  - image_path: assets/images/speakers/dragomir_anguelov.png
     alt: ""
     person_name: "Dragomir Anguelov"
     person_affiliation: "Waymo"
@@ -29,6 +29,14 @@ speakers_row:
     alt: ""
     person_name: "Cathy Wu"
     person_affiliation: "MIT"
+  - image_path: assets/images/speakers/jose_alvarez.jpg
+    alt: ""
+    person_name: "Jose Alvarez"
+    person_affiliation: "NVIDIA"
+  - image_path: assets/images/speakers/andrei_bursuc.jpg
+    alt: ""
+    person_name: "Andrei Bursuc"
+    person_affiliation: "Valeo"
 
 organizers_row:
   - image_path: assets/images/organizers/yiyi_liao.png
@@ -81,26 +89,36 @@ schedule:
     event: "Welcome"
     content: 
   - time: "13:45"
-    event: "Keynote 1"
-    content: 
+    image_path: assets/images/speakers/marco_pavone.jpeg
+    person_name: "Marco Pavone"
+    person_affiliation: "Stanford University / NVIDIA"
+    content: "Keynote"
   - time: "14:15"
-    event: "Keynote 2"
-    content: 
+    image_path: assets/images/speakers/hongyang_li.png
+    person_name: "Hongyang Li"
+    person_affiliation: "The University of Hong Kong"
+    content: "Keynote"
   - time: "14:45"
-    event: "Keynote 3"
-    content: 
+    image_path: assets/images/speakers/cathy_wu.png
+    person_name: "Cathy Wu"
+    person_affiliation: "MIT"
+    content: "Keynote"
   - time: "15:15"
     event: "Coffee Break & Posters"
     content: 
   - time: "16:15"
-    event: "Keynote 4"
-    content: 
+    image_path: assets/images/speakers/dragomir_anguelov.png
+    person_name: "Dragomir Anguelov"
+    person_affiliation: "Waymo"
+    content: "The Waymo World Model"
   - time: "16:45"
-    event: "Keynote 5"
-    content: 
+    image_path: assets/images/speakers/siva.jpg
+    person_name: "Siva Manivasagam"
+    person_affiliation: "Waabi"
+    content: "Keynote"
   - time: "17:15"
-    event: "Panel Moderated by Prof. Sanja Fidler"
-    content: 
+    event: "Panel Discussion (moderated by Sanja Fidler)"
+    content: "Panelists: Dragomir Anguelov, Jose Alvarez, Andrei Bursuc, Siva Manivasagam"
 
 papers:
   - abstract: ''
@@ -248,7 +266,7 @@ Below times are in Denver time. Current time in Denver is <span id="centraltime"
 
 {% include schedule.liquid %}
 
-## Invited Speakers
+## Invited Speakers and Panelists
 
 {% include feature_row.liquid id="speakers_row" %}
 

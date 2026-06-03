@@ -29,3 +29,15 @@ codekit-config.json
 .sass-cache
 _asset_bundler_cache
 _site
+
+# Ignore dotfiles and dotfolders by default
+.*
+**/.*
+
+# Keep repo-managed dotfiles/dotfolders trackable
+!.gitignore
+!.github/
+!.github/**
+!.devcontainer/
+!.devcontainer/**
+!.ruby-version

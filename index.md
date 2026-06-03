@@ -21,7 +21,7 @@ speakers_row:
     alt: ""
     person_name: "Dragomir Anguelov"
     person_affiliation: "Waymo"
-  - image_path: assets/images/speakers/siva.jpg
+  - image_path: assets/images/speakers/Siva_Manivasagam.jpg
     alt: ""
     person_name: "Siva Manivasagam"
     person_affiliation: "Waabi"
@@ -97,7 +97,7 @@ schedule:
     image_path: assets/images/speakers/hongyang_li.png
     person_name: "Hongyang Li"
     person_affiliation: "The University of Hong Kong"
-    content: "Keynote"
+    content: "Simulation at Scale for Production-level Autonomous Driving"
   - time: "14:45"
     image_path: assets/images/speakers/cathy_wu.png
     person_name: "Cathy Wu"
@@ -112,7 +112,7 @@ schedule:
     person_affiliation: "Waymo"
     content: "The Waymo World Model"
   - time: "16:45"
-    image_path: assets/images/speakers/siva.jpg
+    image_path: assets/images/speakers/Siva_Manivasagam.jpg
     person_name: "Siva Manivasagam"
     person_affiliation: "Waabi"
     content: "Keynote"

@@ -115,7 +115,7 @@ schedule:
     image_path: assets/images/speakers/Siva_Manivasagam.jpg
     person_name: "Siva Manivasagam"
     person_affiliation: "Waabi"
-    content: "Keynote"
+    content: "Building Scalable Closed-Loop Worlds for Safe Autonomous Driving"
   - time: "17:15"
     event: "Panel Discussion (moderated by Sanja Fidler)"
     content: "Panelists: Dragomir Anguelov, Jose Alvarez, Andrei Bursuc, Siva Manivasagam"

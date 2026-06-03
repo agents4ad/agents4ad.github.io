@@ -1,119 +1,142 @@
 {% assign papers = page.papers %}
+{% assign has_poster_slot = false %}
+{% for f in papers %}
+  {% if f.poster_slot %}
+    {% assign has_poster_slot = true %}
+  {% endif %}
+{% endfor %}
 
 <p></p>
 
 <style>
-  .papers-table-heading {
-    display: inline;
-    font-weight: bold;
-    font-size: 20px;
-    color: #999999;
-    vertical-align: top;
-    text-align: center;
+  .papers-table-scroll {
+    width: 100%;
+    overflow-x: auto;
   }
 
-  .papers-table-titlecol {
-    display: inline;
-    display: inline-block;
-    inline-size: 360px;
-    font-size: 14px;
-    vertical-align: top;
-    padding-right: 10px;
+  .papers-table {
+    min-width: 980px;
+    border: solid 1px #d1d5db;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #ffffff;
   }
 
-  .papers-table-authorcol {
-    display: inline;
-    display: inline-block;
-    inline-size: 250px;
-    font-size: 14px;
-    vertical-align: top;
+  .papers-table-header,
+  .papers-table-row {
+    display: grid;
+    grid-template-columns: 3.3fr 2.4fr 1.2fr;
+    column-gap: 16px;
+    padding: 14px 16px;
+    align-items: start;
   }
 
-
-  .papers-table-linkcol {
-    display: inline;
-    display: inline-block;
-    inline-size: 100px;
-    font-size: 14px;
-    line-height: 1.8;
-    vertical-align: top;
-    text-align: center;
+  .papers-table.with-slot .papers-table-header,
+  .papers-table.with-slot .papers-table-row {
+    grid-template-columns: 3.3fr 2.4fr 1fr 1.2fr;
   }
 
-  .papers-table-abstractcol {
-    display: inline-block;
-    inline-size: 370px;
+  .papers-table-header {
+    background: #f8fafc;
+    border-bottom: solid 1px #e5e7eb;
+    font-weight: 700;
+    color: #4b5563;
+    text-align: left;
+  }
+
+  .papers-table-row {
+    border-bottom: solid 1px #edf2f7;
   }
 
   .papers-table-row-even {
-    display: block;
-    width: 950px;
-    background-color: #EEEEEE;
-    padding: 10px;
+    background-color: #fafafa;
   }
 
-  .papers-table-row-odd {
+  .papers-table-row:last-child {
+    border-bottom: none;
+  }
+
+  .papers-table-title {
+    font-weight: 700;
+    color: #111827;
+  }
+
+  .papers-table-authors {
+    font-style: italic;
+    color: #374151;
+  }
+
+  .papers-table-slot {
+    color: #111827;
+  }
+
+  .papers-slot-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 999px;
+    background: #eef2ff;
+    color: #3730a3;
+    font-weight: 700;
+    font-size: 13px;
+  }
+
+  .papers-table-links a {
     display: block;
-    width: 950px;
-    padding: 10px;
+    margin-bottom: 4px;
   }
 </style>
 
-<div style="display:block; width:1000px; padding:20px; border:solid 4px #CCCCCC;">
-  <div class="papers-table-heading" style="display:inline-block; inline-size:360px; padding-right: 30px">Title</div>
-  <div class="papers-table-heading" style="display:inline-block; inline-size:250px;">Authors</div>
-  <div class="papers-table-heading" style="display:inline-block; inline-size:100px;">Links</div>
-  <!-- <div class="papers-table-heading">Video</div> -->
+<div class="papers-table-scroll">
+  <div class="papers-table {% if has_poster_slot %}with-slot{% endif %}">
+    <div class="papers-table-header">
+      <div>Title</div>
+      <div>Authors</div>
+      {% if has_poster_slot %}
+      <div>Poster Slot</div>
+      {% endif %}
+      <div>Links</div>
+    </div>
 
-  {% for f in papers %}
-    <div class="{{ forloop.index | modulo: 2 | replace: '0', 'papers-table-row-even' | replace: '1', 'papers-table-row-odd' }}">
-      <div class="papers-table-titlecol" style="font-weight: bold;">
+    {% for f in papers %}
+    <div class="papers-table-row {% cycle 'papers-table-row-odd', 'papers-table-row-even' %}">
+      <div class="papers-table-title">
         {{ f.title | markdownify | remove: "<p>" | remove: "</p>" }}
       </div>
 
-      <div class="papers-table-authorcol" style="font-style: italic;">
+      <div class="papers-table-authors">
         {{ f.authors | markdownify | remove: "<p>" | remove: "</p>" }}
       </div>
       
-      <div class="papers-table-linkcol">
+      {% if has_poster_slot %}
+      <div class="papers-table-slot">
+        {% if f.poster_slot %}
+          <span class="papers-slot-badge">#{{ f.poster_slot }}</span>
+        {% else %}
+          -
+        {% endif %}
+      </div>
+      {% endif %}
+
+      <div class="papers-table-links">
         {% if page.poster_path %}
           {% if f.noposter == nil or f.noposter == false %}
             <a href="{{ page.poster_path }}/{{ f.number }}.pdf" download>Poster</a>
-            <br>
           {% endif %}
         {% endif %}
 
         {% if f.paper_link %}
           <a href="{{ f.paper_link }}">Paper (link)</a>
-          <br>
         {% endif %}
 
         {% if f.video %}
           <a href="{{ f.video }}">Video</a>
-          <br>
         {% endif %}
 
         {% if page.paper_path and f.number %}
           <a href="{{ page.paper_path }}/{{ f.number }}.pdf" download>Paper</a>
-          <br>
         {% endif %}
       </div>
-
-      <!-- <div class="papers-table-abstractcol">
-        {% if f.video %}
-        <div style="padding: 0 0 56.25% 0; position:relative; height: 0; overflow: hidden">
-          <iframe
-            src="{{ f.video }}"
-            frameborder="0"
-            allow="autoplay; fullscreen; picture-in-picture"
-            style="position:absolute;top:0;left:0;width:100%;height:100%;"
-            title="{{ f.title }}"></iframe>
-        </div>
-        <script src="https://player.vimeo.com/api/player.js"></script>
-        {% endif %}
-      </div> -->
-
-    </div>  
-  {% endfor %}
-
+    </div>
+    {% endfor %}
+  </div>
 </div>

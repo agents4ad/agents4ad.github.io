@@ -97,7 +97,7 @@ schedule:
     image_path: assets/images/speakers/hongyang_li.png
     person_name: "Hongyang Li"
     person_affiliation: "The University of Hong Kong"
-    content: "Keynote"
+    content: "Simulation at Scale for Production-level Autonomous Driving"
   - time: "14:45"
     image_path: assets/images/speakers/cathy_wu.png
     person_name: "Cathy Wu"

@@ -37,6 +37,10 @@ speakers_row:
     alt: ""
     person_name: "Andrei Bursuc"
     person_affiliation: "Valeo"
+  - image_path: assets/images/speakers/ashok_elluswamy.jpeg
+    alt: ""
+    person_name: "Ashok Elluswamy"
+    person_affiliation: "Tesla"
 
 organizers_row:
   - image_path: assets/images/organizers/yiyi_liao.png
@@ -105,7 +109,7 @@ schedule:
     content: "Keynote"
   - time: "15:15"
     event: "Coffee Break & Posters"
-    content: 
+    content: "Poster slots 170-179 & 125-134."
   - time: "16:15"
     image_path: assets/images/speakers/dragomir_anguelov.png
     person_name: "Dragomir Anguelov"
@@ -118,7 +122,7 @@ schedule:
     content: "Building Scalable Closed-Loop Worlds for Safe Autonomous Driving"
   - time: "17:15"
     event: "Panel Discussion (moderated by Sanja Fidler)"
-    content: "Panelists: Dragomir Anguelov, Jose Alvarez, Andrei Bursuc, Siva Manivasagam"
+    content: "Panelists: Dragomir Anguelov, Jose Alvarez, Andrei Bursuc, Siva Manivasagam, Ashok Elluswamy"
 
 papers:
   - abstract: ''

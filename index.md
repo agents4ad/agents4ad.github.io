@@ -96,7 +96,7 @@ schedule:
     image_path: assets/images/speakers/marco_pavone.jpeg
     person_name: "Marco Pavone"
     person_affiliation: "Stanford University / NVIDIA"
-    content: "Keynote"
+    content: "(TBA)"
   - time: "14:15"
     image_path: assets/images/speakers/hongyang_li.png
     person_name: "Hongyang Li"
@@ -106,7 +106,7 @@ schedule:
     image_path: assets/images/speakers/cathy_wu.png
     person_name: "Cathy Wu"
     person_affiliation: "MIT"
-    content: "Keynote"
+    content: "What Could Driving Behavior Prediction & Datasets Do for Public Road Infrastructure?"
   - time: "15:15"
     event: "Coffee Break & Posters"
     content: "Poster slots 170-179 & 125-134."

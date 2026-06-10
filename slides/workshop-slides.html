@@ -304,7 +304,7 @@
       </div>
     </div>
     <div class="qr-badge" id="qr-badge">
-      <img id="qr-homepage-image" data-image-path="assets/images/qr_homepage.png" alt="Workshop homepage QR code" />
+      <img id="qr-homepage-image" data-image-path="../assets/images/qr_homepage.png" alt="Workshop homepage QR code" />
       <div class="qr-badge-label">Schedule</div>
     </div>
     <div id="fallback-hint" class="fallback-hint">Fallback mode: use Left/Right arrows</div>
@@ -320,8 +320,8 @@
 
       const RAW_IMAGE_BASE = "https://raw.githubusercontent.com/agents4ad/agents4ad.github.io/gh-pages/";
       const rawImage = (path) => `${RAW_IMAGE_BASE}${path}`;
-      const normalizeImagePath = (path) => path.replace(/^\.?\//, "").replace(/^\/+/, "");
-      const deckBackgroundPath = "assets/images/header_from_unsplash_dot_com.jpg";
+      const normalizeImagePath = (path) => path.replace(/^(\.\.\/)+/, "").replace(/^\.?\//, "").replace(/^\/+/, "");
+      const deckBackgroundPath = "../assets/images/header_from_unsplash_dot_com.jpg";
       const rawFallbackCandidates = (imagePath) => {
         const normalized = normalizeImagePath(imagePath);
         const candidates = [rawImage(normalized)];
@@ -332,17 +332,17 @@
       };
 
       const organizers = [
-        { name: "Yiyi Liao", affiliation: "Zhejiang University", image: "assets/images/organizers/yiyi_liao.png" },
-        { name: "Maximilian Igl", affiliation: "NVIDIA", image: "assets/images/organizers/max_igl.jpg" },
-        { name: "Kashyap Chitta", affiliation: "NVIDIA", image: "assets/images/organizers/kashyap_chitta.png" },
-        { name: "Azadeh Dinparastdjadid", affiliation: "Waymo", image: "assets/images/organizers/azadeh_dinparastdjadid.jpg" },
-        { name: "Maximilian Naumann", affiliation: "Zoox", image: "assets/images/organizers/maximilian_naumann.jpeg" },
-        { name: "Zan Gojcic", affiliation: "NVIDIA", image: "assets/images/organizers/zan_gojcic.jpeg" },
-        { name: "Shuhan Tan", affiliation: "University of Texas at Austin", image: "assets/images/organizers/shuhan_tan.png" },
-        { name: "Kate Tolstaya", affiliation: "Waymo", image: "assets/images/organizers/kate_tolstaya.jpg" },
-        { name: "Jingkang Wang", affiliation: "University of Toronto / Waabi", image: "assets/images/organizers/jingkang_wang.png" },
-        { name: "Sanja Fidler", affiliation: "University of Toronto / NVIDIA", image: "assets/images/organizers/sanja_fidler.jpg" },
-        { name: "Shimon Whiteson", affiliation: "University of Oxford / Waymo", image: "assets/images/organizers/shimon_whiteson.jpeg" },
+        { name: "Yiyi Liao", affiliation: "Zhejiang University", image: "../assets/images/organizers/yiyi_liao.png" },
+        { name: "Maximilian Igl", affiliation: "NVIDIA", image: "../assets/images/organizers/max_igl.jpg" },
+        { name: "Kashyap Chitta", affiliation: "NVIDIA", image: "../assets/images/organizers/kashyap_chitta.png" },
+        { name: "Azadeh Dinparastdjadid", affiliation: "Waymo", image: "../assets/images/organizers/azadeh_dinparastdjadid.jpg" },
+        { name: "Maximilian Naumann", affiliation: "Zoox", image: "../assets/images/organizers/maximilian_naumann.jpeg" },
+        { name: "Zan Gojcic", affiliation: "NVIDIA", image: "../assets/images/organizers/zan_gojcic.jpeg" },
+        { name: "Shuhan Tan", affiliation: "University of Texas at Austin", image: "../assets/images/organizers/shuhan_tan.png" },
+        { name: "Kate Tolstaya", affiliation: "Waymo", image: "../assets/images/organizers/kate_tolstaya.jpg" },
+        { name: "Jingkang Wang", affiliation: "University of Toronto / Waabi", image: "../assets/images/organizers/jingkang_wang.png" },
+        { name: "Sanja Fidler", affiliation: "University of Toronto / NVIDIA", image: "../assets/images/organizers/sanja_fidler.jpg" },
+        { name: "Shimon Whiteson", affiliation: "University of Oxford / Waymo", image: "../assets/images/organizers/shimon_whiteson.jpeg" },
       ];
       const seniorOrganizerNames = ["Sanja Fidler", "Shimon Whiteson"];
       const seniorOrganizers = organizers.filter((person) => seniorOrganizerNames.includes(person.name));
@@ -351,19 +351,19 @@
       const organizersRow2 = mainOrganizers.slice(5);
 
       const invitedSpeakers = [
-        { name: "Marco Pavone", affiliation: "Stanford University / NVIDIA", image: "assets/images/speakers/marco_pavone.jpeg" },
-        { name: "Hongyang Li", affiliation: "The University of Hong Kong", image: "assets/images/speakers/hongyang_li.png" },
-        { name: "Cathy Wu", affiliation: "MIT", image: "assets/images/speakers/cathy_wu.png" },
-        { name: "Dragomir Anguelov", affiliation: "Waymo", image: "assets/images/speakers/dragomir_anguelov.png" },
-        { name: "Siva Manivasagam", affiliation: "Waabi", image: "assets/images/speakers/Siva_Manivasagam.jpg" },
+        { name: "Marco Pavone", affiliation: "Stanford University / NVIDIA", image: "../assets/images/speakers/marco_pavone.jpeg" },
+        { name: "Hongyang Li", affiliation: "The University of Hong Kong", image: "../assets/images/speakers/hongyang_li.png" },
+        { name: "Cathy Wu", affiliation: "MIT", image: "../assets/images/speakers/cathy_wu.png" },
+        { name: "Dragomir Anguelov", affiliation: "Waymo", image: "../assets/images/speakers/dragomir_anguelov.png" },
+        { name: "Siva Manivasagam", affiliation: "Waabi", image: "../assets/images/speakers/Siva_Manivasagam.jpg" },
       ];
 
       const panelists = [
-        { name: "Dragomir Anguelov", affiliation: "Waymo", image: "assets/images/speakers/dragomir_anguelov.png" },
-        { name: "Jose Alvarez", affiliation: "NVIDIA", image: "assets/images/speakers/jose_alvarez.jpg" },
-        { name: "Andrei Bursuc", affiliation: "Valeo", image: "assets/images/speakers/andrei_bursuc.jpg" },
-        { name: "Siva Manivasagam", affiliation: "Waabi", image: "assets/images/speakers/Siva_Manivasagam.jpg" },
-        { name: "Ashok Elluswamy", affiliation: "Tesla", image: "assets/images/speakers/ashok_elluswamy.jpeg" },
+        { name: "Dragomir Anguelov", affiliation: "Waymo", image: "../assets/images/speakers/dragomir_anguelov.png" },
+        { name: "Jose Alvarez", affiliation: "NVIDIA", image: "../assets/images/speakers/jose_alvarez.jpg" },
+        { name: "Andrei Bursuc", affiliation: "Valeo", image: "../assets/images/speakers/andrei_bursuc.jpg" },
+        { name: "Siva Manivasagam", affiliation: "Waabi", image: "../assets/images/speakers/Siva_Manivasagam.jpg" },
+        { name: "Ashok Elluswamy", affiliation: "Tesla", image: "../assets/images/speakers/ashok_elluswamy.jpeg" },
       ];
 
       // Keep intro slides in actual agenda speaking order.

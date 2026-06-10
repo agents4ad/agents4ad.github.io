@@ -16,10 +16,10 @@ Then open [http://localhost:4000](http://localhost:4000).
 
 ## Workshop HTML5 slides
 
-A standalone Reveal.js workshop deck is available at `workshop-slides.html`.
+A standalone Reveal.js workshop deck is available at `slides/workshop-slides.html`.
 
-- Open it directly in a browser: `file:///.../workshop-slides.html`
-- Or serve the site locally with Jekyll and open `http://localhost:4000/workshop-slides.html`
+- Open it directly in a browser: `file:///.../slides/workshop-slides.html`
+- Or serve the site locally with Jekyll and open `http://localhost:4000/slides/workshop-slides.html`
 
 ## License
 

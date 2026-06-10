@@ -14,6 +14,13 @@ docker run --rm --network host -v "$PWD":/workspace -w /workspace mcr.microsoft.
 
 Then open [http://localhost:4000](http://localhost:4000).
 
+## Workshop HTML5 slides
+
+A standalone Reveal.js workshop deck is available at `slides/workshop-slides.html`.
+
+- Open it directly in a browser: `file:///.../slides/workshop-slides.html`
+- Or serve the site locally with Jekyll and open `http://localhost:4000/slides/workshop-slides.html`
+
 ## License
 
 Unless otherwise stated, the source code in this repo is distributed under the 3-Clause BSD License, see [LICENSE](License).

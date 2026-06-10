@@ -1,0 +1,42 @@
+name: Slides CI
+
+on:
+  push:
+    branches: ["gh-pages"]
+    paths:
+      - "slides/**"
+      - "assets/images/**"
+      - ".github/workflows/slides-ci.yml"
+  pull_request:
+    branches: ["gh-pages"]
+    paths:
+      - "slides/**"
+      - "assets/images/**"
+      - ".github/workflows/slides-ci.yml"
+
+jobs:
+  validate-slides:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Validate HTML structure (html-validate)
+        run: |
+          npx --yes html-validate \
+            --rule doctype-style:off \
+            --rule void-style:off \
+            --rule empty-heading:off \
+            --rule element-required-attributes:off \
+            slides/workshop-slides.html
+
+      - name: Validate slide deck structure
+        run: |
+          test -f "slides/workshop-slides.html"
+          test ! -f "workshop-slides.html"
+          python scripts/validate_slides.py

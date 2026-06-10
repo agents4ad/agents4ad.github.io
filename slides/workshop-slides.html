@@ -1,0 +1,599 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>SAD Workshop Deck</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/theme/white.css" id="theme" />
+    <style>
+      :root {
+        --text: #1f2937;
+        --muted: #4b5563;
+        --accent: #2563eb;
+        --card-bg: #f8fafc;
+        --deck-bg-url: none;
+      }
+
+      .reveal {
+        color: var(--text);
+        background-image:
+          linear-gradient(rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.92)),
+          var(--deck-bg-url);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+
+      .slides.fallback-mode > section {
+        display: none;
+      }
+
+      .slides.fallback-mode > section.fallback-active {
+        display: block;
+      }
+
+      .fallback-hint {
+        position: fixed;
+        right: 14px;
+        bottom: 10px;
+        background: rgba(0, 0, 0, 0.68);
+        color: #fff;
+        padding: 6px 10px;
+        border-radius: 999px;
+        font-size: 12px;
+        z-index: 9999;
+        display: none;
+      }
+
+      .qr-badge {
+        position: fixed;
+        left: 14px;
+        bottom: 12px;
+        z-index: 9998;
+        background: rgba(255, 255, 255, 0.94);
+        border: 1px solid #d1d5db;
+        border-radius: 10px;
+        padding: 8px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4px;
+        box-shadow: 0 6px 18px rgba(15, 23, 42, 0.16);
+      }
+
+      .qr-badge img {
+        width: 92px;
+        height: 92px;
+        object-fit: contain;
+        background: #ffffff;
+      }
+
+      .qr-badge-label {
+        font-size: 11px;
+        color: #374151;
+        line-height: 1.1;
+        text-align: center;
+        max-width: 96px;
+      }
+
+      .reveal h1,
+      .reveal h2,
+      .reveal h3 {
+        text-transform: none;
+      }
+
+      .title-slide h1 {
+        margin: 0 auto;
+        max-width: 980px;
+        font-size: clamp(2.6rem, 7vw, 5.6rem);
+        line-height: 1.05;
+      }
+
+      .title-slide .title-prefix {
+        display: block;
+        font-size: 0.56em;
+        font-weight: 700;
+        margin-bottom: 0.2rem;
+      }
+
+      .subtitle {
+        color: var(--muted);
+        margin-top: 1rem;
+        font-size: 1.2rem;
+      }
+
+      .meta {
+        color: var(--muted);
+        margin-top: 0.75rem;
+        font-size: 1rem;
+      }
+
+      .people-grid {
+        margin-top: 1rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 0.75rem;
+      }
+
+      .organizers-row {
+        margin-top: 0.75rem;
+        justify-content: center;
+      }
+
+      .organizers-row-5 {
+        grid-template-columns: repeat(5, 180px);
+      }
+
+      .organizers-row-4 {
+        grid-template-columns: repeat(4, 180px);
+      }
+
+      .organizers-row-2 {
+        grid-template-columns: repeat(2, 180px);
+      }
+
+      .person-card {
+        background: var(--card-bg);
+        border-radius: 12px;
+        padding: 0.8rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 210px;
+      }
+
+      .person-card.compact {
+        min-height: 158px;
+        padding: 0.55rem;
+      }
+
+      .person-card img {
+        width: 88px;
+        height: 88px;
+        border-radius: 50%;
+        object-fit: cover;
+        background: #dbeafe;
+      }
+
+      .person-card.compact img {
+        width: 66px;
+        height: 66px;
+      }
+
+      .person-name {
+        margin-top: 0.55rem;
+        font-size: 0.92rem;
+        font-weight: 700;
+        text-align: center;
+        line-height: 1.2;
+      }
+
+      .person-affiliation {
+        margin-top: 0.3rem;
+        font-size: 0.72rem;
+        color: var(--muted);
+        text-align: center;
+        line-height: 1.2;
+      }
+
+      .person-card.compact .person-name {
+        margin-top: 0.35rem;
+        font-size: 0.8rem;
+      }
+
+      .person-card.compact .person-affiliation {
+        margin-top: 0.2rem;
+        font-size: 0.62rem;
+      }
+
+      .section-subtitle {
+        margin-top: 0.9rem;
+        color: var(--accent);
+        font-size: 1rem;
+        font-weight: 700;
+      }
+
+      .agenda-list {
+        margin: 1.1rem auto 0;
+        text-align: left;
+        max-width: 980px;
+        font-size: 0.9rem;
+        background: rgba(255, 255, 255, 0.96);
+        border-radius: 14px;
+        padding: 0.8rem 1rem;
+        box-shadow: 0 6px 20px rgba(15, 23, 42, 0.08);
+      }
+
+      .agenda-row {
+        display: grid;
+        grid-template-columns: 120px 1fr;
+        gap: 0.7rem;
+        padding: 0.45rem 0.25rem;
+        border-bottom: 1px solid #e5e7eb;
+      }
+
+      .agenda-time {
+        font-weight: 700;
+        color: var(--accent);
+      }
+
+      .speaker-intro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0.7rem;
+      }
+
+      .speaker-intro img {
+        width: 220px;
+        height: 220px;
+        border-radius: 16px;
+        object-fit: cover;
+        background: #dbeafe;
+      }
+
+      .speaker-intro .name {
+        font-size: 1.8rem;
+        font-weight: 800;
+      }
+
+      .speaker-intro .affiliation {
+        font-size: 1.2rem;
+        color: var(--muted);
+      }
+
+      .speaker-intro .talk-title {
+        margin-top: 0.35rem;
+        font-size: 1rem;
+        color: #374151;
+        max-width: 900px;
+        text-align: center;
+      }
+
+      .break-slide-note {
+        max-width: 900px;
+        margin: 1rem auto 0;
+        font-size: 1.25rem;
+        color: var(--muted);
+        line-height: 1.4;
+      }
+
+      @media (max-width: 900px) {
+        .agenda-row {
+          grid-template-columns: 90px 1fr;
+        }
+
+        .organizers-row-5,
+        .organizers-row-4,
+        .organizers-row-2 {
+          grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section class="title-slide">
+          <h1 id="workshop-title"></h1>
+          <p class="subtitle" id="workshop-subtitle"></p>
+          <p class="meta" id="workshop-meta"></p>
+        </section>
+
+        <section>
+          <h2>Organizers</h2>
+          <div id="organizers-row-1" class="people-grid organizers-row organizers-row-5"></div>
+          <div id="organizers-row-2" class="people-grid organizers-row organizers-row-4"></div>
+          <div id="organizers-row-3" class="people-grid organizers-row organizers-row-2"></div>
+        </section>
+
+        <section>
+          <h2>Invited Speakers and Panelists</h2>
+          <p class="section-subtitle">Invited Speakers</p>
+          <div id="speakers-grid" class="people-grid"></div>
+          <p class="section-subtitle">Panelists</p>
+          <div id="panelists-grid" class="people-grid"></div>
+        </section>
+
+        <section>
+          <h2>Agenda</h2>
+          <div id="agenda-list" class="agenda-list"></div>
+        </section>
+      </div>
+    </div>
+    <div class="qr-badge" id="qr-badge">
+      <img id="qr-homepage-image" data-image-path="../assets/images/qr_homepage.png" alt="Workshop homepage QR code" />
+      <div class="qr-badge-label">Schedule</div>
+    </div>
+    <div id="fallback-hint" class="fallback-hint">Fallback mode: use Left/Right arrows</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.js"></script>
+    <script>
+      const workshop = {
+        titlePrefix: "Third Workshop on",
+        titleMain: "Simulation for Autonomous Driving (SAD)",
+        subtitle: "A CVPR 2026 workshop",
+        meta: "June 4, 2026 - Room 102/104 - Denver, CO",
+      };
+
+      const RAW_IMAGE_BASE = "https://raw.githubusercontent.com/agents4ad/agents4ad.github.io/gh-pages/";
+      const rawImage = (path) => `${RAW_IMAGE_BASE}${path}`;
+      const normalizeImagePath = (path) => path.replace(/^(\.\.\/)+/, "").replace(/^\.?\//, "").replace(/^\/+/, "");
+      const deckBackgroundPath = "../assets/images/header_from_unsplash_dot_com.jpg";
+      const rawFallbackCandidates = (imagePath) => {
+        const normalized = normalizeImagePath(imagePath);
+        const candidates = [rawImage(normalized)];
+        if (!normalized.startsWith("assets/")) {
+          candidates.push(rawImage(`assets/${normalized}`));
+        }
+        return [...new Set(candidates)];
+      };
+
+      const organizers = [
+        { name: "Yiyi Liao", affiliation: "Zhejiang University", image: "../assets/images/organizers/yiyi_liao.png" },
+        { name: "Maximilian Igl", affiliation: "NVIDIA", image: "../assets/images/organizers/max_igl.jpg" },
+        { name: "Kashyap Chitta", affiliation: "NVIDIA", image: "../assets/images/organizers/kashyap_chitta.png" },
+        { name: "Azadeh Dinparastdjadid", affiliation: "Waymo", image: "../assets/images/organizers/azadeh_dinparastdjadid.jpg" },
+        { name: "Maximilian Naumann", affiliation: "Zoox", image: "../assets/images/organizers/maximilian_naumann.jpeg" },
+        { name: "Zan Gojcic", affiliation: "NVIDIA", image: "../assets/images/organizers/zan_gojcic.jpeg" },
+        { name: "Shuhan Tan", affiliation: "University of Texas at Austin", image: "../assets/images/organizers/shuhan_tan.png" },
+        { name: "Kate Tolstaya", affiliation: "Waymo", image: "../assets/images/organizers/kate_tolstaya.jpg" },
+        { name: "Jingkang Wang", affiliation: "University of Toronto / Waabi", image: "../assets/images/organizers/jingkang_wang.png" },
+        { name: "Sanja Fidler", affiliation: "University of Toronto / NVIDIA", image: "../assets/images/organizers/sanja_fidler.jpg" },
+        { name: "Shimon Whiteson", affiliation: "University of Oxford / Waymo", image: "../assets/images/organizers/shimon_whiteson.jpeg" },
+      ];
+      const seniorOrganizerNames = ["Sanja Fidler", "Shimon Whiteson"];
+      const seniorOrganizers = organizers.filter((person) => seniorOrganizerNames.includes(person.name));
+      const mainOrganizers = organizers.filter((person) => !seniorOrganizerNames.includes(person.name));
+      const organizersRow1 = mainOrganizers.slice(0, 5);
+      const organizersRow2 = mainOrganizers.slice(5);
+
+      const invitedSpeakers = [
+        { name: "Marco Pavone", affiliation: "Stanford University / NVIDIA", image: "../assets/images/speakers/marco_pavone.jpeg" },
+        { name: "Hongyang Li", affiliation: "The University of Hong Kong", image: "../assets/images/speakers/hongyang_li.png" },
+        { name: "Cathy Wu", affiliation: "MIT", image: "../assets/images/speakers/cathy_wu.png" },
+        { name: "Dragomir Anguelov", affiliation: "Waymo", image: "../assets/images/speakers/dragomir_anguelov.png" },
+        { name: "Siva Manivasagam", affiliation: "Waabi", image: "../assets/images/speakers/Siva_Manivasagam.jpg" },
+      ];
+
+      const panelists = [
+        { name: "Dragomir Anguelov", affiliation: "Waymo", image: "../assets/images/speakers/dragomir_anguelov.png" },
+        { name: "Jose Alvarez", affiliation: "NVIDIA", image: "../assets/images/speakers/jose_alvarez.jpg" },
+        { name: "Andrei Bursuc", affiliation: "Valeo", image: "../assets/images/speakers/andrei_bursuc.jpg" },
+        { name: "Siva Manivasagam", affiliation: "Waabi", image: "../assets/images/speakers/Siva_Manivasagam.jpg" },
+        { name: "Ashok Elluswamy", affiliation: "Tesla", image: "../assets/images/speakers/ashok_elluswamy.jpeg" },
+      ];
+
+      // Keep intro slides in actual agenda speaking order.
+      const speakerIntroOrder = [
+        "Marco Pavone",
+        "Hongyang Li",
+        "Cathy Wu",
+        "Dragomir Anguelov",
+        "Siva Manivasagam",
+      ];
+
+      const orderedSpeakerIntros = speakerIntroOrder.map((name) =>
+        invitedSpeakers.find((speaker) => speaker.name === name)
+      );
+
+      const agenda = [
+        { time: "13:30", title: "Welcome" },
+        { time: "13:45", title: "Marco Pavone - Physical AI for End-to-End Vehicle Autonomy" },
+        { time: "14:15", title: "Hongyang Li - Simulation at Scale for Production-level Autonomous Driving" },
+        { time: "14:45", title: "Cathy Wu - What Could Driving Behavior Prediction & Datasets Do for Public Road Infrastructure?" },
+        { time: "15:15", title: "Coffee Break and Poster Session - Poster slots 170-179 & 125-134" },
+        { time: "16:15", title: "Dragomir Anguelov - The Waymo World Model" },
+        { time: "16:45", title: "Siva Manivasagam - Building Scalable Closed-Loop Worlds for Safe Autonomous Driving" },
+        { time: "17:15", title: "Panel Discussion (moderated by Sanja Fidler) - Panelists: Dragomir Anguelov, Jose Alvarez, Andrei Bursuc, Siva Manivasagam, Ashok Elluswamy" },
+      ];
+      const talkTitles = {
+        "Marco Pavone": "Physical AI for End-to-End Vehicle Autonomy",
+        "Hongyang Li": "Simulation at Scale for Production-level Autonomous Driving",
+        "Cathy Wu": "What Could Driving Behavior Prediction & Datasets Do for Public Road Infrastructure?",
+        "Dragomir Anguelov": "The Waymo World Model",
+        "Siva Manivasagam": "Building Scalable Closed-Loop Worlds for Safe Autonomous Driving",
+      };
+
+      function initialsFromName(name) {
+        return name
+          .split(" ")
+          .map((part) => part[0] || "")
+          .join("")
+          .slice(0, 2)
+          .toUpperCase();
+      }
+
+      function placeholderFor(name) {
+        const initials = initialsFromName(name);
+        const svg = `<svg xmlns='http://www.w3.org/2000/svg' width='220' height='220'><rect width='100%' height='100%' fill='#dbeafe'/><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-size='72' font-family='Arial, sans-serif' fill='#2563eb'>${initials}</text></svg>`;
+        return `data:image/svg+xml;utf8,${encodeURIComponent(svg)}`;
+      }
+
+      function personCard(person, extraClass = "") {
+        const classSuffix = extraClass ? ` ${extraClass}` : "";
+        return `
+          <article class="person-card${classSuffix}">
+            <img data-image-path="${person.image}" data-person-name="${person.name}" alt="${person.name}" />
+            <div class="person-name">${person.name}</div>
+            <div class="person-affiliation">${person.affiliation}</div>
+          </article>
+        `;
+      }
+
+      function renderPeople(targetId, people, cardClass = "") {
+        document.getElementById(targetId).innerHTML = people.map((person) => personCard(person, cardClass)).join("");
+      }
+
+      document.getElementById("workshop-title").innerHTML = `
+        <span class="title-prefix">${workshop.titlePrefix}</span>
+        ${workshop.titleMain}
+      `;
+      document.getElementById("workshop-subtitle").textContent = workshop.subtitle;
+      document.getElementById("workshop-meta").textContent = workshop.meta;
+
+      renderPeople("organizers-row-1", organizersRow1, "compact");
+      renderPeople("organizers-row-2", organizersRow2, "compact");
+      renderPeople("organizers-row-3", seniorOrganizers, "compact");
+      renderPeople("speakers-grid", invitedSpeakers);
+      renderPeople("panelists-grid", panelists);
+
+      document.getElementById("agenda-list").innerHTML = agenda
+        .map(
+          (item) => `
+          <div class="agenda-row">
+            <div class="agenda-time">${item.time}</div>
+            <div>${item.title}</div>
+          </div>
+        `
+        )
+        .join("");
+
+      const slidesRoot = document.querySelector(".slides");
+      orderedSpeakerIntros.forEach((speaker) => {
+        if (speaker.name === "Dragomir Anguelov") {
+          const breakSlide = document.createElement("section");
+          breakSlide.innerHTML = `
+            <h2>Coffee Break & Posters</h2>
+            <p class="break-slide-note">Posters are in Exhibit Hall A.</p>
+            <p class="break-slide-note">Poster slots 170-179 and 125-134.</p>
+            <p class="break-slide-note">We resume in this room at 16:15.</p>
+          `;
+          slidesRoot.appendChild(breakSlide);
+        }
+
+        const section = document.createElement("section");
+        const talkTitle = talkTitles[speaker.name] || "Keynote";
+        section.innerHTML = `
+          <h2>Keynote</h2>
+          <div class="speaker-intro">
+            <img data-image-path="${speaker.image}" data-person-name="${speaker.name}" alt="${speaker.name}" />
+            <div class="name">${speaker.name}</div>
+            <div class="affiliation">${speaker.affiliation}</div>
+            <div class="talk-title">${talkTitle}</div>
+          </div>
+        `;
+        slidesRoot.appendChild(section);
+      });
+
+      const panelistsSection = document.createElement("section");
+      panelistsSection.innerHTML = `
+        <h2>Panel Discussion</h2>
+        <div class="people-grid">${panelists.map(personCard).join("")}</div>
+      `;
+      slidesRoot.appendChild(panelistsSection);
+
+      // Resolve image sources with robust fallback:
+      // local repo path -> GitHub raw -> initials placeholder.
+      function wireImageFallbacks() {
+        document.querySelectorAll("img[data-image-path][data-person-name]").forEach((img) => {
+          const imagePath = img.dataset.imagePath;
+          const personName = img.dataset.personName || "Unknown";
+          const placeholder = placeholderFor(personName);
+          const rawCandidates = rawFallbackCandidates(imagePath);
+          let rawAttemptIndex = 0;
+
+          img.addEventListener("error", () => {
+            if (rawAttemptIndex < rawCandidates.length) {
+              img.src = rawCandidates[rawAttemptIndex];
+              rawAttemptIndex += 1;
+              return;
+            }
+            img.src = placeholder;
+          });
+
+          img.src = imagePath;
+        });
+      }
+
+      wireImageFallbacks();
+
+      // If QR cannot be loaded from local or raw fallback, hide the badge entirely.
+      function wireQrFallback() {
+        const qrImage = document.getElementById("qr-homepage-image");
+        const qrBadge = document.getElementById("qr-badge");
+        if (!qrImage || !qrBadge) return;
+        const rawCandidates = rawFallbackCandidates(qrImage.dataset.imagePath || "");
+        let rawAttemptIndex = 0;
+
+        qrImage.addEventListener("error", () => {
+          if (rawAttemptIndex < rawCandidates.length) {
+            qrImage.src = rawCandidates[rawAttemptIndex];
+            rawAttemptIndex += 1;
+            return;
+          }
+          qrBadge.style.display = "none";
+        });
+
+        qrImage.src = qrImage.dataset.imagePath || "";
+      }
+
+      wireQrFallback();
+
+      function preloadImage(src) {
+        return new Promise((resolve, reject) => {
+          const img = new Image();
+          img.onload = () => resolve(src);
+          img.onerror = () => reject(new Error(`Failed to load image: ${src}`));
+          img.src = src;
+        });
+      }
+
+      async function setDeckBackgroundWithFallback() {
+        const candidates = [deckBackgroundPath, ...rawFallbackCandidates(deckBackgroundPath)];
+        for (const candidate of candidates) {
+          try {
+            const loaded = await preloadImage(candidate);
+            document.documentElement.style.setProperty("--deck-bg-url", `url("${loaded}")`);
+            return;
+          } catch (_err) {
+            // Try next candidate.
+          }
+        }
+        // If all loads fail, remove image and keep readable white gradient.
+        document.documentElement.style.setProperty("--deck-bg-url", "none");
+      }
+
+      setDeckBackgroundWithFallback();
+
+      function initFallbackDeck() {
+        const sections = Array.from(document.querySelectorAll(".slides > section"));
+        const hint = document.getElementById("fallback-hint");
+        let current = 0;
+
+        slidesRoot.classList.add("fallback-mode");
+        hint.style.display = "block";
+
+        function show(index) {
+          current = Math.max(0, Math.min(index, sections.length - 1));
+          sections.forEach((section, idx) => {
+            section.classList.toggle("fallback-active", idx === current);
+          });
+        }
+
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "ArrowRight" || event.key === "PageDown" || event.key === " ") {
+            show(current + 1);
+          } else if (event.key === "ArrowLeft" || event.key === "PageUp") {
+            show(current - 1);
+          }
+        });
+
+        show(0);
+      }
+
+      if (window.Reveal) {
+        const deck = new Reveal({
+          hash: true,
+          slideNumber: true,
+          transition: "slide",
+        });
+        deck.initialize();
+      } else {
+        initFallbackDeck();
+      }
+    </script>
+  </body>
+</html>

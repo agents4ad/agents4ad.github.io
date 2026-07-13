@@ -302,3 +302,15 @@ Below times are in Denver time. Current time in Denver is <span id="centraltime"
 {% include feature_row.liquid id="organizers_row" %}
 
 Contact: [agents4ad@googlegroups.com](mailto:agents4ad@googlegroups.com)
+
+## Program Committee
+
+The workshop organizers would like to extend our sincere gratitude to the community of reviewers who generously volunteered their time and expertise to evaluate submissions for our workshop.
+
+* Anant Subramanian
+* Anubhav Paras
+* Hanlei Guo
+* Marc Unzueta
+* Meghana Reddy Ganesina
+* Sheng Miao
+* Tzoulio Chamiti
